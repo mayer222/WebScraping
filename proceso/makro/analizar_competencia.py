@@ -39,6 +39,19 @@ sns.set_theme(style="whitegrid", palette="muted")
 plt.rcParams.update({"figure.dpi": 110, "axes.titleweight": "bold"})
 
 
+def _figsize_horiz(n_rows, width=11, per_row=0.28, min_h=4):
+    """Altura proporcional al numero de filas para que no se distorsione."""
+    return (width, max(min_h, n_rows * per_row))
+
+
+def _font_for(n_rows):
+    """Tamaño de fuente para etiquetas e inline values segun cantidad."""
+    if n_rows <= 25:  return 10
+    if n_rows <= 50:  return 8
+    if n_rows <= 100: return 7
+    return 6
+
+
 def cargar():
     """Vaex para procesar el CSV grande de Makro."""
     df = vaex.from_csv(str(CSV), convert=False)
@@ -74,20 +87,26 @@ def kpis_globales(df, pdf):
 # ─────────────────────────────────────────────
 
 def chart_penetracion_aro_por_categoria(pdf):
-    """Que tan agresivo es ARO en cada categoria (% del surtido)."""
+    """Que tan agresivo es ARO en cada categoria (% del surtido).
+    Muestra TODAS las categorias donde ARO esta presente, ordenadas
+    por penetracion descendente."""
     cat_total = pdf.groupby("categoria_nombre").size()
     cat_aro = pdf[pdf["marca"] == MARCA_PROPIA].groupby("categoria_nombre").size()
     pen = (cat_aro / cat_total * 100).fillna(0).sort_values(ascending=False)
-    pen = pen[pen > 0].head(20)
+    pen = pen[pen > 0]
+    n = len(pen)
+    fs = _font_for(n)
 
-    fig, ax = plt.subplots(figsize=(10, 8))
+    fig, ax = plt.subplots(figsize=_figsize_horiz(n, width=11))
     bars = ax.barh(pen.index[::-1], pen.values[::-1], color="#d62728")
     ax.set_xlabel("% del surtido cubierto por ARO")
-    ax.set_title(f"Penetracion de marca propia ({MARCA_PROPIA}) por categoria — Top 20",
-                 loc="left")
+    ax.set_title(f"Penetracion de marca propia ({MARCA_PROPIA}) por categoria\n"
+                 f"({n} categorias con presencia ARO, ordenadas por % penetracion)",
+                 loc="left", fontsize=11)
+    ax.tick_params(axis="y", labelsize=fs)
     for b, v in zip(bars, pen.values[::-1]):
         ax.text(v + 0.5, b.get_y() + b.get_height()/2,
-                f"{v:.1f}%", va="center", fontsize=9)
+                f"{v:.1f}%", va="center", fontsize=fs)
     ax.set_xlim(0, max(pen.values) * 1.15)
     plt.tight_layout()
     plt.savefig(OUT / "01_penetracion_aro.png", dpi=120)
@@ -95,29 +114,36 @@ def chart_penetracion_aro_por_categoria(pdf):
 
 
 def chart_top_categorias_y_promo(pdf):
-    """Profundidad de surtido + intensidad de promocion combinadas."""
+    """Profundidad de surtido + intensidad de promocion — TODAS las
+    categorias, ordenadas por # SKUs descendente."""
     g = pdf.groupby("categoria_nombre").agg(
         skus=("product_id", "count"),
         en_promo=("tiene_descuento", "sum"),
     )
     g["pct_promo"] = g["en_promo"] / g["skus"] * 100
-    g = g.sort_values("skus", ascending=False).head(20)
+    g = g.sort_values("skus", ascending=False)
+    n = len(g)
+    fs = _font_for(n)
 
-    fig, axes = plt.subplots(1, 2, figsize=(14, 8), sharey=True)
+    h = max(5, n * 0.22)
+    fig, axes = plt.subplots(1, 2, figsize=(15, h), sharey=True)
     cats = g.index[::-1]
     axes[0].barh(cats, g["skus"][::-1], color="#1f77b4")
     axes[0].set_title("Profundidad de surtido (# SKUs)", loc="left")
     axes[0].set_xlabel("# SKUs")
+    axes[0].tick_params(axis="y", labelsize=fs)
     for i, v in enumerate(g["skus"][::-1]):
-        axes[0].text(v + 5, i, str(v), va="center", fontsize=9)
+        axes[0].text(v + max(g["skus"])*0.005, i, str(v),
+                     va="center", fontsize=fs)
 
     axes[1].barh(cats, g["pct_promo"][::-1], color="#ff7f0e")
     axes[1].set_title("Intensidad de promocion (% SKUs en oferta)", loc="left")
     axes[1].set_xlabel("% en oferta")
     for i, v in enumerate(g["pct_promo"][::-1]):
-        axes[1].text(v + 1, i, f"{v:.0f}%", va="center", fontsize=9)
-    plt.suptitle("Top 20 categorias — surtido y agresividad promocional",
-                 fontweight="bold")
+        axes[1].text(v + 0.5, i, f"{v:.0f}%", va="center", fontsize=fs)
+    plt.suptitle(f"Surtido y agresividad promocional — TODAS las categorias "
+                 f"({n})  •  ordenadas por # SKUs",
+                 fontweight="bold", fontsize=12)
     plt.tight_layout()
     plt.savefig(OUT / "02_categorias_surtido_y_promo.png", dpi=120)
     plt.close()
@@ -145,51 +171,103 @@ def chart_pricing_ladder(pdf):
     plt.close()
 
 
-def chart_top_marcas_terceras(pdf):
-    """Marcas con mas presencia (excluyendo la propia) — target de captura."""
-    others = pdf[pdf["marca"] != MARCA_PROPIA]
-    top = others["marca"].value_counts().head(20)
+def chart_pricing_ladder_por_categoria(pdf):
+    """Heatmap categoria x rango de precio — TODAS las categorias.
+    Cada fila suma 100%; el color marca la concentracion en ese rango."""
+    bins = [0, 5, 15, 50, 100, 300, 1000, 999999]
+    labels = ["≤5", "5-15", "15-50", "50-100", "100-300", "300-1k", "≥1k"]
 
-    fig, ax = plt.subplots(figsize=(10, 8))
+    p = pdf.loc[pdf["precio_oferta"] > 0,
+                ["categoria_nombre", "precio_oferta"]].copy()
+    p["bin"] = pd.cut(p["precio_oferta"], bins=bins, labels=labels)
+
+    cats_ord = (p.groupby("categoria_nombre").size()
+                  .sort_values(ascending=False).index)
+    ct = pd.crosstab(p["categoria_nombre"], p["bin"], normalize="index") * 100
+    ct = ct.reindex(cats_ord)
+    counts = p.groupby("categoria_nombre").size().reindex(cats_ord)
+    ct.index = [f"{c}  (n={counts[c]})" for c in ct.index]
+
+    n = len(ct)
+    fs = _font_for(n)
+    h = max(6, n * 0.30)
+    fig, ax = plt.subplots(figsize=(14, h))
+    sns.heatmap(ct, annot=True, fmt=".0f", cmap="rocket_r",
+                annot_kws={"size": fs - 1},
+                cbar_kws={"label": "% SKUs en el rango"},
+                linewidths=0.5, linecolor="white", ax=ax)
+    ax.set_title(f"Pricing ladder por categoria — % SKUs en cada rango (S/.)\n"
+                 f"(TODAS las {n} categorias, ordenadas por # SKUs)",
+                 loc="left", fontsize=11)
+    ax.set_xlabel("Rango de precio (S/.)")
+    ax.set_ylabel("")
+    ax.tick_params(axis="y", labelsize=fs)
+    plt.tight_layout()
+    plt.savefig(OUT / "03b_pricing_ladder_por_categoria.png", dpi=120)
+    plt.close()
+
+
+def chart_top_marcas_terceras(pdf):
+    """Marcas con mas presencia (excluyendo la propia). Mostramos las
+    Top 50 — el panorama completo de marcas (1000+) seria ilegible y
+    la cola larga es irrelevante para captura."""
+    others = pdf[pdf["marca"] != MARCA_PROPIA]
+    top = others["marca"].value_counts().head(50)
+    n = len(top)
+    fs = _font_for(n)
+
+    fig, ax = plt.subplots(figsize=_figsize_horiz(n, width=11, per_row=0.25))
     bars = ax.barh(top.index[::-1], top.values[::-1], color="#2ca02c")
-    ax.set_title("Marcas terceras con mayor presencia — Top 20",
-                 loc="left")
+    ax.set_title(f"Marcas terceras con mayor presencia — Top {n}\n"
+                 f"(target de captura / negociacion)", loc="left", fontsize=11)
     ax.set_xlabel("# SKUs")
+    ax.tick_params(axis="y", labelsize=fs)
     for b, v in zip(bars, top.values[::-1]):
-        ax.text(v + 3, b.get_y() + b.get_height()/2, str(v),
-                va="center", fontsize=9)
+        ax.text(v + max(top)*0.005, b.get_y() + b.get_height()/2, str(v),
+                va="center", fontsize=fs)
     plt.tight_layout()
     plt.savefig(OUT / "04_top_marcas_terceras.png", dpi=120)
     plt.close()
 
 
 def chart_descuento_promedio_por_cat(pdf):
-    """En que categorias agreden mas con descuentos (solo SKUs con descuento)."""
+    """En que categorias agreden mas con descuentos. TODAS las
+    categorias con al menos 5 SKUs en promo, ordenadas por descuento
+    promedio descendente."""
     promo = pdf[pdf["tiene_descuento"]]
     g = promo.groupby("categoria_nombre")["descuento_pct"].agg(["mean", "count"])
-    g = g[g["count"] >= 10].sort_values("mean", ascending=False).head(20)
+    g = g[g["count"] >= 5].sort_values("mean", ascending=False)
+    n = len(g)
+    fs = _font_for(n)
 
-    fig, ax = plt.subplots(figsize=(10, 8))
+    fig, ax = plt.subplots(figsize=_figsize_horiz(n, width=12, per_row=0.25))
     bars = ax.barh(g.index[::-1], g["mean"][::-1], color="#9467bd")
     ax.set_xlabel("Descuento promedio %")
-    ax.set_title("Categorias con mayor agresion promocional\n"
-                 "(solo SKUs en promo, mın 10 SKUs)", loc="left")
+    ax.set_title(f"Categorias con mayor agresion promocional\n"
+                 f"(TODAS las {n} categorias con ≥5 SKUs en promo, "
+                 f"ordenadas por descuento promedio)", loc="left", fontsize=11)
+    ax.tick_params(axis="y", labelsize=fs)
     for b, v, c in zip(bars, g["mean"][::-1], g["count"][::-1]):
-        ax.text(v + 0.3, b.get_y() + b.get_height()/2,
-                f"{v:.1f}% (n={c})", va="center", fontsize=9)
+        ax.text(v + 0.2, b.get_y() + b.get_height()/2,
+                f"{v:.1f}% (n={c})", va="center", fontsize=fs)
     plt.tight_layout()
     plt.savefig(OUT / "05_descuento_por_categoria.png", dpi=120)
     plt.close()
 
 
 def chart_aro_vs_terceros_precio(pdf):
-    """Diferencial de precio: ARO vs marcas terceras en categorias clave."""
+    """Diferencial ARO vs terceros — TODAS las categorias con al menos
+    3 SKUs ARO Y 3 SKUs terceros para que la mediana tenga sentido.
+    Ordenadas por ahorro: arriba donde mas barato es ARO."""
     cats_aro = pdf[pdf["marca"] == MARCA_PROPIA]["categoria_nombre"].value_counts()
-    top_cats = cats_aro.head(10).index.tolist()
+    cats_validas = cats_aro[cats_aro >= 3].index.tolist()
 
     rows = []
-    for c in top_cats:
+    for c in cats_validas:
         sub = pdf[pdf["categoria_nombre"] == c]
+        n_otros = (sub["marca"] != MARCA_PROPIA).sum()
+        if n_otros < 3:
+            continue
         p_aro = sub.loc[sub["marca"] == MARCA_PROPIA, "precio_oferta"].median()
         p_otros = sub.loc[sub["marca"] != MARCA_PROPIA, "precio_oferta"].median()
         if pd.notna(p_aro) and pd.notna(p_otros) and p_otros > 0:
@@ -200,21 +278,28 @@ def chart_aro_vs_terceros_precio(pdf):
                 "ahorro_pct": (1 - p_aro / p_otros) * 100,
             })
     g = pd.DataFrame(rows).sort_values("ahorro_pct", ascending=True)
+    if len(g) == 0:
+        return
+    n = len(g)
+    fs = _font_for(n)
 
-    fig, ax = plt.subplots(figsize=(11, 7))
-    y = range(len(g))
+    fig, ax = plt.subplots(figsize=_figsize_horiz(n, width=12, per_row=0.30))
+    y = range(n)
     ax.barh([i - 0.2 for i in y], g["Terceros"], height=0.4,
             label="Mediana terceros", color="#1f77b4")
     ax.barh([i + 0.2 for i in y], g["ARO"], height=0.4,
             label="Mediana ARO", color="#d62728")
     ax.set_yticks(list(y))
-    ax.set_yticklabels(g["categoria"])
+    ax.set_yticklabels(g["categoria"], fontsize=fs)
     ax.set_xlabel("Precio mediana (S/.)")
     ax.set_title(f"Pricing diferencial: ARO vs Terceros\n"
-                 f"(top 10 categorias con mas SKUs ARO)", loc="left")
+                 f"(TODAS las {n} categorias con ≥3 SKUs ARO y ≥3 terceros)",
+                 loc="left", fontsize=11)
     for i, row in enumerate(g.itertuples()):
-        ax.text(max(row.ARO, row.Terceros) + 0.3, i,
-                f"−{row.ahorro_pct:.0f}%", va="center", fontsize=9, color="#444")
+        sign = "−" if row.ahorro_pct >= 0 else "+"
+        ax.text(max(row.ARO, row.Terceros) * 1.02, i,
+                f"{sign}{abs(row.ahorro_pct):.0f}%",
+                va="center", fontsize=fs, color="#444")
     ax.legend(loc="lower right")
     plt.tight_layout()
     plt.savefig(OUT / "06_aro_vs_terceros_precio.png", dpi=120)
@@ -222,31 +307,36 @@ def chart_aro_vs_terceros_precio(pdf):
 
 
 def chart_disponibilidad_por_cat(pdf):
-    """Quiebres de stock por categoria."""
+    """Quiebres de stock — TODAS las categorias con al menos un SKU
+    no disponible. Ordenadas por % quiebre."""
     g = pdf.groupby("categoria_nombre").agg(
         skus=("product_id", "count"),
         disp=("disponible", "sum"),
     )
     g["pct_quiebre"] = (1 - g["disp"] / g["skus"]) * 100
-    g = g[g["skus"] >= 30].sort_values("pct_quiebre", ascending=False).head(20)
+    g = g[(g["skus"] >= 5) & (g["pct_quiebre"] > 0)] \
+            .sort_values("pct_quiebre", ascending=False)
     if len(g) == 0:
-        # ningun quiebre relevante
         fig, ax = plt.subplots(figsize=(8, 3))
-        ax.text(0.5, 0.5, "Sin quiebres relevantes\n(>0% en categorias con ≥30 SKUs)",
+        ax.text(0.5, 0.5, "Sin quiebres relevantes\n(>0% en cats con ≥5 SKUs)",
                 ha="center", va="center", fontsize=14, color="#444")
         ax.axis("off")
         plt.savefig(OUT / "07_quiebres_por_categoria.png", dpi=120)
         plt.close()
         return
 
-    fig, ax = plt.subplots(figsize=(10, 7))
+    n = len(g)
+    fs = _font_for(n)
+    fig, ax = plt.subplots(figsize=_figsize_horiz(n, width=12, per_row=0.25))
     bars = ax.barh(g.index[::-1], g["pct_quiebre"][::-1], color="#e74c3c")
     ax.set_xlabel("% SKUs no disponibles")
-    ax.set_title("Categorias con mayor tasa de quiebre — oportunidad inmediata",
-                 loc="left")
-    for b, v in zip(bars, g["pct_quiebre"][::-1]):
-        ax.text(v + 0.2, b.get_y() + b.get_height()/2,
-                f"{v:.1f}%", va="center", fontsize=9)
+    ax.set_title(f"Tasa de quiebre por categoria — oportunidad inmediata\n"
+                 f"(TODAS las {n} categorias con ≥5 SKUs y quiebre > 0)",
+                 loc="left", fontsize=11)
+    ax.tick_params(axis="y", labelsize=fs)
+    for b, v, c in zip(bars, g["pct_quiebre"][::-1], g["skus"][::-1]):
+        ax.text(v + 0.1, b.get_y() + b.get_height()/2,
+                f"{v:.1f}% (n={c})", va="center", fontsize=fs)
     plt.tight_layout()
     plt.savefig(OUT / "07_quiebres_por_categoria.png", dpi=120)
     plt.close()
@@ -273,6 +363,7 @@ def main():
     chart_penetracion_aro_por_categoria(pdf)
     chart_top_categorias_y_promo(pdf)
     chart_pricing_ladder(pdf)
+    chart_pricing_ladder_por_categoria(pdf)
     chart_top_marcas_terceras(pdf)
     chart_descuento_promedio_por_cat(pdf)
     chart_aro_vs_terceros_precio(pdf)
@@ -328,7 +419,8 @@ CHARTS
 ------
   01_penetracion_aro.png            ← donde duele competir
   02_categorias_surtido_y_promo.png ← profundidad + agresividad
-  03_pricing_ladder.png             ← combate vs premium
+  03_pricing_ladder.png             ← combate vs premium (global)
+  03b_pricing_ladder_por_categoria.png ← mismo, desglosado por categoria
   04_top_marcas_terceras.png        ← lista de captura
   05_descuento_por_categoria.png    ← por donde agreden
   06_aro_vs_terceros_precio.png     ← spread real ARO

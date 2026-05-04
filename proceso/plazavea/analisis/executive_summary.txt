@@ -47,7 +47,8 @@ CHARTS
 ------
   01_penetracion_marca_propia.png   ← donde concentran su marca privada
   02_categorias_surtido_y_promo.png ← profundidad y % en oferta
-  03_pricing_ladder.png             ← combate vs premium
+  03_pricing_ladder.png             ← combate vs premium (global)
+  03b_pricing_ladder_por_categoria.png ← mismo, desglosado por categoria
   04_top_marcas_terceras.png        ← marcas a captar / negociar
   05_saturacion_promocional.png     ← retail media intensity por categoria
   06_descuento_por_categoria.png    ← donde agreden con descuento real

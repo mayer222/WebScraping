@@ -56,7 +56,8 @@ CHARTS
 ------
   01_penetracion_marca_propia.png   ← donde TOTTUS define precio
   02_categorias_surtido_y_promo.png ← profundidad y % en oferta
-  03_pricing_ladder.png             ← combate vs premium
+  03_pricing_ladder.png             ← combate vs premium (global)
+  03b_pricing_ladder_por_categoria.png ← mismo, desglosado por categoria
   04_top_marcas_terceras.png        ← marcas a captar / negociar
   05_diferencial_cmr.png            ← incentivo tarjeta CMR (UNICO)
   06_marketplace_vs_propio.png      ← split inventario propio / 3P

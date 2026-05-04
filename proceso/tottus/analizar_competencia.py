@@ -43,6 +43,17 @@ sns.set_theme(style="whitegrid", palette="muted")
 plt.rcParams.update({"figure.dpi": 110, "axes.titleweight": "bold"})
 
 
+def _figsize_horiz(n_rows, width=11, per_row=0.28, min_h=4):
+    return (width, max(min_h, n_rows * per_row))
+
+
+def _font_for(n_rows):
+    if n_rows <= 25:  return 10
+    if n_rows <= 50:  return 8
+    if n_rows <= 100: return 7
+    return 6
+
+
 def cargar():
     df = vaex.from_csv(str(CSV), convert=False)
     print(f"  cargado vaex: {len(df):,} filas")
@@ -96,18 +107,22 @@ def chart_penetracion_propia_por_categoria(pdf):
     cat_propia = pdf[pdf["marca"].isin(MARCAS_PROPIAS)] \
                     .groupby("categoria_nombre").size()
     pen = (cat_propia / cat_total * 100).fillna(0).sort_values(ascending=False)
-    pen = pen[pen > 0].head(20)
+    pen = pen[pen > 0]
     if len(pen) == 0:
         return
+    n = len(pen)
+    fs = _font_for(n)
 
-    fig, ax = plt.subplots(figsize=(10, max(4, len(pen) * 0.4)))
+    fig, ax = plt.subplots(figsize=_figsize_horiz(n, width=11))
     bars = ax.barh(pen.index[::-1], pen.values[::-1], color="#d62728")
     ax.set_xlabel("% del surtido cubierto por marca propia TOTTUS")
-    ax.set_title("Penetracion de marca propia TOTTUS por categoria",
+    ax.set_title(f"Penetracion de marca propia TOTTUS por categoria\n"
+                 f"({n} categorias con presencia, ordenadas por % penetracion)",
                  loc="left", fontsize=11)
+    ax.tick_params(axis="y", labelsize=fs)
     for b, v in zip(bars, pen.values[::-1]):
         ax.text(v + 0.5, b.get_y() + b.get_height()/2,
-                f"{v:.1f}%", va="center", fontsize=9)
+                f"{v:.1f}%", va="center", fontsize=fs)
     plt.tight_layout()
     plt.savefig(OUT / "01_penetracion_marca_propia.png", dpi=120)
     plt.close()
@@ -119,23 +134,29 @@ def chart_top_categorias_y_promo(pdf):
         en_promo=("tiene_descuento", "sum"),
     )
     g["pct_promo"] = g["en_promo"] / g["skus"] * 100
-    g = g.sort_values("skus", ascending=False).head(20)
+    g = g.sort_values("skus", ascending=False)
+    n = len(g)
+    fs = _font_for(n)
 
-    fig, axes = plt.subplots(1, 2, figsize=(14, max(4, len(g) * 0.4)), sharey=True)
+    h = max(5, n * 0.22)
+    fig, axes = plt.subplots(1, 2, figsize=(15, h), sharey=True)
     cats = g.index[::-1]
     axes[0].barh(cats, g["skus"][::-1], color="#1f77b4")
     axes[0].set_title("Profundidad de surtido (# SKUs)", loc="left")
     axes[0].set_xlabel("# SKUs")
+    axes[0].tick_params(axis="y", labelsize=fs)
     for i, v in enumerate(g["skus"][::-1]):
-        axes[0].text(v + 0.5, i, str(v), va="center", fontsize=9)
+        axes[0].text(v + max(g["skus"])*0.005, i, str(v),
+                     va="center", fontsize=fs)
 
     axes[1].barh(cats, g["pct_promo"][::-1], color="#ff7f0e")
     axes[1].set_title("Intensidad de promocion (% SKUs en oferta)", loc="left")
     axes[1].set_xlabel("% en oferta")
     for i, v in enumerate(g["pct_promo"][::-1]):
-        axes[1].text(v + 0.5, i, f"{v:.0f}%", va="center", fontsize=9)
-    plt.suptitle("Top 20 categorias — surtido y agresividad promocional",
-                 fontweight="bold")
+        axes[1].text(v + 0.5, i, f"{v:.0f}%", va="center", fontsize=fs)
+    plt.suptitle(f"Surtido y agresividad promocional — TODAS las categorias "
+                 f"({n})  •  ordenadas por # SKUs",
+                 fontweight="bold", fontsize=12)
     plt.tight_layout()
     plt.savefig(OUT / "02_categorias_surtido_y_promo.png", dpi=120)
     plt.close()
@@ -162,19 +183,60 @@ def chart_pricing_ladder(pdf):
     plt.close()
 
 
+def chart_pricing_ladder_por_categoria(pdf):
+    """Heatmap categoria x rango de precio."""
+    bins = [0, 5, 15, 50, 100, 300, 1000, 999999]
+    labels = ["≤5", "5-15", "15-50", "50-100", "100-300", "300-1k", "≥1k"]
+
+    p = pdf.loc[pdf["precio_oferta"] > 0,
+                ["categoria_nombre", "precio_oferta"]].copy()
+    if len(p) == 0:
+        return
+    p["bin"] = pd.cut(p["precio_oferta"], bins=bins, labels=labels)
+
+    cats_ord = (p.groupby("categoria_nombre").size()
+                  .sort_values(ascending=False).index)
+    ct = pd.crosstab(p["categoria_nombre"], p["bin"], normalize="index") * 100
+    ct = ct.reindex(cats_ord)
+    counts = p.groupby("categoria_nombre").size().reindex(cats_ord)
+    ct.index = [f"{c}  (n={counts[c]})" for c in ct.index]
+
+    n = len(ct)
+    fs = _font_for(n)
+    h = max(5, n * 0.30)
+    fig, ax = plt.subplots(figsize=(14, h))
+    sns.heatmap(ct, annot=True, fmt=".0f", cmap="rocket_r",
+                annot_kws={"size": fs - 1},
+                cbar_kws={"label": "% SKUs en el rango"},
+                linewidths=0.5, linecolor="white", ax=ax)
+    ax.set_title(f"Pricing ladder por categoria — % SKUs en cada rango (S/.)\n"
+                 f"(TODAS las {n} categorias, ordenadas por # SKUs)",
+                 loc="left", fontsize=11)
+    ax.set_xlabel("Rango de precio (S/.)")
+    ax.set_ylabel("")
+    ax.tick_params(axis="y", labelsize=fs)
+    plt.tight_layout()
+    plt.savefig(OUT / "03b_pricing_ladder_por_categoria.png", dpi=120)
+    plt.close()
+
+
 def chart_top_marcas_terceras(pdf):
     others = pdf[~pdf["marca"].isin(MARCAS_PROPIAS)]
-    top = others["marca"].value_counts().head(20)
+    top = others["marca"].value_counts().head(50)
     if len(top) == 0:
         return
+    n = len(top)
+    fs = _font_for(n)
 
-    fig, ax = plt.subplots(figsize=(10, max(4, len(top) * 0.4)))
+    fig, ax = plt.subplots(figsize=_figsize_horiz(n, width=11, per_row=0.25))
     bars = ax.barh(top.index[::-1], top.values[::-1], color="#2ca02c")
-    ax.set_title("Marcas terceras con mayor presencia — Top 20", loc="left")
+    ax.set_title(f"Marcas terceras con mayor presencia — Top {n}", loc="left",
+                 fontsize=11)
     ax.set_xlabel("# SKUs")
+    ax.tick_params(axis="y", labelsize=fs)
     for b, v in zip(bars, top.values[::-1]):
-        ax.text(v + 0.1, b.get_y() + b.get_height()/2, str(v),
-                va="center", fontsize=9)
+        ax.text(v + max(top)*0.005, b.get_y() + b.get_height()/2, str(v),
+                va="center", fontsize=fs)
     plt.tight_layout()
     plt.savefig(OUT / "04_top_marcas_terceras.png", dpi=120)
     plt.close()
@@ -189,7 +251,9 @@ def chart_cmr_diferencial(pdf):
               (pdf["precio_oferta"] > 0)].copy()
     sub["dif_cmr_pct"] = (1 - sub["precio_cmr"] / sub["precio_oferta"]) * 100
 
-    fig, ax = plt.subplots(figsize=(11, 5))
+    n_cats = sub.groupby("categoria_nombre").size().shape[0] if len(sub) else 0
+    h = max(4, n_cats * 0.30) if n_cats else 4
+    fig, ax = plt.subplots(figsize=(12, h))
     if len(sub) == 0:
         ax.text(0.5, 0.5,
                 "Ningun SKU usa precio_cmr en este snapshot",
@@ -197,15 +261,19 @@ def chart_cmr_diferencial(pdf):
         ax.axis("off")
     else:
         g = sub.groupby("categoria_nombre")["dif_cmr_pct"].agg(["mean", "count"])
-        g = g.sort_values("mean", ascending=False).head(15)
+        g = g.sort_values("mean", ascending=False)
+        n = len(g)
+        fs = _font_for(n)
         bars = ax.barh(g.index[::-1], g["mean"][::-1], color="#8e44ad")
         ax.set_xlabel("% descuento adicional con tarjeta CMR")
-        ax.set_title("Diferencial CMR por categoria — incentivo tarjeta Falabella\n"
-                     f"({len(sub)} SKUs con precio CMR distinto al precio internet)",
+        ax.set_title(f"Diferencial CMR por categoria — incentivo tarjeta Falabella\n"
+                     f"(TODAS las {n} cats con CMR distinto a internet, "
+                     f"{len(sub)} SKUs)",
                      loc="left", fontsize=11)
+        ax.tick_params(axis="y", labelsize=fs)
         for b, v, c in zip(bars, g["mean"][::-1], g["count"][::-1]):
             ax.text(v + 0.1, b.get_y() + b.get_height()/2,
-                    f"{v:.1f}% (n={c})", va="center", fontsize=9)
+                    f"{v:.1f}% (n={c})", va="center", fontsize=fs)
     plt.tight_layout()
     plt.savefig(OUT / "05_diferencial_cmr.png", dpi=120)
     plt.close()
@@ -247,32 +315,39 @@ def chart_descuento_y_patrocinio(pdf):
     g_d = (promo.groupby("categoria_nombre")["descuento_pct"]
                  .agg(["mean", "count"])) if len(promo) else pd.DataFrame()
     if len(g_d):
-        g_d = g_d.sort_values("mean", ascending=False).head(15)
+        g_d = g_d[g_d["count"] >= 2].sort_values("mean", ascending=False)
 
     g_p = pdf.groupby("categoria_nombre")["patrocinado"].agg(["sum", "count"])
     g_p["pct"] = g_p["sum"] / g_p["count"] * 100
-    g_p = g_p[g_p["pct"] > 0].sort_values("pct", ascending=False).head(15)
+    g_p = g_p[g_p["pct"] > 0].sort_values("pct", ascending=False)
 
-    fig, axes = plt.subplots(1, 2, figsize=(14, 7))
+    n_max = max(len(g_d), len(g_p), 1)
+    fs = _font_for(n_max)
+    h = max(5, n_max * 0.32)
+    fig, axes = plt.subplots(1, 2, figsize=(14, h))
     if len(g_d):
         axes[0].barh(g_d.index[::-1], g_d["mean"][::-1], color="#e67e22")
-        axes[0].set_title("Descuento promedio % por categoria\n(SKUs en promo)",
-                          loc="left")
+        axes[0].set_title(f"Descuento promedio % por categoria\n"
+                          f"(TODAS las {len(g_d)} cats con ≥2 SKUs en promo)",
+                          loc="left", fontsize=10)
         axes[0].set_xlabel("descuento %")
+        axes[0].tick_params(axis="y", labelsize=fs)
         for i, (v, c) in enumerate(zip(g_d["mean"][::-1], g_d["count"][::-1])):
             axes[0].text(v + 0.2, i, f"{v:.1f}% (n={c})",
-                         va="center", fontsize=9)
+                         va="center", fontsize=fs)
     else:
         axes[0].text(0.5, 0.5, "Sin SKUs en promo", ha="center", va="center")
         axes[0].axis("off")
 
     if len(g_p):
         axes[1].barh(g_p.index[::-1], g_p["pct"][::-1], color="#3498db")
-        axes[1].set_title("% SKUs patrocinados por categoria\n(retail media)",
-                          loc="left")
+        axes[1].set_title(f"% SKUs patrocinados por categoria\n"
+                          f"(TODAS las {len(g_p)} cats con patrocinio)",
+                          loc="left", fontsize=10)
         axes[1].set_xlabel("% patrocinado")
+        axes[1].tick_params(axis="y", labelsize=fs)
         for i, v in enumerate(g_p["pct"][::-1]):
-            axes[1].text(v + 0.5, i, f"{v:.0f}%", va="center", fontsize=9)
+            axes[1].text(v + 0.5, i, f"{v:.0f}%", va="center", fontsize=fs)
     else:
         axes[1].text(0.5, 0.5, "Sin SKUs patrocinados\nen este snapshot",
                      ha="center", va="center", fontsize=12, color="#444")
@@ -305,6 +380,7 @@ def main():
     chart_penetracion_propia_por_categoria(pdf)
     chart_top_categorias_y_promo(pdf)
     chart_pricing_ladder(pdf)
+    chart_pricing_ladder_por_categoria(pdf)
     chart_top_marcas_terceras(pdf)
     chart_cmr_diferencial(pdf)
     chart_marketplace_vs_propio(pdf)
@@ -371,7 +447,8 @@ CHARTS
 ------
   01_penetracion_marca_propia.png   ← donde TOTTUS define precio
   02_categorias_surtido_y_promo.png ← profundidad y % en oferta
-  03_pricing_ladder.png             ← combate vs premium
+  03_pricing_ladder.png             ← combate vs premium (global)
+  03b_pricing_ladder_por_categoria.png ← mismo, desglosado por categoria
   04_top_marcas_terceras.png        ← marcas a captar / negociar
   05_diferencial_cmr.png            ← incentivo tarjeta CMR (UNICO)
   06_marketplace_vs_propio.png      ← split inventario propio / 3P

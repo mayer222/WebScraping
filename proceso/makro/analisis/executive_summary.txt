@@ -42,7 +42,8 @@ CHARTS
 ------
   01_penetracion_aro.png            ← donde duele competir
   02_categorias_surtido_y_promo.png ← profundidad + agresividad
-  03_pricing_ladder.png             ← combate vs premium
+  03_pricing_ladder.png             ← combate vs premium (global)
+  03b_pricing_ladder_por_categoria.png ← mismo, desglosado por categoria
   04_top_marcas_terceras.png        ← lista de captura
   05_descuento_por_categoria.png    ← por donde agreden
   06_aro_vs_terceros_precio.png     ← spread real ARO
