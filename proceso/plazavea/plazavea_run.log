@@ -1,0 +1,1638 @@
+============================================================
+PLAZA VEA SCRAPER  -  Inicio
+============================================================
+
+[1/4] Abriendo home de Plaza Vea para iniciar sesion...
+[2/4] Descargando arbol de categorias VTEX...
+  3388 categorias/subcategorias encontradas
+  -> plazavea_categorias.csv guardado
+ nivel                      nombre          id_path                                              ruta_completa
+     1                     Bebidas              /2/                                                    Bebidas
+     2                       Aguas            /2/6/                                            Bebidas > Aguas
+     3                Agua de Mesa        /2/6/950/                             Bebidas > Aguas > Agua de Mesa
+     3                Agua Mineral        /2/6/951/                             Bebidas > Aguas > Agua Mineral
+     3                 Agua Tónica        /2/6/952/                              Bebidas > Aguas > Agua Tónica
+     3             Agua Saborizada        /2/6/953/                          Bebidas > Aguas > Agua Saborizada
+     2                    Gaseosas            /2/7/                                         Bebidas > Gaseosas
+     3         Gaseosas Familiares       /2/7/1652/                   Bebidas > Gaseosas > Gaseosas Familiares
+     3         Gaseosas Personales       /2/7/1653/                   Bebidas > Gaseosas > Gaseosas Personales
+     3                  Ginger Ale       /2/7/1654/                            Bebidas > Gaseosas > Ginger Ale
+   ...                         ...              ...                                                        ...
+     3         Colchones Inflables /4285/4288/4309/       Terraza y Aire Libre > Camping > Colchones Inflables
+     3                     Coolers /4285/4288/4310/                   Terraza y Aire Libre > Camping > Coolers
+     3         Mochilas De Camping /4285/4288/4311/       Terraza y Aire Libre > Camping > Mochilas De Camping
+     3                   Sleepings /4285/4288/4312/                 Terraza y Aire Libre > Camping > Sleepings
+     3   Sillas De Playa Y Camping /4285/4288/4313/ Terraza y Aire Libre > Camping > Sillas De Playa Y Camping
+     3    Mesas De Playa Y Camping /4285/4288/4314/  Terraza y Aire Libre > Camping > Mesas De Playa Y Camping
+     2                   Maletería      /4285/4297/                           Terraza y Aire Libre > Maletería
+     3         Accesorios De Viaje /4285/4297/4298/     Terraza y Aire Libre > Maletería > Accesorios De Viaje
+     3          Maletas Y Carry On /4285/4297/4299/      Terraza y Aire Libre > Maletería > Maletas Y Carry On
+     1 FLUJO COMPRA - NO INACTIVAR           /4336/                                FLUJO COMPRA - NO INACTIVAR
+
+[3/4] Preparando categorias objetivo (nivel 2)...
+  filtrado a departamentos 'Supermercado': 96 subcategorias (de 2129 totales)
+  scrapeando 96 subcategorias...
+
+[4/4] Extrayendo productos...
+
+  [1/96] Bebidas > Aguas  (C:/2/6/)
+    Aguas                               | pag 1 | +50 -> total: 50
+    Aguas                               | pag 2 | +50 -> total: 100
+    Aguas                               | pag 3 | +47 -> total: 147
+
+  [2/96] Bebidas > Gaseosas  (C:/2/7/)
+    Gaseosas                            | pag 1 | +50 -> total: 50
+    Gaseosas                            | pag 2 | +50 -> total: 100
+    Gaseosas                            | pag 3 | +50 -> total: 150
+    Gaseosas                            | pag 4 | +50 -> total: 200
+    Gaseosas                            | pag 5 | +50 -> total: 250
+    Gaseosas                            | pag 6 | +16 -> total: 266
+
+  [3/96] Bebidas > Jugos y Otras Bebidas  (C:/2/8/)
+    Jugos y Otras Bebidas               | pag 1 | +50 -> total: 50
+    Jugos y Otras Bebidas               | pag 2 | +50 -> total: 100
+    Jugos y Otras Bebidas               | pag 3 | +50 -> total: 150
+    Jugos y Otras Bebidas               | pag 4 | +50 -> total: 200
+    Jugos y Otras Bebidas               | pag 5 | +50 -> total: 250
+
+  [4/96] Bebidas > Bebidas Funcionales  (C:/2/646/)
+    Bebidas Funcionales                 | pag 1 | +50 -> total: 50
+    Bebidas Funcionales                 | pag 2 | +50 -> total: 100
+    Bebidas Funcionales                 | pag 3 | +37 -> total: 137
+
+  [5/96] Cuidado Personal y Salud > Cuidado del Cabello  (C:/297/298/)
+    Cuidado del Cabello                 | pag 1 | +50 -> total: 50
+    Cuidado del Cabello                 | pag 2 | +50 -> total: 100
+    Cuidado del Cabello                 | pag 3 | +50 -> total: 150
+    Cuidado del Cabello                 | pag 4 | +50 -> total: 200
+    Cuidado del Cabello                 | pag 5 | +50 -> total: 250
+    Cuidado del Cabello                 | pag 6 | +50 -> total: 300
+    Cuidado del Cabello                 | pag 7 | +50 -> total: 350
+    Cuidado del Cabello                 | pag 8 | +50 -> total: 400
+    Cuidado del Cabello                 | pag 9 | +50 -> total: 450
+    Cuidado del Cabello                 | pag 10 | +50 -> total: 500
+    Cuidado del Cabello                 | pag 11 | +50 -> total: 550
+    Cuidado del Cabello                 | pag 12 | +50 -> total: 600
+    Cuidado del Cabello                 | pag 13 | +50 -> total: 650
+    Cuidado del Cabello                 | pag 14 | +50 -> total: 700
+    Cuidado del Cabello                 | pag 15 | +50 -> total: 750
+    Cuidado del Cabello                 | pag 16 | +50 -> total: 800
+    Cuidado del Cabello                 | pag 17 | +50 -> total: 850
+    Cuidado del Cabello                 | pag 18 | +50 -> total: 900
+    Cuidado del Cabello                 | pag 19 | +50 -> total: 950
+    Cuidado del Cabello                 | pag 20 | +50 -> total: 1000
+    Cuidado del Cabello                 | pag 21 | +50 -> total: 1050
+    Cuidado del Cabello                 | pag 22 | +50 -> total: 1100
+    Cuidado del Cabello                 | pag 23 | +50 -> total: 1150
+    Cuidado del Cabello                 | pag 24 | +50 -> total: 1200
+    Cuidado del Cabello                 | pag 25 | +50 -> total: 1250
+    Cuidado del Cabello                 | pag 26 | +50 -> total: 1300
+    Cuidado del Cabello                 | pag 27 | +50 -> total: 1350
+    Cuidado del Cabello                 | pag 28 | +50 -> total: 1400
+    Cuidado del Cabello                 | pag 29 | +50 -> total: 1450
+    Cuidado del Cabello                 | pag 30 | +50 -> total: 1500
+    Cuidado del Cabello                 | pag 31 | +50 -> total: 1550
+    Cuidado del Cabello                 | pag 32 | +50 -> total: 1600
+    Cuidado del Cabello                 | pag 33 | +50 -> total: 1650
+    Cuidado del Cabello                 | pag 34 | +50 -> total: 1700
+    Cuidado del Cabello                 | pag 35 | +50 -> total: 1750
+    Cuidado del Cabello                 | pag 36 | +50 -> total: 1800
+    Cuidado del Cabello                 | pag 37 | +50 -> total: 1850
+    Cuidado del Cabello                 | pag 38 | +50 -> total: 1900
+    Cuidado del Cabello                 | pag 39 | +50 -> total: 1950
+    Cuidado del Cabello                 | pag 40 | +50 -> total: 2000
+    Cuidado del Cabello                 | pag 41 | +50 -> total: 2050
+    Cuidado del Cabello                 | pag 42 | +50 -> total: 2100
+    Cuidado del Cabello                 | pag 43 | +50 -> total: 2150
+    Cuidado del Cabello                 | pag 44 | +50 -> total: 2200
+    Cuidado del Cabello                 | pag 45 | +50 -> total: 2250
+    Cuidado del Cabello                 | pag 46 | +50 -> total: 2300
+    Cuidado del Cabello                 | pag 47 | +50 -> total: 2350
+    Cuidado del Cabello                 | pag 48 | +50 -> total: 2400
+    Cuidado del Cabello                 | pag 49 | +50 -> total: 2450
+    Cuidado del Cabello                 | pag 50 | +50 -> total: 2500
+    Cuidado del Cabello                 | pag 51 | +50 -> total: 2550
+  fetch error: {'__status': 400, '__error': ''} -> https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/297/298/&_from=25
+
+  [6/96] Cuidado Personal y Salud > Cuidado Bucal  (C:/297/300/)
+    Cuidado Bucal                       | pag 1 | +50 -> total: 50
+    Cuidado Bucal                       | pag 2 | +50 -> total: 100
+    Cuidado Bucal                       | pag 3 | +50 -> total: 150
+    Cuidado Bucal                       | pag 4 | +50 -> total: 200
+    Cuidado Bucal                       | pag 5 | +50 -> total: 250
+    Cuidado Bucal                       | pag 6 | +50 -> total: 300
+    Cuidado Bucal                       | pag 7 | +50 -> total: 350
+    Cuidado Bucal                       | pag 8 | +50 -> total: 400
+    Cuidado Bucal                       | pag 9 | +50 -> total: 450
+    Cuidado Bucal                       | pag 10 | +50 -> total: 500
+    Cuidado Bucal                       | pag 11 | +50 -> total: 550
+    Cuidado Bucal                       | pag 12 | +7 -> total: 557
+
+  [7/96] Cuidado Personal y Salud > Afeitado  (C:/297/301/)
+    Afeitado                            | pag 1 | +50 -> total: 50
+    Afeitado                            | pag 2 | +50 -> total: 100
+    Afeitado                            | pag 3 | +50 -> total: 150
+    Afeitado                            | pag 4 | +50 -> total: 200
+    Afeitado                            | pag 5 | +50 -> total: 250
+    Afeitado                            | pag 6 | +50 -> total: 300
+    Afeitado                            | pag 7 | +50 -> total: 350
+    Afeitado                            | pag 8 | +50 -> total: 400
+    Afeitado                            | pag 9 | +50 -> total: 450
+    Afeitado                            | pag 10 | +50 -> total: 500
+    Afeitado                            | pag 11 | +50 -> total: 550
+    Afeitado                            | pag 12 | +50 -> total: 600
+    Afeitado                            | pag 13 | +50 -> total: 650
+    Afeitado                            | pag 14 | +50 -> total: 700
+    Afeitado                            | pag 15 | +50 -> total: 750
+    Afeitado                            | pag 16 | +50 -> total: 800
+    Afeitado                            | pag 17 | +50 -> total: 850
+    Afeitado                            | pag 18 | +50 -> total: 900
+    Afeitado                            | pag 19 | +50 -> total: 950
+    Afeitado                            | pag 20 | +40 -> total: 990
+
+  [8/96] Cuidado Personal y Salud > Higiene Personal  (C:/297/303/)
+    Higiene Personal                    | pag 1 | +50 -> total: 50
+    Higiene Personal                    | pag 2 | +50 -> total: 100
+    Higiene Personal                    | pag 3 | +50 -> total: 150
+    Higiene Personal                    | pag 4 | +50 -> total: 200
+    Higiene Personal                    | pag 5 | +50 -> total: 250
+    Higiene Personal                    | pag 6 | +50 -> total: 300
+    Higiene Personal                    | pag 7 | +50 -> total: 350
+    Higiene Personal                    | pag 8 | +50 -> total: 400
+    Higiene Personal                    | pag 9 | +50 -> total: 450
+    Higiene Personal                    | pag 10 | +50 -> total: 500
+    Higiene Personal                    | pag 11 | +50 -> total: 550
+    Higiene Personal                    | pag 12 | +50 -> total: 600
+    Higiene Personal                    | pag 13 | +50 -> total: 650
+    Higiene Personal                    | pag 14 | +50 -> total: 700
+    Higiene Personal                    | pag 15 | +50 -> total: 750
+    Higiene Personal                    | pag 16 | +50 -> total: 800
+    Higiene Personal                    | pag 17 | +50 -> total: 850
+    Higiene Personal                    | pag 18 | +50 -> total: 900
+    Higiene Personal                    | pag 19 | +50 -> total: 950
+    Higiene Personal                    | pag 20 | +50 -> total: 1000
+    Higiene Personal                    | pag 21 | +50 -> total: 1050
+    Higiene Personal                    | pag 22 | +50 -> total: 1100
+    Higiene Personal                    | pag 23 | +50 -> total: 1150
+    Higiene Personal                    | pag 24 | +50 -> total: 1200
+    Higiene Personal                    | pag 25 | +50 -> total: 1250
+    Higiene Personal                    | pag 26 | +50 -> total: 1300
+    Higiene Personal                    | pag 27 | +50 -> total: 1350
+    Higiene Personal                    | pag 28 | +50 -> total: 1400
+    Higiene Personal                    | pag 29 | +50 -> total: 1450
+    Higiene Personal                    | pag 30 | +50 -> total: 1500
+    Higiene Personal                    | pag 31 | +50 -> total: 1550
+    Higiene Personal                    | pag 32 | +50 -> total: 1600
+    Higiene Personal                    | pag 33 | +50 -> total: 1650
+    Higiene Personal                    | pag 34 | +50 -> total: 1700
+    Higiene Personal                    | pag 35 | +50 -> total: 1750
+    Higiene Personal                    | pag 36 | +27 -> total: 1777
+
+  [9/96] Cuidado Personal y Salud > Protección Femenina  (C:/297/305/)
+    Protección Femenina                 | pag 1 | +50 -> total: 50
+    Protección Femenina                 | pag 2 | +50 -> total: 100
+    Protección Femenina                 | pag 3 | +50 -> total: 150
+    Protección Femenina                 | pag 4 | +50 -> total: 200
+    Protección Femenina                 | pag 5 | +4 -> total: 204
+
+  [10/96] Cuidado Personal y Salud > Protección Adulta  (C:/297/306/)
+    Protección Adulta                   | pag 1 | +50 -> total: 50
+    Protección Adulta                   | pag 2 | +36 -> total: 86
+
+  [11/96] Cuidado Personal y Salud > Bienestar Sexual  (C:/297/307/)
+    Bienestar Sexual                    | pag 1 | +50 -> total: 50
+    Bienestar Sexual                    | pag 2 | +15 -> total: 65
+
+  [12/96] Cuidado Personal y Salud > Packs de Regalo  (C:/297/637/)
+    Packs de Regalo                     | pag 1 | +45 -> total: 45
+
+  [13/96] Cuidado Personal y Salud > Vitaminas y Nutrición  (C:/297/1441/)
+    Vitaminas y Nutrición               | pag 1 | +50 -> total: 50
+    Vitaminas y Nutrición               | pag 2 | +50 -> total: 100
+    Vitaminas y Nutrición               | pag 3 | +50 -> total: 150
+    Vitaminas y Nutrición               | pag 4 | +50 -> total: 200
+    Vitaminas y Nutrición               | pag 5 | +50 -> total: 250
+    Vitaminas y Nutrición               | pag 6 | +50 -> total: 300
+    Vitaminas y Nutrición               | pag 7 | +50 -> total: 350
+    Vitaminas y Nutrición               | pag 8 | +50 -> total: 400
+    Vitaminas y Nutrición               | pag 9 | +50 -> total: 450
+    Vitaminas y Nutrición               | pag 10 | +50 -> total: 500
+    Vitaminas y Nutrición               | pag 11 | +50 -> total: 550
+    Vitaminas y Nutrición               | pag 12 | +50 -> total: 600
+    Vitaminas y Nutrición               | pag 13 | +50 -> total: 650
+    Vitaminas y Nutrición               | pag 14 | +50 -> total: 700
+    Vitaminas y Nutrición               | pag 15 | +50 -> total: 750
+    Vitaminas y Nutrición               | pag 16 | +50 -> total: 800
+    Vitaminas y Nutrición               | pag 17 | +50 -> total: 850
+    Vitaminas y Nutrición               | pag 18 | +50 -> total: 900
+    Vitaminas y Nutrición               | pag 19 | +50 -> total: 950
+    Vitaminas y Nutrición               | pag 20 | +50 -> total: 1000
+    Vitaminas y Nutrición               | pag 21 | +50 -> total: 1050
+    Vitaminas y Nutrición               | pag 22 | +50 -> total: 1100
+    Vitaminas y Nutrición               | pag 23 | +50 -> total: 1150
+    Vitaminas y Nutrición               | pag 24 | +50 -> total: 1200
+    Vitaminas y Nutrición               | pag 25 | +50 -> total: 1250
+    Vitaminas y Nutrición               | pag 26 | +50 -> total: 1300
+    Vitaminas y Nutrición               | pag 27 | +50 -> total: 1350
+    Vitaminas y Nutrición               | pag 28 | +50 -> total: 1400
+    Vitaminas y Nutrición               | pag 29 | +50 -> total: 1450
+    Vitaminas y Nutrición               | pag 30 | +50 -> total: 1500
+    Vitaminas y Nutrición               | pag 31 | +50 -> total: 1550
+    Vitaminas y Nutrición               | pag 32 | +50 -> total: 1600
+    Vitaminas y Nutrición               | pag 33 | +50 -> total: 1650
+    Vitaminas y Nutrición               | pag 34 | +50 -> total: 1700
+    Vitaminas y Nutrición               | pag 35 | +50 -> total: 1750
+    Vitaminas y Nutrición               | pag 36 | +50 -> total: 1800
+    Vitaminas y Nutrición               | pag 37 | +50 -> total: 1850
+    Vitaminas y Nutrición               | pag 38 | +50 -> total: 1900
+    Vitaminas y Nutrición               | pag 39 | +50 -> total: 1950
+    Vitaminas y Nutrición               | pag 40 | +50 -> total: 2000
+    Vitaminas y Nutrición               | pag 41 | +50 -> total: 2050
+    Vitaminas y Nutrición               | pag 42 | +50 -> total: 2100
+    Vitaminas y Nutrición               | pag 43 | +50 -> total: 2150
+    Vitaminas y Nutrición               | pag 44 | +50 -> total: 2200
+    Vitaminas y Nutrición               | pag 45 | +50 -> total: 2250
+    Vitaminas y Nutrición               | pag 46 | +50 -> total: 2300
+    Vitaminas y Nutrición               | pag 47 | +50 -> total: 2350
+    Vitaminas y Nutrición               | pag 48 | +50 -> total: 2400
+    Vitaminas y Nutrición               | pag 49 | +50 -> total: 2450
+    Vitaminas y Nutrición               | pag 50 | +50 -> total: 2500
+    Vitaminas y Nutrición               | pag 51 | +50 -> total: 2550
+  fetch error: {'__status': 400, '__error': ''} -> https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/297/1441/&_from=2
+
+  [14/96] Cuidado Personal y Salud > Salud  (C:/297/1629/)
+    Salud                               | pag 1 | +50 -> total: 50
+    Salud                               | pag 2 | +50 -> total: 100
+    Salud                               | pag 3 | +50 -> total: 150
+    Salud                               | pag 4 | +50 -> total: 200
+    Salud                               | pag 5 | +50 -> total: 250
+    Salud                               | pag 6 | +50 -> total: 300
+    Salud                               | pag 7 | +50 -> total: 350
+    Salud                               | pag 8 | +50 -> total: 400
+    Salud                               | pag 9 | +50 -> total: 450
+    Salud                               | pag 10 | +50 -> total: 500
+    Salud                               | pag 11 | +50 -> total: 550
+    Salud                               | pag 12 | +50 -> total: 600
+    Salud                               | pag 13 | +50 -> total: 650
+    Salud                               | pag 14 | +50 -> total: 700
+    Salud                               | pag 15 | +50 -> total: 750
+    Salud                               | pag 16 | +50 -> total: 800
+    Salud                               | pag 17 | +50 -> total: 850
+    Salud                               | pag 18 | +50 -> total: 900
+    Salud                               | pag 19 | +50 -> total: 950
+    Salud                               | pag 20 | +50 -> total: 1000
+    Salud                               | pag 21 | +50 -> total: 1050
+    Salud                               | pag 22 | +50 -> total: 1100
+    Salud                               | pag 23 | +50 -> total: 1150
+    Salud                               | pag 24 | +50 -> total: 1200
+    Salud                               | pag 25 | +50 -> total: 1250
+    Salud                               | pag 26 | +50 -> total: 1300
+    Salud                               | pag 27 | +50 -> total: 1350
+    Salud                               | pag 28 | +50 -> total: 1400
+    Salud                               | pag 29 | +50 -> total: 1450
+    Salud                               | pag 30 | +50 -> total: 1500
+    Salud                               | pag 31 | +50 -> total: 1550
+    Salud                               | pag 32 | +50 -> total: 1600
+    Salud                               | pag 33 | +50 -> total: 1650
+    Salud                               | pag 34 | +50 -> total: 1700
+    Salud                               | pag 35 | +50 -> total: 1750
+    Salud                               | pag 36 | +50 -> total: 1800
+    Salud                               | pag 37 | +50 -> total: 1850
+    Salud                               | pag 38 | +50 -> total: 1900
+    Salud                               | pag 39 | +50 -> total: 1950
+    Salud                               | pag 40 | +50 -> total: 2000
+    Salud                               | pag 41 | +50 -> total: 2050
+    Salud                               | pag 42 | +50 -> total: 2100
+    Salud                               | pag 43 | +50 -> total: 2150
+    Salud                               | pag 44 | +50 -> total: 2200
+    Salud                               | pag 45 | +50 -> total: 2250
+    Salud                               | pag 46 | +50 -> total: 2300
+    Salud                               | pag 47 | +50 -> total: 2350
+    Salud                               | pag 48 | +50 -> total: 2400
+    Salud                               | pag 49 | +50 -> total: 2450
+    Salud                               | pag 50 | +50 -> total: 2500
+    Salud                               | pag 51 | +50 -> total: 2550
+  fetch error: {'__status': 400, '__error': ''} -> https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/297/1629/&_from=2
+
+  [15/96] Cuidado Personal y Salud > Depilación  (C:/297/2849/)
+    Depilación                          | pag 1 | +50 -> total: 50
+    Depilación                          | pag 2 | +50 -> total: 100
+    Depilación                          | pag 3 | +50 -> total: 150
+    Depilación                          | pag 4 | +50 -> total: 200
+    Depilación                          | pag 5 | +50 -> total: 250
+    Depilación                          | pag 6 | +50 -> total: 300
+    Depilación                          | pag 7 | +50 -> total: 350
+    Depilación                          | pag 8 | +50 -> total: 400
+    Depilación                          | pag 9 | +50 -> total: 450
+    Depilación                          | pag 10 | +31 -> total: 481
+
+  [16/96] Limpieza > Cuidado de la Ropa  (C:/399/400/)
+    Cuidado de la Ropa                  | pag 1 | +50 -> total: 50
+    Cuidado de la Ropa                  | pag 2 | +50 -> total: 100
+    Cuidado de la Ropa                  | pag 3 | +50 -> total: 150
+    Cuidado de la Ropa                  | pag 4 | +50 -> total: 200
+    Cuidado de la Ropa                  | pag 5 | +50 -> total: 250
+    Cuidado de la Ropa                  | pag 6 | +50 -> total: 300
+    Cuidado de la Ropa                  | pag 7 | +50 -> total: 350
+    Cuidado de la Ropa                  | pag 8 | +50 -> total: 400
+    Cuidado de la Ropa                  | pag 9 | +50 -> total: 450
+    Cuidado de la Ropa                  | pag 10 | +50 -> total: 500
+    Cuidado de la Ropa                  | pag 11 | +50 -> total: 550
+    Cuidado de la Ropa                  | pag 12 | +50 -> total: 600
+    Cuidado de la Ropa                  | pag 13 | +50 -> total: 650
+    Cuidado de la Ropa                  | pag 14 | +50 -> total: 700
+    Cuidado de la Ropa                  | pag 15 | +50 -> total: 750
+    Cuidado de la Ropa                  | pag 16 | +50 -> total: 800
+    Cuidado de la Ropa                  | pag 17 | +50 -> total: 850
+    Cuidado de la Ropa                  | pag 18 | +50 -> total: 900
+    Cuidado de la Ropa                  | pag 19 | +50 -> total: 950
+    Cuidado de la Ropa                  | pag 20 | +50 -> total: 1000
+    Cuidado de la Ropa                  | pag 21 | +50 -> total: 1050
+    Cuidado de la Ropa                  | pag 22 | +50 -> total: 1100
+    Cuidado de la Ropa                  | pag 23 | +50 -> total: 1150
+    Cuidado de la Ropa                  | pag 24 | +50 -> total: 1200
+    Cuidado de la Ropa                  | pag 25 | +50 -> total: 1250
+    Cuidado de la Ropa                  | pag 26 | +50 -> total: 1300
+    Cuidado de la Ropa                  | pag 27 | +50 -> total: 1350
+    Cuidado de la Ropa                  | pag 28 | +50 -> total: 1400
+    Cuidado de la Ropa                  | pag 29 | +50 -> total: 1450
+    Cuidado de la Ropa                  | pag 30 | +50 -> total: 1500
+    Cuidado de la Ropa                  | pag 31 | +50 -> total: 1550
+    Cuidado de la Ropa                  | pag 32 | +50 -> total: 1600
+    Cuidado de la Ropa                  | pag 33 | +11 -> total: 1611
+
+  [17/96] Limpieza > Limpieza de Calzado  (C:/399/407/)
+    Limpieza de Calzado                 | pag 1 | +50 -> total: 50
+    Limpieza de Calzado                 | pag 2 | +50 -> total: 100
+    Limpieza de Calzado                 | pag 3 | +50 -> total: 150
+    Limpieza de Calzado                 | pag 4 | +50 -> total: 200
+    Limpieza de Calzado                 | pag 5 | +17 -> total: 217
+
+  [18/96] Limpieza > Cuidado del Hogar  (C:/399/603/)
+    Cuidado del Hogar                   | pag 1 | +50 -> total: 50
+    Cuidado del Hogar                   | pag 2 | +50 -> total: 100
+    Cuidado del Hogar                   | pag 3 | +50 -> total: 150
+    Cuidado del Hogar                   | pag 4 | +50 -> total: 200
+    Cuidado del Hogar                   | pag 5 | +50 -> total: 250
+    Cuidado del Hogar                   | pag 6 | +50 -> total: 300
+    Cuidado del Hogar                   | pag 7 | +50 -> total: 350
+    Cuidado del Hogar                   | pag 8 | +50 -> total: 400
+    Cuidado del Hogar                   | pag 9 | +50 -> total: 450
+    Cuidado del Hogar                   | pag 10 | +50 -> total: 500
+    Cuidado del Hogar                   | pag 11 | +50 -> total: 550
+    Cuidado del Hogar                   | pag 12 | +50 -> total: 600
+    Cuidado del Hogar                   | pag 13 | +50 -> total: 650
+    Cuidado del Hogar                   | pag 14 | +50 -> total: 700
+    Cuidado del Hogar                   | pag 15 | +50 -> total: 750
+    Cuidado del Hogar                   | pag 16 | +50 -> total: 800
+    Cuidado del Hogar                   | pag 17 | +50 -> total: 850
+    Cuidado del Hogar                   | pag 18 | +50 -> total: 900
+    Cuidado del Hogar                   | pag 19 | +50 -> total: 950
+    Cuidado del Hogar                   | pag 20 | +50 -> total: 1000
+    Cuidado del Hogar                   | pag 21 | +50 -> total: 1050
+    Cuidado del Hogar                   | pag 22 | +50 -> total: 1100
+    Cuidado del Hogar                   | pag 23 | +50 -> total: 1150
+    Cuidado del Hogar                   | pag 24 | +50 -> total: 1200
+    Cuidado del Hogar                   | pag 25 | +50 -> total: 1250
+    Cuidado del Hogar                   | pag 26 | +50 -> total: 1300
+    Cuidado del Hogar                   | pag 27 | +50 -> total: 1350
+    Cuidado del Hogar                   | pag 28 | +50 -> total: 1400
+    Cuidado del Hogar                   | pag 29 | +50 -> total: 1450
+    Cuidado del Hogar                   | pag 30 | +50 -> total: 1500
+    Cuidado del Hogar                   | pag 31 | +50 -> total: 1550
+    Cuidado del Hogar                   | pag 32 | +50 -> total: 1600
+    Cuidado del Hogar                   | pag 33 | +50 -> total: 1650
+    Cuidado del Hogar                   | pag 34 | +2 -> total: 1652
+
+  [19/96] Limpieza > Limpieza de Cocina  (C:/399/604/)
+    Limpieza de Cocina                  | pag 1 | +50 -> total: 50
+    Limpieza de Cocina                  | pag 2 | +50 -> total: 100
+    Limpieza de Cocina                  | pag 3 | +50 -> total: 150
+    Limpieza de Cocina                  | pag 4 | +50 -> total: 200
+    Limpieza de Cocina                  | pag 5 | +50 -> total: 250
+    Limpieza de Cocina                  | pag 6 | +50 -> total: 300
+    Limpieza de Cocina                  | pag 7 | +50 -> total: 350
+    Limpieza de Cocina                  | pag 8 | +50 -> total: 400
+    Limpieza de Cocina                  | pag 9 | +50 -> total: 450
+    Limpieza de Cocina                  | pag 10 | +50 -> total: 500
+    Limpieza de Cocina                  | pag 11 | +50 -> total: 550
+    Limpieza de Cocina                  | pag 12 | +50 -> total: 600
+    Limpieza de Cocina                  | pag 13 | +50 -> total: 650
+    Limpieza de Cocina                  | pag 14 | +50 -> total: 700
+    Limpieza de Cocina                  | pag 15 | +37 -> total: 737
+
+  [20/96] Limpieza > Accesorios de Limpieza  (C:/399/647/)
+    Accesorios de Limpieza              | pag 1 | +50 -> total: 50
+    Accesorios de Limpieza              | pag 2 | +50 -> total: 100
+    Accesorios de Limpieza              | pag 3 | +50 -> total: 150
+    Accesorios de Limpieza              | pag 4 | +50 -> total: 200
+    Accesorios de Limpieza              | pag 5 | +50 -> total: 250
+    Accesorios de Limpieza              | pag 6 | +50 -> total: 300
+    Accesorios de Limpieza              | pag 7 | +50 -> total: 350
+    Accesorios de Limpieza              | pag 8 | +50 -> total: 400
+    Accesorios de Limpieza              | pag 9 | +50 -> total: 450
+    Accesorios de Limpieza              | pag 10 | +50 -> total: 500
+    Accesorios de Limpieza              | pag 11 | +50 -> total: 550
+    Accesorios de Limpieza              | pag 12 | +50 -> total: 600
+    Accesorios de Limpieza              | pag 13 | +50 -> total: 650
+    Accesorios de Limpieza              | pag 14 | +50 -> total: 700
+    Accesorios de Limpieza              | pag 15 | +50 -> total: 750
+    Accesorios de Limpieza              | pag 16 | +50 -> total: 800
+    Accesorios de Limpieza              | pag 17 | +50 -> total: 850
+    Accesorios de Limpieza              | pag 18 | +50 -> total: 900
+    Accesorios de Limpieza              | pag 19 | +50 -> total: 950
+    Accesorios de Limpieza              | pag 20 | +50 -> total: 1000
+    Accesorios de Limpieza              | pag 21 | +50 -> total: 1050
+    Accesorios de Limpieza              | pag 22 | +50 -> total: 1100
+    Accesorios de Limpieza              | pag 23 | +50 -> total: 1150
+    Accesorios de Limpieza              | pag 24 | +50 -> total: 1200
+    Accesorios de Limpieza              | pag 25 | +50 -> total: 1250
+    Accesorios de Limpieza              | pag 26 | +50 -> total: 1300
+    Accesorios de Limpieza              | pag 27 | +50 -> total: 1350
+    Accesorios de Limpieza              | pag 28 | +50 -> total: 1400
+    Accesorios de Limpieza              | pag 29 | +50 -> total: 1450
+    Accesorios de Limpieza              | pag 30 | +50 -> total: 1500
+    Accesorios de Limpieza              | pag 31 | +50 -> total: 1550
+    Accesorios de Limpieza              | pag 32 | +50 -> total: 1600
+    Accesorios de Limpieza              | pag 33 | +50 -> total: 1650
+    Accesorios de Limpieza              | pag 34 | +50 -> total: 1700
+    Accesorios de Limpieza              | pag 35 | +50 -> total: 1750
+    Accesorios de Limpieza              | pag 36 | +50 -> total: 1800
+    Accesorios de Limpieza              | pag 37 | +50 -> total: 1850
+    Accesorios de Limpieza              | pag 38 | +50 -> total: 1900
+    Accesorios de Limpieza              | pag 39 | +50 -> total: 1950
+    Accesorios de Limpieza              | pag 40 | +50 -> total: 2000
+    Accesorios de Limpieza              | pag 41 | +50 -> total: 2050
+    Accesorios de Limpieza              | pag 42 | +50 -> total: 2100
+    Accesorios de Limpieza              | pag 43 | +50 -> total: 2150
+    Accesorios de Limpieza              | pag 44 | +49 -> total: 2199
+
+  [21/96] Limpieza > Limpieza de Baño  (C:/399/969/)
+    Limpieza de Baño                    | pag 1 | +50 -> total: 50
+    Limpieza de Baño                    | pag 2 | +50 -> total: 100
+    Limpieza de Baño                    | pag 3 | +50 -> total: 150
+    Limpieza de Baño                    | pag 4 | +50 -> total: 200
+    Limpieza de Baño                    | pag 5 | +50 -> total: 250
+    Limpieza de Baño                    | pag 6 | +7 -> total: 257
+
+  [22/96] Limpieza > Papel para el Hogar  (C:/399/1627/)
+    Papel para el Hogar                 | pag 1 | +50 -> total: 50
+    Papel para el Hogar                 | pag 2 | +50 -> total: 100
+    Papel para el Hogar                 | pag 3 | +50 -> total: 150
+    Papel para el Hogar                 | pag 4 | +50 -> total: 200
+    Papel para el Hogar                 | pag 5 | +50 -> total: 250
+    Papel para el Hogar                 | pag 6 | +50 -> total: 300
+    Papel para el Hogar                 | pag 7 | +41 -> total: 341
+
+  [23/96] Mascotas > Otras Mascotas  (C:/620/622/)
+    Otras Mascotas                      | pag 1 | +50 -> total: 50
+    Otras Mascotas                      | pag 2 | +50 -> total: 100
+    Otras Mascotas                      | pag 3 | +50 -> total: 150
+    Otras Mascotas                      | pag 4 | +50 -> total: 200
+    Otras Mascotas                      | pag 5 | +50 -> total: 250
+    Otras Mascotas                      | pag 6 | +50 -> total: 300
+    Otras Mascotas                      | pag 7 | +50 -> total: 350
+    Otras Mascotas                      | pag 8 | +50 -> total: 400
+    Otras Mascotas                      | pag 9 | +50 -> total: 450
+    Otras Mascotas                      | pag 10 | +50 -> total: 500
+    Otras Mascotas                      | pag 11 | +50 -> total: 550
+    Otras Mascotas                      | pag 12 | +33 -> total: 583
+
+  [24/96] Mascotas > Comida para perros  (C:/620/4118/)
+    Comida para perros                  | pag 1 | +50 -> total: 50
+    Comida para perros                  | pag 2 | +50 -> total: 100
+    Comida para perros                  | pag 3 | +50 -> total: 150
+    Comida para perros                  | pag 4 | +50 -> total: 200
+    Comida para perros                  | pag 5 | +50 -> total: 250
+    Comida para perros                  | pag 6 | +50 -> total: 300
+    Comida para perros                  | pag 7 | +50 -> total: 350
+    Comida para perros                  | pag 8 | +50 -> total: 400
+    Comida para perros                  | pag 9 | +50 -> total: 450
+    Comida para perros                  | pag 10 | +50 -> total: 500
+    Comida para perros                  | pag 11 | +50 -> total: 550
+    Comida para perros                  | pag 12 | +50 -> total: 600
+    Comida para perros                  | pag 13 | +50 -> total: 650
+    Comida para perros                  | pag 14 | +50 -> total: 700
+    Comida para perros                  | pag 15 | +50 -> total: 750
+    Comida para perros                  | pag 16 | +50 -> total: 800
+    Comida para perros                  | pag 17 | +50 -> total: 850
+    Comida para perros                  | pag 18 | +50 -> total: 900
+    Comida para perros                  | pag 19 | +50 -> total: 950
+    Comida para perros                  | pag 20 | +50 -> total: 1000
+    Comida para perros                  | pag 21 | +50 -> total: 1050
+    Comida para perros                  | pag 22 | +50 -> total: 1100
+    Comida para perros                  | pag 23 | +50 -> total: 1150
+    Comida para perros                  | pag 24 | +50 -> total: 1200
+    Comida para perros                  | pag 25 | +50 -> total: 1250
+    Comida para perros                  | pag 26 | +50 -> total: 1300
+    Comida para perros                  | pag 27 | +50 -> total: 1350
+    Comida para perros                  | pag 28 | +50 -> total: 1400
+    Comida para perros                  | pag 29 | +50 -> total: 1450
+    Comida para perros                  | pag 30 | +50 -> total: 1500
+    Comida para perros                  | pag 31 | +50 -> total: 1550
+    Comida para perros                  | pag 32 | +50 -> total: 1600
+    Comida para perros                  | pag 33 | +50 -> total: 1650
+    Comida para perros                  | pag 34 | +50 -> total: 1700
+    Comida para perros                  | pag 35 | +50 -> total: 1750
+    Comida para perros                  | pag 36 | +50 -> total: 1800
+    Comida para perros                  | pag 37 | +50 -> total: 1850
+    Comida para perros                  | pag 38 | +50 -> total: 1900
+    Comida para perros                  | pag 39 | +50 -> total: 1950
+    Comida para perros                  | pag 40 | +47 -> total: 1997
+
+  [25/96] Mascotas > Salud e higiene para perros  (C:/620/4119/)
+    Salud e higiene para perros         | pag 1 | +50 -> total: 50
+    Salud e higiene para perros         | pag 2 | +50 -> total: 100
+    Salud e higiene para perros         | pag 3 | +50 -> total: 150
+    Salud e higiene para perros         | pag 4 | +50 -> total: 200
+    Salud e higiene para perros         | pag 5 | +50 -> total: 250
+    Salud e higiene para perros         | pag 6 | +50 -> total: 300
+    Salud e higiene para perros         | pag 7 | +50 -> total: 350
+    Salud e higiene para perros         | pag 8 | +50 -> total: 400
+    Salud e higiene para perros         | pag 9 | +50 -> total: 450
+    Salud e higiene para perros         | pag 10 | +50 -> total: 500
+    Salud e higiene para perros         | pag 11 | +50 -> total: 550
+    Salud e higiene para perros         | pag 12 | +50 -> total: 600
+    Salud e higiene para perros         | pag 13 | +50 -> total: 650
+    Salud e higiene para perros         | pag 14 | +50 -> total: 700
+    Salud e higiene para perros         | pag 15 | +50 -> total: 750
+    Salud e higiene para perros         | pag 16 | +50 -> total: 800
+    Salud e higiene para perros         | pag 17 | +50 -> total: 850
+    Salud e higiene para perros         | pag 18 | +50 -> total: 900
+    Salud e higiene para perros         | pag 19 | +50 -> total: 950
+    Salud e higiene para perros         | pag 20 | +50 -> total: 1000
+    Salud e higiene para perros         | pag 21 | +50 -> total: 1050
+    Salud e higiene para perros         | pag 22 | +50 -> total: 1100
+    Salud e higiene para perros         | pag 23 | +50 -> total: 1150
+    Salud e higiene para perros         | pag 24 | +50 -> total: 1200
+    Salud e higiene para perros         | pag 25 | +50 -> total: 1250
+    Salud e higiene para perros         | pag 26 | +50 -> total: 1300
+    Salud e higiene para perros         | pag 27 | +50 -> total: 1350
+    Salud e higiene para perros         | pag 28 | +50 -> total: 1400
+    Salud e higiene para perros         | pag 29 | +50 -> total: 1450
+    Salud e higiene para perros         | pag 30 | +50 -> total: 1500
+    Salud e higiene para perros         | pag 31 | +50 -> total: 1550
+    Salud e higiene para perros         | pag 32 | +50 -> total: 1600
+    Salud e higiene para perros         | pag 33 | +50 -> total: 1650
+    Salud e higiene para perros         | pag 34 | +50 -> total: 1700
+    Salud e higiene para perros         | pag 35 | +50 -> total: 1750
+    Salud e higiene para perros         | pag 36 | +50 -> total: 1800
+    Salud e higiene para perros         | pag 37 | +50 -> total: 1850
+    Salud e higiene para perros         | pag 38 | +50 -> total: 1900
+    Salud e higiene para perros         | pag 39 | +50 -> total: 1950
+    Salud e higiene para perros         | pag 40 | +50 -> total: 2000
+    Salud e higiene para perros         | pag 41 | +50 -> total: 2050
+    Salud e higiene para perros         | pag 42 | +50 -> total: 2100
+    Salud e higiene para perros         | pag 43 | +50 -> total: 2150
+    Salud e higiene para perros         | pag 44 | +50 -> total: 2200
+    Salud e higiene para perros         | pag 45 | +50 -> total: 2250
+    Salud e higiene para perros         | pag 46 | +50 -> total: 2300
+    Salud e higiene para perros         | pag 47 | +50 -> total: 2350
+    Salud e higiene para perros         | pag 48 | +50 -> total: 2400
+    Salud e higiene para perros         | pag 49 | +50 -> total: 2450
+    Salud e higiene para perros         | pag 50 | +50 -> total: 2500
+    Salud e higiene para perros         | pag 51 | +50 -> total: 2550
+  fetch error: {'__status': 400, '__error': ''} -> https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4119/&_from=2
+
+  [26/96] Mascotas > Accesorios para perros  (C:/620/4120/)
+    Accesorios para perros              | pag 1 | +50 -> total: 50
+    Accesorios para perros              | pag 2 | +50 -> total: 100
+    Accesorios para perros              | pag 3 | +50 -> total: 150
+    Accesorios para perros              | pag 4 | +50 -> total: 200
+    Accesorios para perros              | pag 5 | +50 -> total: 250
+    Accesorios para perros              | pag 6 | +50 -> total: 300
+    Accesorios para perros              | pag 7 | +50 -> total: 350
+    Accesorios para perros              | pag 8 | +50 -> total: 400
+    Accesorios para perros              | pag 9 | +50 -> total: 450
+    Accesorios para perros              | pag 10 | +50 -> total: 500
+    Accesorios para perros              | pag 11 | +50 -> total: 550
+    Accesorios para perros              | pag 12 | +50 -> total: 600
+    Accesorios para perros              | pag 13 | +50 -> total: 650
+    Accesorios para perros              | pag 14 | +50 -> total: 700
+    Accesorios para perros              | pag 15 | +50 -> total: 750
+    Accesorios para perros              | pag 16 | +50 -> total: 800
+    Accesorios para perros              | pag 17 | +50 -> total: 850
+    Accesorios para perros              | pag 18 | +50 -> total: 900
+    Accesorios para perros              | pag 19 | +50 -> total: 950
+    Accesorios para perros              | pag 20 | +50 -> total: 1000
+    Accesorios para perros              | pag 21 | +50 -> total: 1050
+    Accesorios para perros              | pag 22 | +50 -> total: 1100
+    Accesorios para perros              | pag 23 | +50 -> total: 1150
+    Accesorios para perros              | pag 24 | +50 -> total: 1200
+    Accesorios para perros              | pag 25 | +50 -> total: 1250
+    Accesorios para perros              | pag 26 | +50 -> total: 1300
+    Accesorios para perros              | pag 27 | +50 -> total: 1350
+    Accesorios para perros              | pag 28 | +50 -> total: 1400
+    Accesorios para perros              | pag 29 | +50 -> total: 1450
+    Accesorios para perros              | pag 30 | +50 -> total: 1500
+    Accesorios para perros              | pag 31 | +50 -> total: 1550
+    Accesorios para perros              | pag 32 | +50 -> total: 1600
+    Accesorios para perros              | pag 33 | +50 -> total: 1650
+    Accesorios para perros              | pag 34 | +50 -> total: 1700
+    Accesorios para perros              | pag 35 | +50 -> total: 1750
+    Accesorios para perros              | pag 36 | +50 -> total: 1800
+    Accesorios para perros              | pag 37 | +50 -> total: 1850
+    Accesorios para perros              | pag 38 | +50 -> total: 1900
+    Accesorios para perros              | pag 39 | +50 -> total: 1950
+    Accesorios para perros              | pag 40 | +50 -> total: 2000
+    Accesorios para perros              | pag 41 | +50 -> total: 2050
+    Accesorios para perros              | pag 42 | +50 -> total: 2100
+    Accesorios para perros              | pag 43 | +50 -> total: 2150
+    Accesorios para perros              | pag 44 | +50 -> total: 2200
+    Accesorios para perros              | pag 45 | +50 -> total: 2250
+    Accesorios para perros              | pag 46 | +50 -> total: 2300
+    Accesorios para perros              | pag 47 | +50 -> total: 2350
+    Accesorios para perros              | pag 48 | +50 -> total: 2400
+    Accesorios para perros              | pag 49 | +50 -> total: 2450
+    Accesorios para perros              | pag 50 | +50 -> total: 2500
+    Accesorios para perros              | pag 51 | +50 -> total: 2550
+  fetch error: {'__status': 400, '__error': ''} -> https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4120/&_from=2
+
+  [27/96] Mascotas > Comida para gatos  (C:/620/4121/)
+    Comida para gatos                   | pag 1 | +50 -> total: 50
+    Comida para gatos                   | pag 2 | +50 -> total: 100
+    Comida para gatos                   | pag 3 | +50 -> total: 150
+    Comida para gatos                   | pag 4 | +50 -> total: 200
+    Comida para gatos                   | pag 5 | +50 -> total: 250
+    Comida para gatos                   | pag 6 | +50 -> total: 300
+    Comida para gatos                   | pag 7 | +50 -> total: 350
+    Comida para gatos                   | pag 8 | +50 -> total: 400
+    Comida para gatos                   | pag 9 | +50 -> total: 450
+    Comida para gatos                   | pag 10 | +50 -> total: 500
+    Comida para gatos                   | pag 11 | +50 -> total: 550
+    Comida para gatos                   | pag 12 | +50 -> total: 600
+    Comida para gatos                   | pag 13 | +50 -> total: 650
+    Comida para gatos                   | pag 14 | +50 -> total: 700
+    Comida para gatos                   | pag 15 | +50 -> total: 750
+    Comida para gatos                   | pag 16 | +50 -> total: 800
+    Comida para gatos                   | pag 17 | +50 -> total: 850
+    Comida para gatos                   | pag 18 | +50 -> total: 900
+    Comida para gatos                   | pag 19 | +50 -> total: 950
+    Comida para gatos                   | pag 20 | +50 -> total: 1000
+    Comida para gatos                   | pag 21 | +50 -> total: 1050
+    Comida para gatos                   | pag 22 | +50 -> total: 1100
+    Comida para gatos                   | pag 23 | +50 -> total: 1150
+    Comida para gatos                   | pag 24 | +50 -> total: 1200
+    Comida para gatos                   | pag 25 | +16 -> total: 1216
+
+  [28/96] Mascotas > Salud e higiene para gatos  (C:/620/4122/)
+    Salud e higiene para gatos          | pag 1 | +50 -> total: 50
+    Salud e higiene para gatos          | pag 2 | +50 -> total: 100
+    Salud e higiene para gatos          | pag 3 | +50 -> total: 150
+    Salud e higiene para gatos          | pag 4 | +50 -> total: 200
+    Salud e higiene para gatos          | pag 5 | +50 -> total: 250
+    Salud e higiene para gatos          | pag 6 | +50 -> total: 300
+    Salud e higiene para gatos          | pag 7 | +50 -> total: 350
+    Salud e higiene para gatos          | pag 8 | +50 -> total: 400
+    Salud e higiene para gatos          | pag 9 | +50 -> total: 450
+    Salud e higiene para gatos          | pag 10 | +50 -> total: 500
+    Salud e higiene para gatos          | pag 11 | +50 -> total: 550
+    Salud e higiene para gatos          | pag 12 | +50 -> total: 600
+    Salud e higiene para gatos          | pag 13 | +50 -> total: 650
+    Salud e higiene para gatos          | pag 14 | +50 -> total: 700
+    Salud e higiene para gatos          | pag 15 | +50 -> total: 750
+    Salud e higiene para gatos          | pag 16 | +50 -> total: 800
+    Salud e higiene para gatos          | pag 17 | +50 -> total: 850
+    Salud e higiene para gatos          | pag 18 | +50 -> total: 900
+    Salud e higiene para gatos          | pag 19 | +50 -> total: 950
+    Salud e higiene para gatos          | pag 20 | +50 -> total: 1000
+    Salud e higiene para gatos          | pag 21 | +50 -> total: 1050
+    Salud e higiene para gatos          | pag 22 | +50 -> total: 1100
+    Salud e higiene para gatos          | pag 23 | +50 -> total: 1150
+    Salud e higiene para gatos          | pag 24 | +50 -> total: 1200
+    Salud e higiene para gatos          | pag 25 | +50 -> total: 1250
+    Salud e higiene para gatos          | pag 26 | +50 -> total: 1300
+    Salud e higiene para gatos          | pag 27 | +50 -> total: 1350
+    Salud e higiene para gatos          | pag 28 | +50 -> total: 1400
+    Salud e higiene para gatos          | pag 29 | +50 -> total: 1450
+    Salud e higiene para gatos          | pag 30 | +50 -> total: 1500
+    Salud e higiene para gatos          | pag 31 | +50 -> total: 1550
+    Salud e higiene para gatos          | pag 32 | +50 -> total: 1600
+    Salud e higiene para gatos          | pag 33 | +50 -> total: 1650
+    Salud e higiene para gatos          | pag 34 | +50 -> total: 1700
+    Salud e higiene para gatos          | pag 35 | +50 -> total: 1750
+    Salud e higiene para gatos          | pag 36 | +50 -> total: 1800
+    Salud e higiene para gatos          | pag 37 | +50 -> total: 1850
+    Salud e higiene para gatos          | pag 38 | +50 -> total: 1900
+    Salud e higiene para gatos          | pag 39 | +50 -> total: 1950
+    Salud e higiene para gatos          | pag 40 | +50 -> total: 2000
+    Salud e higiene para gatos          | pag 41 | +50 -> total: 2050
+    Salud e higiene para gatos          | pag 42 | +50 -> total: 2100
+    Salud e higiene para gatos          | pag 43 | +50 -> total: 2150
+    Salud e higiene para gatos          | pag 44 | +50 -> total: 2200
+    Salud e higiene para gatos          | pag 45 | +50 -> total: 2250
+    Salud e higiene para gatos          | pag 46 | +50 -> total: 2300
+    Salud e higiene para gatos          | pag 47 | +50 -> total: 2350
+    Salud e higiene para gatos          | pag 48 | +50 -> total: 2400
+    Salud e higiene para gatos          | pag 49 | +50 -> total: 2450
+    Salud e higiene para gatos          | pag 50 | +50 -> total: 2500
+    Salud e higiene para gatos          | pag 51 | +50 -> total: 2550
+  fetch error: {'__status': 400, '__error': ''} -> https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/620/4122/&_from=2
+
+  [29/96] Mascotas > Accesorios para gatos  (C:/620/4123/)
+    Accesorios para gatos               | pag 1 | +50 -> total: 50
+    Accesorios para gatos               | pag 2 | +50 -> total: 100
+    Accesorios para gatos               | pag 3 | +50 -> total: 150
+    Accesorios para gatos               | pag 4 | +50 -> total: 200
+    Accesorios para gatos               | pag 5 | +50 -> total: 250
+    Accesorios para gatos               | pag 6 | +50 -> total: 300
+    Accesorios para gatos               | pag 7 | +50 -> total: 350
+    Accesorios para gatos               | pag 8 | +50 -> total: 400
+    Accesorios para gatos               | pag 9 | +50 -> total: 450
+    Accesorios para gatos               | pag 10 | +50 -> total: 500
+    Accesorios para gatos               | pag 11 | +50 -> total: 550
+    Accesorios para gatos               | pag 12 | +50 -> total: 600
+    Accesorios para gatos               | pag 13 | +50 -> total: 650
+    Accesorios para gatos               | pag 14 | +50 -> total: 700
+    Accesorios para gatos               | pag 15 | +50 -> total: 750
+    Accesorios para gatos               | pag 16 | +50 -> total: 800
+    Accesorios para gatos               | pag 17 | +50 -> total: 850
+    Accesorios para gatos               | pag 18 | +50 -> total: 900
+    Accesorios para gatos               | pag 19 | +50 -> total: 950
+    Accesorios para gatos               | pag 20 | +50 -> total: 1000
+    Accesorios para gatos               | pag 21 | +50 -> total: 1050
+    Accesorios para gatos               | pag 22 | +50 -> total: 1100
+    Accesorios para gatos               | pag 23 | +50 -> total: 1150
+    Accesorios para gatos               | pag 24 | +50 -> total: 1200
+    Accesorios para gatos               | pag 25 | +50 -> total: 1250
+    Accesorios para gatos               | pag 26 | +50 -> total: 1300
+    Accesorios para gatos               | pag 27 | +50 -> total: 1350
+    Accesorios para gatos               | pag 28 | +50 -> total: 1400
+    Accesorios para gatos               | pag 29 | +50 -> total: 1450
+    Accesorios para gatos               | pag 30 | +50 -> total: 1500
+    Accesorios para gatos               | pag 31 | +50 -> total: 1550
+    Accesorios para gatos               | pag 32 | +50 -> total: 1600
+    Accesorios para gatos               | pag 33 | +50 -> total: 1650
+    Accesorios para gatos               | pag 34 | +50 -> total: 1700
+    Accesorios para gatos               | pag 35 | +50 -> total: 1750
+    Accesorios para gatos               | pag 36 | +50 -> total: 1800
+    Accesorios para gatos               | pag 37 | +50 -> total: 1850
+    Accesorios para gatos               | pag 38 | +50 -> total: 1900
+    Accesorios para gatos               | pag 39 | +50 -> total: 1950
+    Accesorios para gatos               | pag 40 | +50 -> total: 2000
+    Accesorios para gatos               | pag 41 | +50 -> total: 2050
+    Accesorios para gatos               | pag 42 | +50 -> total: 2100
+    Accesorios para gatos               | pag 43 | +50 -> total: 2150
+    Accesorios para gatos               | pag 44 | +50 -> total: 2200
+    Accesorios para gatos               | pag 45 | +50 -> total: 2250
+    Accesorios para gatos               | pag 46 | +50 -> total: 2300
+    Accesorios para gatos               | pag 47 | +50 -> total: 2350
+    Accesorios para gatos               | pag 48 | +50 -> total: 2400
+    Accesorios para gatos               | pag 49 | +50 -> total: 2450
+    Accesorios para gatos               | pag 50 | +16 -> total: 2466
+
+  [30/96] Abarrotes > Snacks y Piqueos  (C:/431/92/)
+    Snacks y Piqueos                    | pag 1 | +50 -> total: 50
+    Snacks y Piqueos                    | pag 2 | +50 -> total: 100
+    Snacks y Piqueos                    | pag 3 | +50 -> total: 150
+    Snacks y Piqueos                    | pag 4 | +50 -> total: 200
+    Snacks y Piqueos                    | pag 5 | +50 -> total: 250
+    Snacks y Piqueos                    | pag 6 | +50 -> total: 300
+    Snacks y Piqueos                    | pag 7 | +50 -> total: 350
+    Snacks y Piqueos                    | pag 8 | +50 -> total: 400
+    Snacks y Piqueos                    | pag 9 | +35 -> total: 435
+
+  [31/96] Abarrotes > Arroz  (C:/431/432/)
+    Arroz                               | pag 1 | +50 -> total: 50
+    Arroz                               | pag 2 | +21 -> total: 71
+
+  [32/96] Abarrotes > Aceite  (C:/431/433/)
+    Aceite                              | pag 1 | +50 -> total: 50
+    Aceite                              | pag 2 | +50 -> total: 100
+    Aceite                              | pag 3 | +50 -> total: 150
+    Aceite                              | pag 4 | +32 -> total: 182
+
+  [33/96] Abarrotes > Azúcar y Endulzantes  (C:/431/434/)
+    Azúcar y Endulzantes                | pag 1 | +50 -> total: 50
+    Azúcar y Endulzantes                | pag 2 | +22 -> total: 72
+
+  [34/96] Abarrotes > Menestras  (C:/431/435/)
+    Menestras                           | pag 1 | +50 -> total: 50
+    Menestras                           | pag 2 | +28 -> total: 78
+
+  [35/96] Abarrotes > Fideos, Pastas y Salsas  (C:/431/436/)
+    Fideos, Pastas y Salsas             | pag 1 | +50 -> total: 50
+    Fideos, Pastas y Salsas             | pag 2 | +50 -> total: 100
+    Fideos, Pastas y Salsas             | pag 3 | +50 -> total: 150
+    Fideos, Pastas y Salsas             | pag 4 | +50 -> total: 200
+    Fideos, Pastas y Salsas             | pag 5 | +50 -> total: 250
+    Fideos, Pastas y Salsas             | pag 6 | +50 -> total: 300
+    Fideos, Pastas y Salsas             | pag 7 | +10 -> total: 310
+
+  [36/96] Abarrotes > Conservas  (C:/431/459/)
+    Conservas                           | pag 1 | +50 -> total: 50
+    Conservas                           | pag 2 | +50 -> total: 100
+    Conservas                           | pag 3 | +50 -> total: 150
+    Conservas                           | pag 4 | +50 -> total: 200
+    Conservas                           | pag 5 | +46 -> total: 246
+
+  [37/96] Abarrotes > Salsas, Cremas y Condimentos  (C:/431/524/)
+    Salsas, Cremas y Condimentos        | pag 1 | +50 -> total: 50
+    Salsas, Cremas y Condimentos        | pag 2 | +50 -> total: 100
+    Salsas, Cremas y Condimentos        | pag 3 | +50 -> total: 150
+    Salsas, Cremas y Condimentos        | pag 4 | +50 -> total: 200
+    Salsas, Cremas y Condimentos        | pag 5 | +50 -> total: 250
+    Salsas, Cremas y Condimentos        | pag 6 | +50 -> total: 300
+    Salsas, Cremas y Condimentos        | pag 7 | +50 -> total: 350
+    Salsas, Cremas y Condimentos        | pag 8 | +50 -> total: 400
+    Salsas, Cremas y Condimentos        | pag 9 | +50 -> total: 450
+    Salsas, Cremas y Condimentos        | pag 10 | +50 -> total: 500
+    Salsas, Cremas y Condimentos        | pag 11 | +50 -> total: 550
+    Salsas, Cremas y Condimentos        | pag 12 | +50 -> total: 600
+    Salsas, Cremas y Condimentos        | pag 13 | +50 -> total: 650
+    Salsas, Cremas y Condimentos        | pag 14 | +24 -> total: 674
+
+  [38/96] Abarrotes > Comidas Instantáneas  (C:/431/630/)
+    Comidas Instantáneas                | pag 1 | +50 -> total: 50
+    Comidas Instantáneas                | pag 2 | +50 -> total: 100
+    Comidas Instantáneas                | pag 3 | +14 -> total: 114
+
+  [39/96] Abarrotes > Galletas y Golosinas  (C:/431/1037/)
+    Galletas y Golosinas                | pag 1 | +50 -> total: 50
+    Galletas y Golosinas                | pag 2 | +50 -> total: 100
+    Galletas y Golosinas                | pag 3 | +50 -> total: 150
+    Galletas y Golosinas                | pag 4 | +50 -> total: 200
+    Galletas y Golosinas                | pag 5 | +50 -> total: 250
+    Galletas y Golosinas                | pag 6 | +50 -> total: 300
+    Galletas y Golosinas                | pag 7 | +50 -> total: 350
+    Galletas y Golosinas                | pag 8 | +50 -> total: 400
+    Galletas y Golosinas                | pag 9 | +50 -> total: 450
+    Galletas y Golosinas                | pag 10 | +50 -> total: 500
+    Galletas y Golosinas                | pag 11 | +32 -> total: 532
+
+  [40/96] Abarrotes > Canastas Navideñas  (C:/431/1080/)
+    Canastas Navideñas                  | pag 1 | +1 -> total: 1
+
+  [41/96] Abarrotes > Chocolatería  (C:/431/1439/)
+    Chocolatería                        | pag 1 | +50 -> total: 50
+    Chocolatería                        | pag 2 | +50 -> total: 100
+    Chocolatería                        | pag 3 | +50 -> total: 150
+    Chocolatería                        | pag 4 | +50 -> total: 200
+    Chocolatería                        | pag 5 | +50 -> total: 250
+    Chocolatería                        | pag 6 | +50 -> total: 300
+    Chocolatería                        | pag 7 | +50 -> total: 350
+    Chocolatería                        | pag 8 | +50 -> total: 400
+    Chocolatería                        | pag 9 | +50 -> total: 450
+    Chocolatería                        | pag 10 | +50 -> total: 500
+    Chocolatería                        | pag 11 | +2 -> total: 502
+
+  [42/96] Frutas y Verduras > Frutas  (C:/77/817/)
+    Frutas                              | pag 1 | +50 -> total: 50
+    Frutas                              | pag 2 | +50 -> total: 100
+    Frutas                              | pag 3 | +50 -> total: 150
+    Frutas                              | pag 4 | +50 -> total: 200
+    Frutas                              | pag 5 | +31 -> total: 231
+
+  [43/96] Frutas y Verduras > Verduras  (C:/77/818/)
+    Verduras                            | pag 1 | +50 -> total: 50
+    Verduras                            | pag 2 | +50 -> total: 100
+    Verduras                            | pag 3 | +50 -> total: 150
+    Verduras                            | pag 4 | +50 -> total: 200
+    Verduras                            | pag 5 | +50 -> total: 250
+    Verduras                            | pag 6 | +50 -> total: 300
+    Verduras                            | pag 7 | +18 -> total: 318
+
+  [44/96] Congelados > Helados y Postres  (C:/210/856/)
+    Helados y Postres                   | pag 1 | +50 -> total: 50
+    Helados y Postres                   | pag 2 | +50 -> total: 100
+    Helados y Postres                   | pag 3 | +9 -> total: 109
+
+  [45/96] Congelados > Panes, Pastas, Bocaditos y Salsas  (C:/210/994/)
+    Panes, Pastas, Bocaditos y Salsas   | pag 1 | +50 -> total: 50
+    Panes, Pastas, Bocaditos y Salsas   | pag 2 | +17 -> total: 67
+
+  [46/96] Congelados > Hamburguesas, Nuggets y Apanados  (C:/210/996/)
+    Hamburguesas, Nuggets y Apanados    | pag 1 | +50 -> total: 50
+    Hamburguesas, Nuggets y Apanados    | pag 2 | +50 -> total: 100
+
+  [47/96] Congelados > Enrollados  (C:/210/997/)
+    Enrollados                          | pag 1 | +9 -> total: 9
+
+  [48/96] Quesos y Fiambres > Quesos Blandos  (C:/621/847/)
+    Quesos Blandos                      | pag 1 | +50 -> total: 50
+    Quesos Blandos                      | pag 2 | +13 -> total: 63
+
+  [49/96] Quesos y Fiambres > Quesos Duros  (C:/621/848/)
+    Quesos Duros                        | pag 1 | +42 -> total: 42
+
+  [50/96] Quesos y Fiambres > Quesos Procesados  (C:/621/850/)
+    Quesos Procesados                   | pag 1 | +50 -> total: 50
+    Quesos Procesados                   | pag 2 | +22 -> total: 72
+
+  [51/96] Quesos y Fiambres > Otros Fiambres  (C:/621/851/)
+    Otros Fiambres                      | pag 1 | +25 -> total: 25
+
+  [52/96] Quesos y Fiambres > Jamones Madurados  (C:/621/880/)
+    Jamones Madurados                   | pag 1 | +29 -> total: 29
+
+  [53/96] Quesos y Fiambres > Salames y Salchichones  (C:/621/882/)
+    Salames y Salchichones              | pag 1 | +44 -> total: 44
+
+  [54/96] Quesos y Fiambres > Quesos Semiduros  (C:/621/1014/)
+    Quesos Semiduros                    | pag 1 | +50 -> total: 50
+    Quesos Semiduros                    | pag 2 | +50 -> total: 100
+    Quesos Semiduros                    | pag 3 | +50 -> total: 150
+    Quesos Semiduros                    | pag 4 | +41 -> total: 191
+
+  [55/96] Quesos y Fiambres > Embutidos  (C:/621/1015/)
+    Embutidos                           | pag 1 | +50 -> total: 50
+    Embutidos                           | pag 2 | +50 -> total: 100
+    Embutidos                           | pag 3 | +50 -> total: 150
+    Embutidos                           | pag 4 | +26 -> total: 176
+
+  [56/96] Quesos y Fiambres > Jamonadas y Jamones Cocidos  (C:/621/1017/)
+    Jamonadas y Jamones Cocidos         | pag 1 | +50 -> total: 50
+    Jamonadas y Jamones Cocidos         | pag 2 | +50 -> total: 100
+    Jamonadas y Jamones Cocidos         | pag 3 | +50 -> total: 150
+    Jamonadas y Jamones Cocidos         | pag 4 | +5 -> total: 155
+
+  [57/96] Quesos y Fiambres > Tablas y Piqueos  (C:/621/1122/)
+    Tablas y Piqueos                    | pag 1 | +40 -> total: 40
+
+  [58/96] Belleza > Maquillaje y Cosméticos  (C:/1138/1142/)
+    Maquillaje y Cosméticos             | pag 1 | +50 -> total: 50
+    Maquillaje y Cosméticos             | pag 2 | +50 -> total: 100
+    Maquillaje y Cosméticos             | pag 3 | +50 -> total: 150
+    Maquillaje y Cosméticos             | pag 4 | +50 -> total: 200
+    Maquillaje y Cosméticos             | pag 5 | +50 -> total: 250
+    Maquillaje y Cosméticos             | pag 6 | +50 -> total: 300
+    Maquillaje y Cosméticos             | pag 7 | +50 -> total: 350
+    Maquillaje y Cosméticos             | pag 8 | +50 -> total: 400
+    Maquillaje y Cosméticos             | pag 9 | +50 -> total: 450
+    Maquillaje y Cosméticos             | pag 10 | +50 -> total: 500
+    Maquillaje y Cosméticos             | pag 11 | +50 -> total: 550
+    Maquillaje y Cosméticos             | pag 12 | +50 -> total: 600
+    Maquillaje y Cosméticos             | pag 13 | +50 -> total: 650
+    Maquillaje y Cosméticos             | pag 14 | +50 -> total: 700
+    Maquillaje y Cosméticos             | pag 15 | +50 -> total: 750
+    Maquillaje y Cosméticos             | pag 16 | +50 -> total: 800
+    Maquillaje y Cosméticos             | pag 17 | +50 -> total: 850
+    Maquillaje y Cosméticos             | pag 18 | +50 -> total: 900
+    Maquillaje y Cosméticos             | pag 19 | +50 -> total: 950
+    Maquillaje y Cosméticos             | pag 20 | +50 -> total: 1000
+    Maquillaje y Cosméticos             | pag 21 | +50 -> total: 1050
+    Maquillaje y Cosméticos             | pag 22 | +50 -> total: 1100
+    Maquillaje y Cosméticos             | pag 23 | +50 -> total: 1150
+    Maquillaje y Cosméticos             | pag 24 | +50 -> total: 1200
+    Maquillaje y Cosméticos             | pag 25 | +50 -> total: 1250
+    Maquillaje y Cosméticos             | pag 26 | +50 -> total: 1300
+    Maquillaje y Cosméticos             | pag 27 | +50 -> total: 1350
+    Maquillaje y Cosméticos             | pag 28 | +50 -> total: 1400
+    Maquillaje y Cosméticos             | pag 29 | +50 -> total: 1450
+    Maquillaje y Cosméticos             | pag 30 | +50 -> total: 1500
+    Maquillaje y Cosméticos             | pag 31 | +50 -> total: 1550
+    Maquillaje y Cosméticos             | pag 32 | +50 -> total: 1600
+    Maquillaje y Cosméticos             | pag 33 | +50 -> total: 1650
+    Maquillaje y Cosméticos             | pag 34 | +50 -> total: 1700
+    Maquillaje y Cosméticos             | pag 35 | +50 -> total: 1750
+    Maquillaje y Cosméticos             | pag 36 | +50 -> total: 1800
+    Maquillaje y Cosméticos             | pag 37 | +50 -> total: 1850
+    Maquillaje y Cosméticos             | pag 38 | +50 -> total: 1900
+    Maquillaje y Cosméticos             | pag 39 | +50 -> total: 1950
+    Maquillaje y Cosméticos             | pag 40 | +50 -> total: 2000
+    Maquillaje y Cosméticos             | pag 41 | +50 -> total: 2050
+    Maquillaje y Cosméticos             | pag 42 | +50 -> total: 2100
+    Maquillaje y Cosméticos             | pag 43 | +50 -> total: 2150
+    Maquillaje y Cosméticos             | pag 44 | +50 -> total: 2200
+    Maquillaje y Cosméticos             | pag 45 | +50 -> total: 2250
+    Maquillaje y Cosméticos             | pag 46 | +50 -> total: 2300
+    Maquillaje y Cosméticos             | pag 47 | +50 -> total: 2350
+    Maquillaje y Cosméticos             | pag 48 | +50 -> total: 2400
+    Maquillaje y Cosméticos             | pag 49 | +50 -> total: 2450
+    Maquillaje y Cosméticos             | pag 50 | +50 -> total: 2500
+    Maquillaje y Cosméticos             | pag 51 | +50 -> total: 2550
+  fetch error: {'__status': 400, '__error': ''} -> https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/1142/&_from=
+
+  [59/96] Belleza > Perfumes y Fragancias  (C:/1138/1144/)
+    Perfumes y Fragancias               | pag 1 | +50 -> total: 50
+    Perfumes y Fragancias               | pag 2 | +50 -> total: 100
+    Perfumes y Fragancias               | pag 3 | +50 -> total: 150
+    Perfumes y Fragancias               | pag 4 | +50 -> total: 200
+    Perfumes y Fragancias               | pag 5 | +50 -> total: 250
+    Perfumes y Fragancias               | pag 6 | +50 -> total: 300
+    Perfumes y Fragancias               | pag 7 | +50 -> total: 350
+    Perfumes y Fragancias               | pag 8 | +50 -> total: 400
+    Perfumes y Fragancias               | pag 9 | +50 -> total: 450
+    Perfumes y Fragancias               | pag 10 | +50 -> total: 500
+    Perfumes y Fragancias               | pag 11 | +50 -> total: 550
+    Perfumes y Fragancias               | pag 12 | +50 -> total: 600
+    Perfumes y Fragancias               | pag 13 | +50 -> total: 650
+    Perfumes y Fragancias               | pag 14 | +50 -> total: 700
+    Perfumes y Fragancias               | pag 15 | +50 -> total: 750
+    Perfumes y Fragancias               | pag 16 | +50 -> total: 800
+    Perfumes y Fragancias               | pag 17 | +50 -> total: 850
+    Perfumes y Fragancias               | pag 18 | +50 -> total: 900
+    Perfumes y Fragancias               | pag 19 | +50 -> total: 950
+    Perfumes y Fragancias               | pag 20 | +50 -> total: 1000
+    Perfumes y Fragancias               | pag 21 | +50 -> total: 1050
+    Perfumes y Fragancias               | pag 22 | +50 -> total: 1100
+    Perfumes y Fragancias               | pag 23 | +50 -> total: 1150
+    Perfumes y Fragancias               | pag 24 | +50 -> total: 1200
+    Perfumes y Fragancias               | pag 25 | +50 -> total: 1250
+    Perfumes y Fragancias               | pag 26 | +50 -> total: 1300
+    Perfumes y Fragancias               | pag 27 | +50 -> total: 1350
+    Perfumes y Fragancias               | pag 28 | +50 -> total: 1400
+    Perfumes y Fragancias               | pag 29 | +50 -> total: 1450
+    Perfumes y Fragancias               | pag 30 | +50 -> total: 1500
+    Perfumes y Fragancias               | pag 31 | +50 -> total: 1550
+    Perfumes y Fragancias               | pag 32 | +50 -> total: 1600
+    Perfumes y Fragancias               | pag 33 | +50 -> total: 1650
+    Perfumes y Fragancias               | pag 34 | +50 -> total: 1700
+    Perfumes y Fragancias               | pag 35 | +50 -> total: 1750
+    Perfumes y Fragancias               | pag 36 | +50 -> total: 1800
+    Perfumes y Fragancias               | pag 37 | +50 -> total: 1850
+    Perfumes y Fragancias               | pag 38 | +50 -> total: 1900
+    Perfumes y Fragancias               | pag 39 | +50 -> total: 1950
+    Perfumes y Fragancias               | pag 40 | +50 -> total: 2000
+    Perfumes y Fragancias               | pag 41 | +50 -> total: 2050
+    Perfumes y Fragancias               | pag 42 | +50 -> total: 2100
+    Perfumes y Fragancias               | pag 43 | +50 -> total: 2150
+    Perfumes y Fragancias               | pag 44 | +50 -> total: 2200
+    Perfumes y Fragancias               | pag 45 | +50 -> total: 2250
+    Perfumes y Fragancias               | pag 46 | +50 -> total: 2300
+    Perfumes y Fragancias               | pag 47 | +50 -> total: 2350
+    Perfumes y Fragancias               | pag 48 | +50 -> total: 2400
+    Perfumes y Fragancias               | pag 49 | +50 -> total: 2450
+    Perfumes y Fragancias               | pag 50 | +50 -> total: 2500
+    Perfumes y Fragancias               | pag 51 | +50 -> total: 2550
+  fetch error: {'__status': 400, '__error': ''} -> https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/1144/&_from=
+
+  [60/96] Belleza > Cuidado de la Piel Corporal  (C:/1138/2854/)
+    Cuidado de la Piel Corporal         | pag 1 | +50 -> total: 50
+    Cuidado de la Piel Corporal         | pag 2 | +50 -> total: 100
+    Cuidado de la Piel Corporal         | pag 3 | +50 -> total: 150
+    Cuidado de la Piel Corporal         | pag 4 | +50 -> total: 200
+    Cuidado de la Piel Corporal         | pag 5 | +50 -> total: 250
+    Cuidado de la Piel Corporal         | pag 6 | +50 -> total: 300
+    Cuidado de la Piel Corporal         | pag 7 | +50 -> total: 350
+    Cuidado de la Piel Corporal         | pag 8 | +50 -> total: 400
+    Cuidado de la Piel Corporal         | pag 9 | +50 -> total: 450
+    Cuidado de la Piel Corporal         | pag 10 | +50 -> total: 500
+    Cuidado de la Piel Corporal         | pag 11 | +50 -> total: 550
+    Cuidado de la Piel Corporal         | pag 12 | +50 -> total: 600
+    Cuidado de la Piel Corporal         | pag 13 | +50 -> total: 650
+    Cuidado de la Piel Corporal         | pag 14 | +50 -> total: 700
+    Cuidado de la Piel Corporal         | pag 15 | +50 -> total: 750
+    Cuidado de la Piel Corporal         | pag 16 | +50 -> total: 800
+    Cuidado de la Piel Corporal         | pag 17 | +50 -> total: 850
+    Cuidado de la Piel Corporal         | pag 18 | +50 -> total: 900
+    Cuidado de la Piel Corporal         | pag 19 | +50 -> total: 950
+    Cuidado de la Piel Corporal         | pag 20 | +50 -> total: 1000
+    Cuidado de la Piel Corporal         | pag 21 | +50 -> total: 1050
+    Cuidado de la Piel Corporal         | pag 22 | +50 -> total: 1100
+    Cuidado de la Piel Corporal         | pag 23 | +50 -> total: 1150
+    Cuidado de la Piel Corporal         | pag 24 | +50 -> total: 1200
+    Cuidado de la Piel Corporal         | pag 25 | +50 -> total: 1250
+    Cuidado de la Piel Corporal         | pag 26 | +50 -> total: 1300
+    Cuidado de la Piel Corporal         | pag 27 | +50 -> total: 1350
+    Cuidado de la Piel Corporal         | pag 28 | +50 -> total: 1400
+    Cuidado de la Piel Corporal         | pag 29 | +50 -> total: 1450
+    Cuidado de la Piel Corporal         | pag 30 | +50 -> total: 1500
+    Cuidado de la Piel Corporal         | pag 31 | +50 -> total: 1550
+    Cuidado de la Piel Corporal         | pag 32 | +50 -> total: 1600
+    Cuidado de la Piel Corporal         | pag 33 | +50 -> total: 1650
+    Cuidado de la Piel Corporal         | pag 34 | +50 -> total: 1700
+    Cuidado de la Piel Corporal         | pag 35 | +50 -> total: 1750
+    Cuidado de la Piel Corporal         | pag 36 | +50 -> total: 1800
+    Cuidado de la Piel Corporal         | pag 37 | +50 -> total: 1850
+    Cuidado de la Piel Corporal         | pag 38 | +50 -> total: 1900
+    Cuidado de la Piel Corporal         | pag 39 | +50 -> total: 1950
+    Cuidado de la Piel Corporal         | pag 40 | +50 -> total: 2000
+    Cuidado de la Piel Corporal         | pag 41 | +50 -> total: 2050
+    Cuidado de la Piel Corporal         | pag 42 | +50 -> total: 2100
+    Cuidado de la Piel Corporal         | pag 43 | +50 -> total: 2150
+    Cuidado de la Piel Corporal         | pag 44 | +50 -> total: 2200
+    Cuidado de la Piel Corporal         | pag 45 | +50 -> total: 2250
+    Cuidado de la Piel Corporal         | pag 46 | +50 -> total: 2300
+    Cuidado de la Piel Corporal         | pag 47 | +50 -> total: 2350
+    Cuidado de la Piel Corporal         | pag 48 | +50 -> total: 2400
+    Cuidado de la Piel Corporal         | pag 49 | +50 -> total: 2450
+    Cuidado de la Piel Corporal         | pag 50 | +50 -> total: 2500
+    Cuidado de la Piel Corporal         | pag 51 | +50 -> total: 2550
+  fetch error: {'__status': 400, '__error': ''} -> https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2854/&_from=
+
+  [61/96] Belleza > Cuidado Facial  (C:/1138/2864/)
+    Cuidado Facial                      | pag 1 | +50 -> total: 50
+    Cuidado Facial                      | pag 2 | +50 -> total: 100
+    Cuidado Facial                      | pag 3 | +50 -> total: 150
+    Cuidado Facial                      | pag 4 | +50 -> total: 200
+    Cuidado Facial                      | pag 5 | +50 -> total: 250
+    Cuidado Facial                      | pag 6 | +50 -> total: 300
+    Cuidado Facial                      | pag 7 | +50 -> total: 350
+    Cuidado Facial                      | pag 8 | +50 -> total: 400
+    Cuidado Facial                      | pag 9 | +50 -> total: 450
+    Cuidado Facial                      | pag 10 | +50 -> total: 500
+    Cuidado Facial                      | pag 11 | +50 -> total: 550
+    Cuidado Facial                      | pag 12 | +50 -> total: 600
+    Cuidado Facial                      | pag 13 | +50 -> total: 650
+    Cuidado Facial                      | pag 14 | +50 -> total: 700
+    Cuidado Facial                      | pag 15 | +50 -> total: 750
+    Cuidado Facial                      | pag 16 | +50 -> total: 800
+    Cuidado Facial                      | pag 17 | +50 -> total: 850
+    Cuidado Facial                      | pag 18 | +50 -> total: 900
+    Cuidado Facial                      | pag 19 | +50 -> total: 950
+    Cuidado Facial                      | pag 20 | +50 -> total: 1000
+    Cuidado Facial                      | pag 21 | +50 -> total: 1050
+    Cuidado Facial                      | pag 22 | +50 -> total: 1100
+    Cuidado Facial                      | pag 23 | +50 -> total: 1150
+    Cuidado Facial                      | pag 24 | +50 -> total: 1200
+    Cuidado Facial                      | pag 25 | +50 -> total: 1250
+    Cuidado Facial                      | pag 26 | +50 -> total: 1300
+    Cuidado Facial                      | pag 27 | +50 -> total: 1350
+    Cuidado Facial                      | pag 28 | +50 -> total: 1400
+    Cuidado Facial                      | pag 29 | +50 -> total: 1450
+    Cuidado Facial                      | pag 30 | +50 -> total: 1500
+    Cuidado Facial                      | pag 31 | +50 -> total: 1550
+    Cuidado Facial                      | pag 32 | +50 -> total: 1600
+    Cuidado Facial                      | pag 33 | +50 -> total: 1650
+    Cuidado Facial                      | pag 34 | +50 -> total: 1700
+    Cuidado Facial                      | pag 35 | +50 -> total: 1750
+    Cuidado Facial                      | pag 36 | +50 -> total: 1800
+    Cuidado Facial                      | pag 37 | +50 -> total: 1850
+    Cuidado Facial                      | pag 38 | +50 -> total: 1900
+    Cuidado Facial                      | pag 39 | +50 -> total: 1950
+    Cuidado Facial                      | pag 40 | +50 -> total: 2000
+    Cuidado Facial                      | pag 41 | +50 -> total: 2050
+    Cuidado Facial                      | pag 42 | +50 -> total: 2100
+    Cuidado Facial                      | pag 43 | +50 -> total: 2150
+    Cuidado Facial                      | pag 44 | +50 -> total: 2200
+    Cuidado Facial                      | pag 45 | +50 -> total: 2250
+    Cuidado Facial                      | pag 46 | +50 -> total: 2300
+    Cuidado Facial                      | pag 47 | +50 -> total: 2350
+    Cuidado Facial                      | pag 48 | +50 -> total: 2400
+    Cuidado Facial                      | pag 49 | +50 -> total: 2450
+    Cuidado Facial                      | pag 50 | +50 -> total: 2500
+    Cuidado Facial                      | pag 51 | +50 -> total: 2550
+  fetch error: {'__status': 400, '__error': ''} -> https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1138/2864/&_from=
+
+  [62/96] Belleza > Protección Solar  (C:/1138/2876/)
+    Protección Solar                    | pag 1 | +50 -> total: 50
+    Protección Solar                    | pag 2 | +50 -> total: 100
+    Protección Solar                    | pag 3 | +50 -> total: 150
+    Protección Solar                    | pag 4 | +50 -> total: 200
+    Protección Solar                    | pag 5 | +50 -> total: 250
+    Protección Solar                    | pag 6 | +50 -> total: 300
+    Protección Solar                    | pag 7 | +50 -> total: 350
+    Protección Solar                    | pag 8 | +50 -> total: 400
+    Protección Solar                    | pag 9 | +50 -> total: 450
+    Protección Solar                    | pag 10 | +50 -> total: 500
+    Protección Solar                    | pag 11 | +50 -> total: 550
+    Protección Solar                    | pag 12 | +50 -> total: 600
+    Protección Solar                    | pag 13 | +50 -> total: 650
+    Protección Solar                    | pag 14 | +50 -> total: 700
+    Protección Solar                    | pag 15 | +50 -> total: 750
+    Protección Solar                    | pag 16 | +50 -> total: 800
+    Protección Solar                    | pag 17 | +50 -> total: 850
+    Protección Solar                    | pag 18 | +50 -> total: 900
+    Protección Solar                    | pag 19 | +50 -> total: 950
+    Protección Solar                    | pag 20 | +50 -> total: 1000
+    Protección Solar                    | pag 21 | +50 -> total: 1050
+    Protección Solar                    | pag 22 | +50 -> total: 1100
+    Protección Solar                    | pag 23 | +16 -> total: 1116
+
+  [63/96] Panadería y Pastelería > Repostería  (C:/493/346/)
+    Repostería                          | pag 1 | +50 -> total: 50
+    Repostería                          | pag 2 | +50 -> total: 100
+    Repostería                          | pag 3 | +50 -> total: 150
+    Repostería                          | pag 4 | +50 -> total: 200
+    Repostería                          | pag 5 | +50 -> total: 250
+    Repostería                          | pag 6 | +23 -> total: 273
+
+  [64/96] Panadería y Pastelería > Pan de la Casa  (C:/493/531/)
+    Pan de la Casa                      | pag 1 | +50 -> total: 50
+    Pan de la Casa                      | pag 2 | +50 -> total: 100
+    Pan de la Casa                      | pag 3 | +21 -> total: 121
+
+  [65/96] Panadería y Pastelería > Pan Envasado  (C:/493/532/)
+    Pan Envasado                        | pag 1 | +50 -> total: 50
+    Pan Envasado                        | pag 2 | +50 -> total: 100
+    Pan Envasado                        | pag 3 | +50 -> total: 150
+    Pan Envasado                        | pag 4 | +27 -> total: 177
+
+  [66/96] Panadería y Pastelería > Tortillas y Masas  (C:/493/533/)
+    Tortillas y Masas                   | pag 1 | +43 -> total: 43
+
+  [67/96] Panadería y Pastelería > Postres  (C:/493/536/)
+    Postres                             | pag 1 | +50 -> total: 50
+    Postres                             | pag 2 | +50 -> total: 100
+    Postres                             | pag 3 | +50 -> total: 150
+    Postres                             | pag 4 | +6 -> total: 156
+
+  [68/96] Panadería y Pastelería > Panetones  (C:/493/638/)
+    Panetones                           | pag 1 | +50 -> total: 50
+    Panetones                           | pag 2 | +4 -> total: 54
+
+  [69/96] Panadería y Pastelería > Pastelería  (C:/493/1440/)
+    Pastelería                          | pag 1 | +50 -> total: 50
+    Pastelería                          | pag 2 | +50 -> total: 100
+    Pastelería                          | pag 3 | +50 -> total: 150
+    Pastelería                          | pag 4 | +50 -> total: 200
+    Pastelería                          | pag 5 | +50 -> total: 250
+    Pastelería                          | pag 6 | +45 -> total: 295
+
+  [70/96] Lácteos y Huevos > Huevos  (C:/845/839/)
+    Huevos                              | pag 1 | +18 -> total: 18
+
+  [71/96] Lácteos y Huevos > Leche  (C:/845/846/)
+    Leche                               | pag 1 | +50 -> total: 50
+    Leche                               | pag 2 | +50 -> total: 100
+    Leche                               | pag 3 | +50 -> total: 150
+    Leche                               | pag 4 | +50 -> total: 200
+    Leche                               | pag 5 | +14 -> total: 214
+
+  [72/96] Lácteos y Huevos > Mantequilla y Margarina  (C:/845/857/)
+    Mantequilla y Margarina             | pag 1 | +45 -> total: 45
+
+  [73/96] Lácteos y Huevos > Yogurt  (C:/845/858/)
+    Yogurt                              | pag 1 | +50 -> total: 50
+    Yogurt                              | pag 2 | +50 -> total: 100
+    Yogurt                              | pag 3 | +50 -> total: 150
+    Yogurt                              | pag 4 | +50 -> total: 200
+    Yogurt                              | pag 5 | +50 -> total: 250
+    Yogurt                              | pag 6 | +50 -> total: 300
+    Yogurt                              | pag 7 | +33 -> total: 333
+
+  [74/96] Desayunos > Cereales  (C:/478/479/)
+    Cereales                            | pag 1 | +50 -> total: 50
+    Cereales                            | pag 2 | +50 -> total: 100
+    Cereales                            | pag 3 | +50 -> total: 150
+    Cereales                            | pag 4 | +50 -> total: 200
+    Cereales                            | pag 5 | +50 -> total: 250
+    Cereales                            | pag 6 | +50 -> total: 300
+    Cereales                            | pag 7 | +27 -> total: 327
+
+  [75/96] Desayunos > Café e Infusiones  (C:/478/480/)
+    Café e Infusiones                   | pag 1 | +50 -> total: 50
+    Café e Infusiones                   | pag 2 | +50 -> total: 100
+    Café e Infusiones                   | pag 3 | +50 -> total: 150
+    Café e Infusiones                   | pag 4 | +50 -> total: 200
+    Café e Infusiones                   | pag 5 | +50 -> total: 250
+    Café e Infusiones                   | pag 6 | +50 -> total: 300
+    Café e Infusiones                   | pag 7 | +50 -> total: 350
+    Café e Infusiones                   | pag 8 | +50 -> total: 400
+    Café e Infusiones                   | pag 9 | +50 -> total: 450
+    Café e Infusiones                   | pag 10 | +1 -> total: 451
+
+  [76/96] Desayunos > Modificadores de Leche  (C:/478/481/)
+    Modificadores de Leche              | pag 1 | +50 -> total: 50
+    Modificadores de Leche              | pag 2 | +50 -> total: 100
+    Modificadores de Leche              | pag 3 | +14 -> total: 114
+
+  [77/96] Desayunos > Mermeladas, Mieles y Dulces  (C:/478/487/)
+    Mermeladas, Mieles y Dulces         | pag 1 | +50 -> total: 50
+    Mermeladas, Mieles y Dulces         | pag 2 | +50 -> total: 100
+    Mermeladas, Mieles y Dulces         | pag 3 | +29 -> total: 129
+
+  [78/96] Pollo Rostizado y Comidas Preparadas > Tamales y Humitas  (C:/1073/624/)
+    Tamales y Humitas                   | pag 1 | +8 -> total: 8
+
+  [79/96] Pollo Rostizado y Comidas Preparadas > Pizzas y Pastas Frescas  (C:/1073/626/)
+    Pizzas y Pastas Frescas             | pag 1 | +44 -> total: 44
+
+  [80/96] Pollo Rostizado y Comidas Preparadas > Cenas Navideñas  (C:/1073/1082/)
+    Cenas Navideñas                     | pag 1 | +3 -> total: 3
+
+  [81/96] Pollo Rostizado y Comidas Preparadas > Cremas, Salsas y Condimentos a Granel  (C:/1073/1095/)
+    Cremas, Salsas y Condimentos a Gran | pag 1 | +35 -> total: 35
+
+  [82/96] Pollo Rostizado y Comidas Preparadas > Pollo Rostizado  (C:/1073/1620/)
+    Pollo Rostizado                     | pag 1 | +31 -> total: 31
+
+  [83/96] Pollo Rostizado y Comidas Preparadas > Comidas Preparadas  (C:/1073/1621/)
+    Comidas Preparadas                  | pag 1 | +50 -> total: 50
+    Comidas Preparadas                  | pag 2 | +50 -> total: 100
+    Comidas Preparadas                  | pag 3 | +32 -> total: 132
+
+  [84/96] Mercado Saludable > Cosmética Natural  (C:/1383/1384/)
+    Cosmética Natural                   | pag 1 | +50 -> total: 50
+    Cosmética Natural                   | pag 2 | +50 -> total: 100
+    Cosmética Natural                   | pag 3 | +50 -> total: 150
+    Cosmética Natural                   | pag 4 | +18 -> total: 168
+
+  [85/96] Mercado Saludable > Snacks Orgánicos  (C:/1383/1385/)
+    Snacks Orgánicos                    | pag 1 | +33 -> total: 33
+
+  [86/96] Mercado Saludable > Vitaminas y Suplementos Orgánicos  (C:/1383/1386/)
+    Vitaminas y Suplementos Orgánicos   | pag 1 | +50 -> total: 50
+    Vitaminas y Suplementos Orgánicos   | pag 2 | +50 -> total: 100
+    Vitaminas y Suplementos Orgánicos   | pag 3 | +50 -> total: 150
+    Vitaminas y Suplementos Orgánicos   | pag 4 | +50 -> total: 200
+    Vitaminas y Suplementos Orgánicos   | pag 5 | +50 -> total: 250
+    Vitaminas y Suplementos Orgánicos   | pag 6 | +50 -> total: 300
+    Vitaminas y Suplementos Orgánicos   | pag 7 | +50 -> total: 350
+    Vitaminas y Suplementos Orgánicos   | pag 8 | +18 -> total: 368
+
+  [87/96] Mercado Saludable > Desayunos Orgánicos  (C:/1383/1733/)
+    Desayunos Orgánicos                 | pag 1 | +27 -> total: 27
+
+  [88/96] Mercado Saludable > Alimentos Orgánicos  (C:/1383/1734/)
+    Alimentos Orgánicos                 | pag 1 | +26 -> total: 26
+
+  [89/96] Mercado Saludable > Cuidado Personal Sostenible  (C:/1383/1735/)
+    Cuidado Personal Sostenible         | pag 1 | +47 -> total: 47
+
+  [90/96] Bebé e Infantil > Cuidado y Aseo del Bebé  (C:/1503/23/)
+    Cuidado y Aseo del Bebé             | pag 1 | +50 -> total: 50
+    Cuidado y Aseo del Bebé             | pag 2 | +50 -> total: 100
+    Cuidado y Aseo del Bebé             | pag 3 | +50 -> total: 150
+    Cuidado y Aseo del Bebé             | pag 4 | +50 -> total: 200
+    Cuidado y Aseo del Bebé             | pag 5 | +50 -> total: 250
+    Cuidado y Aseo del Bebé             | pag 6 | +50 -> total: 300
+    Cuidado y Aseo del Bebé             | pag 7 | +50 -> total: 350
+    Cuidado y Aseo del Bebé             | pag 8 | +50 -> total: 400
+    Cuidado y Aseo del Bebé             | pag 9 | +50 -> total: 450
+    Cuidado y Aseo del Bebé             | pag 10 | +50 -> total: 500
+    Cuidado y Aseo del Bebé             | pag 11 | +50 -> total: 550
+    Cuidado y Aseo del Bebé             | pag 12 | +50 -> total: 600
+    Cuidado y Aseo del Bebé             | pag 13 | +50 -> total: 650
+    Cuidado y Aseo del Bebé             | pag 14 | +50 -> total: 700
+    Cuidado y Aseo del Bebé             | pag 15 | +50 -> total: 750
+    Cuidado y Aseo del Bebé             | pag 16 | +50 -> total: 800
+    Cuidado y Aseo del Bebé             | pag 17 | +50 -> total: 850
+    Cuidado y Aseo del Bebé             | pag 18 | +50 -> total: 900
+    Cuidado y Aseo del Bebé             | pag 19 | +50 -> total: 950
+    Cuidado y Aseo del Bebé             | pag 20 | +50 -> total: 1000
+    Cuidado y Aseo del Bebé             | pag 21 | +50 -> total: 1050
+    Cuidado y Aseo del Bebé             | pag 22 | +50 -> total: 1100
+    Cuidado y Aseo del Bebé             | pag 23 | +50 -> total: 1150
+    Cuidado y Aseo del Bebé             | pag 24 | +50 -> total: 1200
+    Cuidado y Aseo del Bebé             | pag 25 | +50 -> total: 1250
+    Cuidado y Aseo del Bebé             | pag 26 | +50 -> total: 1300
+    Cuidado y Aseo del Bebé             | pag 27 | +50 -> total: 1350
+    Cuidado y Aseo del Bebé             | pag 28 | +50 -> total: 1400
+    Cuidado y Aseo del Bebé             | pag 29 | +50 -> total: 1450
+    Cuidado y Aseo del Bebé             | pag 30 | +50 -> total: 1500
+    Cuidado y Aseo del Bebé             | pag 31 | +50 -> total: 1550
+    Cuidado y Aseo del Bebé             | pag 32 | +50 -> total: 1600
+    Cuidado y Aseo del Bebé             | pag 33 | +50 -> total: 1650
+    Cuidado y Aseo del Bebé             | pag 34 | +50 -> total: 1700
+    Cuidado y Aseo del Bebé             | pag 35 | +50 -> total: 1750
+    Cuidado y Aseo del Bebé             | pag 36 | +50 -> total: 1800
+    Cuidado y Aseo del Bebé             | pag 37 | +50 -> total: 1850
+    Cuidado y Aseo del Bebé             | pag 38 | +50 -> total: 1900
+    Cuidado y Aseo del Bebé             | pag 39 | +50 -> total: 1950
+    Cuidado y Aseo del Bebé             | pag 40 | +50 -> total: 2000
+    Cuidado y Aseo del Bebé             | pag 41 | +50 -> total: 2050
+    Cuidado y Aseo del Bebé             | pag 42 | +50 -> total: 2100
+    Cuidado y Aseo del Bebé             | pag 43 | +50 -> total: 2150
+    Cuidado y Aseo del Bebé             | pag 44 | +50 -> total: 2200
+    Cuidado y Aseo del Bebé             | pag 45 | +50 -> total: 2250
+    Cuidado y Aseo del Bebé             | pag 46 | +50 -> total: 2300
+    Cuidado y Aseo del Bebé             | pag 47 | +50 -> total: 2350
+    Cuidado y Aseo del Bebé             | pag 48 | +50 -> total: 2400
+    Cuidado y Aseo del Bebé             | pag 49 | +50 -> total: 2450
+    Cuidado y Aseo del Bebé             | pag 50 | +50 -> total: 2500
+    Cuidado y Aseo del Bebé             | pag 51 | +50 -> total: 2550
+  fetch error: {'__status': 400, '__error': ''} -> https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1503/23/&_from=25
+
+  [91/96] Bebé e Infantil > Alimentación del Bebé  (C:/1503/24/)
+    Alimentación del Bebé               | pag 1 | +50 -> total: 50
+    Alimentación del Bebé               | pag 2 | +50 -> total: 100
+    Alimentación del Bebé               | pag 3 | +50 -> total: 150
+    Alimentación del Bebé               | pag 4 | +49 -> total: 199
+
+  [92/96] Bebé e Infantil > Pañales y Toallitas para Bebé  (C:/1503/648/)
+    Pañales y Toallitas para Bebé       | pag 1 | +50 -> total: 50
+    Pañales y Toallitas para Bebé       | pag 2 | +50 -> total: 100
+    Pañales y Toallitas para Bebé       | pag 3 | +50 -> total: 150
+    Pañales y Toallitas para Bebé       | pag 4 | +50 -> total: 200
+    Pañales y Toallitas para Bebé       | pag 5 | +50 -> total: 250
+    Pañales y Toallitas para Bebé       | pag 6 | +50 -> total: 300
+    Pañales y Toallitas para Bebé       | pag 7 | +50 -> total: 350
+    Pañales y Toallitas para Bebé       | pag 8 | +50 -> total: 400
+    Pañales y Toallitas para Bebé       | pag 9 | +50 -> total: 450
+    Pañales y Toallitas para Bebé       | pag 10 | +50 -> total: 500
+    Pañales y Toallitas para Bebé       | pag 11 | +50 -> total: 550
+    Pañales y Toallitas para Bebé       | pag 12 | +50 -> total: 600
+    Pañales y Toallitas para Bebé       | pag 13 | +50 -> total: 650
+    Pañales y Toallitas para Bebé       | pag 14 | +50 -> total: 700
+    Pañales y Toallitas para Bebé       | pag 15 | +50 -> total: 750
+    Pañales y Toallitas para Bebé       | pag 16 | +50 -> total: 800
+    Pañales y Toallitas para Bebé       | pag 17 | +42 -> total: 842
+
+  [93/96] Bebé e Infantil > Juguetes y Estimulación Temprana  (C:/1503/981/)
+    Juguetes y Estimulación Temprana    | pag 1 | +50 -> total: 50
+    Juguetes y Estimulación Temprana    | pag 2 | +50 -> total: 100
+    Juguetes y Estimulación Temprana    | pag 3 | +50 -> total: 150
+    Juguetes y Estimulación Temprana    | pag 4 | +50 -> total: 200
+    Juguetes y Estimulación Temprana    | pag 5 | +50 -> total: 250
+    Juguetes y Estimulación Temprana    | pag 6 | +50 -> total: 300
+    Juguetes y Estimulación Temprana    | pag 7 | +50 -> total: 350
+    Juguetes y Estimulación Temprana    | pag 8 | +50 -> total: 400
+    Juguetes y Estimulación Temprana    | pag 9 | +50 -> total: 450
+    Juguetes y Estimulación Temprana    | pag 10 | +50 -> total: 500
+    Juguetes y Estimulación Temprana    | pag 11 | +50 -> total: 550
+    Juguetes y Estimulación Temprana    | pag 12 | +50 -> total: 600
+    Juguetes y Estimulación Temprana    | pag 13 | +50 -> total: 650
+    Juguetes y Estimulación Temprana    | pag 14 | +50 -> total: 700
+    Juguetes y Estimulación Temprana    | pag 15 | +50 -> total: 750
+    Juguetes y Estimulación Temprana    | pag 16 | +50 -> total: 800
+    Juguetes y Estimulación Temprana    | pag 17 | +50 -> total: 850
+    Juguetes y Estimulación Temprana    | pag 18 | +50 -> total: 900
+    Juguetes y Estimulación Temprana    | pag 19 | +50 -> total: 950
+    Juguetes y Estimulación Temprana    | pag 20 | +50 -> total: 1000
+    Juguetes y Estimulación Temprana    | pag 21 | +50 -> total: 1050
+    Juguetes y Estimulación Temprana    | pag 22 | +50 -> total: 1100
+    Juguetes y Estimulación Temprana    | pag 23 | +50 -> total: 1150
+    Juguetes y Estimulación Temprana    | pag 24 | +50 -> total: 1200
+    Juguetes y Estimulación Temprana    | pag 25 | +50 -> total: 1250
+    Juguetes y Estimulación Temprana    | pag 26 | +50 -> total: 1300
+    Juguetes y Estimulación Temprana    | pag 27 | +50 -> total: 1350
+    Juguetes y Estimulación Temprana    | pag 28 | +50 -> total: 1400
+    Juguetes y Estimulación Temprana    | pag 29 | +50 -> total: 1450
+    Juguetes y Estimulación Temprana    | pag 30 | +50 -> total: 1500
+    Juguetes y Estimulación Temprana    | pag 31 | +50 -> total: 1550
+    Juguetes y Estimulación Temprana    | pag 32 | +50 -> total: 1600
+    Juguetes y Estimulación Temprana    | pag 33 | +50 -> total: 1650
+    Juguetes y Estimulación Temprana    | pag 34 | +50 -> total: 1700
+    Juguetes y Estimulación Temprana    | pag 35 | +50 -> total: 1750
+    Juguetes y Estimulación Temprana    | pag 36 | +50 -> total: 1800
+    Juguetes y Estimulación Temprana    | pag 37 | +50 -> total: 1850
+    Juguetes y Estimulación Temprana    | pag 38 | +50 -> total: 1900
+    Juguetes y Estimulación Temprana    | pag 39 | +50 -> total: 1950
+    Juguetes y Estimulación Temprana    | pag 40 | +50 -> total: 2000
+    Juguetes y Estimulación Temprana    | pag 41 | +50 -> total: 2050
+    Juguetes y Estimulación Temprana    | pag 42 | +50 -> total: 2100
+    Juguetes y Estimulación Temprana    | pag 43 | +50 -> total: 2150
+    Juguetes y Estimulación Temprana    | pag 44 | +50 -> total: 2200
+    Juguetes y Estimulación Temprana    | pag 45 | +50 -> total: 2250
+    Juguetes y Estimulación Temprana    | pag 46 | +50 -> total: 2300
+    Juguetes y Estimulación Temprana    | pag 47 | +50 -> total: 2350
+    Juguetes y Estimulación Temprana    | pag 48 | +50 -> total: 2400
+    Juguetes y Estimulación Temprana    | pag 49 | +50 -> total: 2450
+    Juguetes y Estimulación Temprana    | pag 50 | +50 -> total: 2500
+    Juguetes y Estimulación Temprana    | pag 51 | +50 -> total: 2550
+  fetch error: {'__status': 400, '__error': ''} -> https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1503/981/&_from=2
+
+  [94/96] Bebé e Infantil > Coches y Sillas para bebé  (C:/1503/1432/)
+    Coches y Sillas para bebé           | pag 1 | +50 -> total: 50
+    Coches y Sillas para bebé           | pag 2 | +50 -> total: 100
+    Coches y Sillas para bebé           | pag 3 | +50 -> total: 150
+    Coches y Sillas para bebé           | pag 4 | +50 -> total: 200
+    Coches y Sillas para bebé           | pag 5 | +50 -> total: 250
+    Coches y Sillas para bebé           | pag 6 | +50 -> total: 300
+    Coches y Sillas para bebé           | pag 7 | +50 -> total: 350
+    Coches y Sillas para bebé           | pag 8 | +50 -> total: 400
+    Coches y Sillas para bebé           | pag 9 | +50 -> total: 450
+    Coches y Sillas para bebé           | pag 10 | +50 -> total: 500
+    Coches y Sillas para bebé           | pag 11 | +50 -> total: 550
+    Coches y Sillas para bebé           | pag 12 | +50 -> total: 600
+    Coches y Sillas para bebé           | pag 13 | +50 -> total: 650
+    Coches y Sillas para bebé           | pag 14 | +50 -> total: 700
+    Coches y Sillas para bebé           | pag 15 | +50 -> total: 750
+    Coches y Sillas para bebé           | pag 16 | +50 -> total: 800
+    Coches y Sillas para bebé           | pag 17 | +50 -> total: 850
+    Coches y Sillas para bebé           | pag 18 | +50 -> total: 900
+    Coches y Sillas para bebé           | pag 19 | +50 -> total: 950
+    Coches y Sillas para bebé           | pag 20 | +50 -> total: 1000
+    Coches y Sillas para bebé           | pag 21 | +50 -> total: 1050
+    Coches y Sillas para bebé           | pag 22 | +50 -> total: 1100
+    Coches y Sillas para bebé           | pag 23 | +50 -> total: 1150
+    Coches y Sillas para bebé           | pag 24 | +50 -> total: 1200
+    Coches y Sillas para bebé           | pag 25 | +50 -> total: 1250
+    Coches y Sillas para bebé           | pag 26 | +50 -> total: 1300
+    Coches y Sillas para bebé           | pag 27 | +50 -> total: 1350
+    Coches y Sillas para bebé           | pag 28 | +50 -> total: 1400
+    Coches y Sillas para bebé           | pag 29 | +50 -> total: 1450
+    Coches y Sillas para bebé           | pag 30 | +50 -> total: 1500
+    Coches y Sillas para bebé           | pag 31 | +50 -> total: 1550
+    Coches y Sillas para bebé           | pag 32 | +50 -> total: 1600
+    Coches y Sillas para bebé           | pag 33 | +50 -> total: 1650
+    Coches y Sillas para bebé           | pag 34 | +50 -> total: 1700
+    Coches y Sillas para bebé           | pag 35 | +50 -> total: 1750
+    Coches y Sillas para bebé           | pag 36 | +50 -> total: 1800
+    Coches y Sillas para bebé           | pag 37 | +50 -> total: 1850
+    Coches y Sillas para bebé           | pag 38 | +50 -> total: 1900
+    Coches y Sillas para bebé           | pag 39 | +50 -> total: 1950
+    Coches y Sillas para bebé           | pag 40 | +50 -> total: 2000
+    Coches y Sillas para bebé           | pag 41 | +50 -> total: 2050
+    Coches y Sillas para bebé           | pag 42 | +50 -> total: 2100
+    Coches y Sillas para bebé           | pag 43 | +50 -> total: 2150
+    Coches y Sillas para bebé           | pag 44 | +50 -> total: 2200
+    Coches y Sillas para bebé           | pag 45 | +50 -> total: 2250
+    Coches y Sillas para bebé           | pag 46 | +50 -> total: 2300
+    Coches y Sillas para bebé           | pag 47 | +50 -> total: 2350
+    Coches y Sillas para bebé           | pag 48 | +50 -> total: 2400
+    Coches y Sillas para bebé           | pag 49 | +50 -> total: 2450
+    Coches y Sillas para bebé           | pag 50 | +50 -> total: 2500
+    Coches y Sillas para bebé           | pag 51 | +50 -> total: 2550
+  fetch error: {'__status': 400, '__error': ''} -> https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1503/1432/&_from=
+
+  [95/96] Bebé e Infantil > Seguridad del Bebé e Infantil  (C:/1503/1433/)
+    Seguridad del Bebé e Infantil       | pag 1 | +50 -> total: 50
+    Seguridad del Bebé e Infantil       | pag 2 | +50 -> total: 100
+    Seguridad del Bebé e Infantil       | pag 3 | +50 -> total: 150
+    Seguridad del Bebé e Infantil       | pag 4 | +50 -> total: 200
+    Seguridad del Bebé e Infantil       | pag 5 | +50 -> total: 250
+    Seguridad del Bebé e Infantil       | pag 6 | +50 -> total: 300
+    Seguridad del Bebé e Infantil       | pag 7 | +50 -> total: 350
+    Seguridad del Bebé e Infantil       | pag 8 | +50 -> total: 400
+    Seguridad del Bebé e Infantil       | pag 9 | +50 -> total: 450
+    Seguridad del Bebé e Infantil       | pag 10 | +50 -> total: 500
+    Seguridad del Bebé e Infantil       | pag 11 | +50 -> total: 550
+    Seguridad del Bebé e Infantil       | pag 12 | +50 -> total: 600
+    Seguridad del Bebé e Infantil       | pag 13 | +50 -> total: 650
+    Seguridad del Bebé e Infantil       | pag 14 | +50 -> total: 700
+    Seguridad del Bebé e Infantil       | pag 15 | +50 -> total: 750
+    Seguridad del Bebé e Infantil       | pag 16 | +50 -> total: 800
+    Seguridad del Bebé e Infantil       | pag 17 | +50 -> total: 850
+    Seguridad del Bebé e Infantil       | pag 18 | +50 -> total: 900
+    Seguridad del Bebé e Infantil       | pag 19 | +39 -> total: 939
+
+  [96/96] Bebé e Infantil > Dormitorio Bebé e Infantil  (C:/1503/1435/)
+    Dormitorio Bebé e Infantil          | pag 1 | +50 -> total: 50
+    Dormitorio Bebé e Infantil          | pag 2 | +50 -> total: 100
+    Dormitorio Bebé e Infantil          | pag 3 | +50 -> total: 150
+    Dormitorio Bebé e Infantil          | pag 4 | +50 -> total: 200
+    Dormitorio Bebé e Infantil          | pag 5 | +50 -> total: 250
+    Dormitorio Bebé e Infantil          | pag 6 | +50 -> total: 300
+    Dormitorio Bebé e Infantil          | pag 7 | +50 -> total: 350
+    Dormitorio Bebé e Infantil          | pag 8 | +50 -> total: 400
+    Dormitorio Bebé e Infantil          | pag 9 | +50 -> total: 450
+    Dormitorio Bebé e Infantil          | pag 10 | +50 -> total: 500
+    Dormitorio Bebé e Infantil          | pag 11 | +50 -> total: 550
+    Dormitorio Bebé e Infantil          | pag 12 | +50 -> total: 600
+    Dormitorio Bebé e Infantil          | pag 13 | +50 -> total: 650
+    Dormitorio Bebé e Infantil          | pag 14 | +50 -> total: 700
+    Dormitorio Bebé e Infantil          | pag 15 | +50 -> total: 750
+    Dormitorio Bebé e Infantil          | pag 16 | +50 -> total: 800
+    Dormitorio Bebé e Infantil          | pag 17 | +50 -> total: 850
+    Dormitorio Bebé e Infantil          | pag 18 | +50 -> total: 900
+    Dormitorio Bebé e Infantil          | pag 19 | +50 -> total: 950
+    Dormitorio Bebé e Infantil          | pag 20 | +50 -> total: 1000
+    Dormitorio Bebé e Infantil          | pag 21 | +50 -> total: 1050
+    Dormitorio Bebé e Infantil          | pag 22 | +50 -> total: 1100
+    Dormitorio Bebé e Infantil          | pag 23 | +50 -> total: 1150
+    Dormitorio Bebé e Infantil          | pag 24 | +50 -> total: 1200
+    Dormitorio Bebé e Infantil          | pag 25 | +50 -> total: 1250
+    Dormitorio Bebé e Infantil          | pag 26 | +50 -> total: 1300
+    Dormitorio Bebé e Infantil          | pag 27 | +50 -> total: 1350
+    Dormitorio Bebé e Infantil          | pag 28 | +50 -> total: 1400
+    Dormitorio Bebé e Infantil          | pag 29 | +50 -> total: 1450
+    Dormitorio Bebé e Infantil          | pag 30 | +50 -> total: 1500
+    Dormitorio Bebé e Infantil          | pag 31 | +50 -> total: 1550
+    Dormitorio Bebé e Infantil          | pag 32 | +50 -> total: 1600
+    Dormitorio Bebé e Infantil          | pag 33 | +50 -> total: 1650
+    Dormitorio Bebé e Infantil          | pag 34 | +50 -> total: 1700
+    Dormitorio Bebé e Infantil          | pag 35 | +50 -> total: 1750
+    Dormitorio Bebé e Infantil          | pag 36 | +50 -> total: 1800
+    Dormitorio Bebé e Infantil          | pag 37 | +50 -> total: 1850
+    Dormitorio Bebé e Infantil          | pag 38 | +50 -> total: 1900
+    Dormitorio Bebé e Infantil          | pag 39 | +50 -> total: 1950
+    Dormitorio Bebé e Infantil          | pag 40 | +50 -> total: 2000
+    Dormitorio Bebé e Infantil          | pag 41 | +50 -> total: 2050
+    Dormitorio Bebé e Infantil          | pag 42 | +50 -> total: 2100
+    Dormitorio Bebé e Infantil          | pag 43 | +50 -> total: 2150
+    Dormitorio Bebé e Infantil          | pag 44 | +50 -> total: 2200
+    Dormitorio Bebé e Infantil          | pag 45 | +50 -> total: 2250
+    Dormitorio Bebé e Infantil          | pag 46 | +50 -> total: 2300
+    Dormitorio Bebé e Infantil          | pag 47 | +50 -> total: 2350
+    Dormitorio Bebé e Infantil          | pag 48 | +50 -> total: 2400
+    Dormitorio Bebé e Infantil          | pag 49 | +50 -> total: 2450
+    Dormitorio Bebé e Infantil          | pag 50 | +50 -> total: 2500
+    Dormitorio Bebé e Infantil          | pag 51 | +50 -> total: 2550
+  fetch error: {'__status': 400, '__error': ''} -> https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/1503/1435/&_from=
+
+============================================================
+PROCESANDO RESULTADOS
+============================================================
+Productos unicos: 65453  (removidos 184 dupl.)
+
+Resumen del catalogo:
+  Total productos    : 65453
+  Con precio         : 65453
+  Disponibles        : 48205
+  Con descuento      : 35388
+  Precio prom.       : S/ 109.66
+
+Top 10 categorias:
+categoria_nombre
+Dormitorio Bebé e Infantil          2550
+Juguetes y Estimulación Temprana    2550
+Cuidado de la Piel Corporal         2550
+Cuidado Facial                      2550
+Perfumes y Fragancias               2550
+Salud e higiene para gatos          2550
+Accesorios para perros              2550
+Salud e higiene para perros         2550
+Salud                               2550
+Vitaminas y Nutrición               2550
+
+Top 10 marcas:
+marca
+GENÉRICO              12140
+RYBIU IMPORT           6679
+EBABY                  2848
+HOOME DECO             1960
+BABY                    838
+WOKALI                  804
+AVON                    718
+BELL'S                  683
+UNIVERSE NUTRITION      664
+DR RASHEL               630
+
+Archivos exportados:
+  -> plazavea_productos_20260504_1008.csv
+  -> plazavea_productos_20260504_1008.xlsx
+  -> plazavea_productos_20260504_1008.json
+  -> plazavea_categorias.csv
