@@ -1,7 +1,10 @@
 """
-analizar_competencia.py  —  PLAZA VEA
-=====================================
-Inteligencia competitiva del catalogo de Plaza Vea Peru.
+analizar_competencia.py  —  PLAZA VEA  (scope: SUPERMERCADO)
+=============================================================
+Inteligencia competitiva del catalogo de Plaza Vea Peru, restringido
+al tab "Supermercado" del menu web (comestibles + cuidado del consumidor).
+Excluye Tecnologia, Electrohogar, Moda, Muebles, Deportes, Juguetes,
+Automotriz, Decohogar, etc.
 
 Perfil: cadena de retail B2C, hipermercados/supermercados con catalogo
 amplio. Marcas propias historicas: BELL'S, BOREAL, HAGEN, LA FLORENCIA
@@ -34,10 +37,32 @@ OUT = HERE / "analisis"
 OUT.mkdir(exist_ok=True)
 
 CSV = sorted(HERE.glob("plazavea_productos_*.csv"))[-1]
+CATEGORIAS_CSV = HERE / "plazavea_categorias.csv"
 
 # Marcas propias / genericos identificados
 MARCAS_PROPIAS = {"BELL'S", "BOREAL", "HAGEN", "HOOME DECO", "LA FLORENCIA",
                   "GENÉRICO", "GENERICO"}
+
+# Departamentos (nivel 1 del arbol VTEX) que componen el tab
+# "Supermercado" del menu principal de plazavea.com.pe. Debe coincidir
+# con DEPARTAMENTOS_SUPERMERCADO de plazavea_scraper.py
+DEPARTAMENTOS_SUPERMERCADO = {
+    "Bebidas",
+    "Abarrotes",
+    "Frutas y Verduras",
+    "Congelados",
+    "Quesos y Fiambres",
+    "Panadería y Pastelería",
+    "Lácteos y Huevos",
+    "Desayunos",
+    "Pollo Rostizado y Comidas Preparadas",
+    "Mercado Saludable",
+    "Cuidado Personal y Salud",
+    "Limpieza",
+    "Mascotas",
+    "Belleza",
+    "Bebé e Infantil",
+}
 
 sns.set_theme(style="whitegrid", palette="muted")
 plt.rcParams.update({"figure.dpi": 110, "axes.titleweight": "bold"})
@@ -54,14 +79,35 @@ def _font_for(n_rows):
     return 6
 
 
+def _enriquecer_y_filtrar_supermercado(pdf):
+    """Garantiza la columna 'departamento' y filtra al scope Supermercado.
+
+    Si el CSV viene de un scrape nuevo ya trae 'departamento'. Si es de
+    un scrape antiguo, infiere el padre nivel-1 a partir de categoria_id
+    cruzando con plazavea_categorias.csv.
+    """
+    if "departamento" not in pdf.columns:
+        cats = pd.read_csv(CATEGORIAS_CSV)
+        n2 = cats.loc[cats["nivel"] == 2, ["cat_id", "padre_nombre"]] \
+                 .rename(columns={"padre_nombre": "departamento"})
+        pdf = pdf.merge(n2, left_on="categoria_id", right_on="cat_id", how="left")
+        pdf = pdf.drop(columns=["cat_id"])
+
+    antes = len(pdf)
+    pdf = pdf[pdf["departamento"].isin(DEPARTAMENTOS_SUPERMERCADO)].copy()
+    print(f"  scope 'Supermercado': {len(pdf):,} de {antes:,} SKUs "
+          f"({len(pdf)/antes*100:.1f}%)")
+    return pdf
+
+
 def cargar():
     df = vaex.from_csv(str(CSV), convert=False)
     print(f"  cargado vaex: {len(df):,} filas")
     return df
 
 
-def kpis_globales(df, pdf):
-    n = len(df)
+def kpis_globales(pdf):
+    n = len(pdf)
     n_disp = int(pdf["disponible"].sum())
     n_promo = int(pdf["tiene_descuento"].sum())
     pen_propia = pdf["marca"].isin(MARCAS_PROPIAS).sum() / n * 100
@@ -326,13 +372,14 @@ def chart_propia_vs_terceros_precio(pdf):
 
 def main():
     print("=" * 60)
-    print("ANALISIS COMPETITIVO — PLAZA VEA")
+    print("ANALISIS COMPETITIVO — PLAZA VEA  (scope: Supermercado)")
     print("=" * 60)
     print(f"\nfuente: {CSV.name}")
     df = cargar()
     pdf = df.to_pandas_df()
+    pdf = _enriquecer_y_filtrar_supermercado(pdf)
 
-    k = kpis_globales(df, pdf)
+    k = kpis_globales(pdf)
     print(f"\nKPIs:")
     for kk, vv in k.items():
         print(f"  {kk:35s}: {vv:,.2f}" if isinstance(vv, float)
@@ -352,9 +399,13 @@ def main():
     cats_propia_top = (pdf[pdf["marca"].isin(MARCAS_PROPIAS)]
                        ["categoria_nombre"].value_counts().head(5))
 
-    text = f"""PLAZA VEA — RESUMEN EJECUTIVO
-==============================
+    deps_presentes = sorted(pdf["departamento"].dropna().unique())
+
+    text = f"""PLAZA VEA — RESUMEN EJECUTIVO  (scope: SUPERMERCADO)
+=====================================================
 Fuente: {CSV.name}
+Scope:  tab "Supermercado" del menu web (comestibles + cuidado del consumidor)
+Departamentos analizados ({len(deps_presentes)}): {", ".join(deps_presentes)}
 Fecha snapshot: {pdf['fecha_extraccion'].iloc[0] if len(pdf) else 'n/a'}
 
 CIFRAS CLAVE

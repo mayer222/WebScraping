@@ -16,6 +16,11 @@ Diferencias vs Makro:
   - SC = 1 (canal de ventas Plaza Vea principal); con SC=2 se obtienen
     productos del marketplace, asi que por defecto usamos sc=1.
 
+SCOPE: solo el tab "Supermercado" del menu principal de plazavea.com.pe
+(comestibles + cuidado del consumidor). Excluye Tecnologia, Electrohogar,
+Moda, Muebles, Deportes, Juguetes, Automotriz, Decohogar, etc. La lista
+exacta de departamentos esta en DEPARTAMENTOS_SUPERMERCADO mas abajo.
+
 Uso:
     python plazavea_scraper.py
     python plazavea_scraper.py --max-categorias 2 --max-productos 100
@@ -32,6 +37,30 @@ from pathlib import Path
 BASE      = "https://www.plazavea.com.pe"
 SC        = 1
 PAGE_SIZE = 50
+
+# Departamentos (nivel 1 del arbol VTEX) que componen la seccion
+# "Supermercado" del menu principal de plazavea.com.pe. Es la
+# union de comestibles + cuidado del consumidor: lo que realmente
+# se vende en un supermercado, excluyendo el surtido tipo
+# hipermercado/depto (tecnologia, electrohogar, moda, muebles,
+# juguetes, deportes, automotriz, etc.).
+DEPARTAMENTOS_SUPERMERCADO = {
+    "Bebidas",
+    "Abarrotes",
+    "Frutas y Verduras",
+    "Congelados",
+    "Quesos y Fiambres",
+    "Panadería y Pastelería",
+    "Lácteos y Huevos",
+    "Desayunos",
+    "Pollo Rostizado y Comidas Preparadas",
+    "Mercado Saludable",
+    "Cuidado Personal y Salud",
+    "Limpieza",
+    "Mascotas",
+    "Belleza",
+    "Bebé e Infantil",
+}
 
 
 async def browser_fetch(page, url: str):
@@ -91,7 +120,8 @@ def _aplanar(nodos, padre_nombre, padre_id, padre_id_path, nivel, resultado):
             _aplanar(hijos, ruta, cat_id, id_path, nivel + 1, resultado)
 
 
-async def scrape_categoria(page, id_path, cat_nombre, cat_id, max_productos=9999):
+async def scrape_categoria(page, id_path, cat_nombre, cat_id, departamento,
+                           max_productos=9999):
     productos = []
     desde = 0
 
@@ -113,7 +143,7 @@ async def scrape_categoria(page, id_path, cat_nombre, cat_id, max_productos=9999
             break
 
         for raw in lote:
-            productos.append(_parsear_producto(raw, cat_nombre, cat_id))
+            productos.append(_parsear_producto(raw, cat_nombre, cat_id, departamento))
 
         print(f"    {cat_nombre[:35]:35s} | pag {desde//PAGE_SIZE+1}"
               f" | +{len(lote)} -> total: {len(productos)}")
@@ -159,7 +189,7 @@ def _parsear_precio(items):
     }
 
 
-def _parsear_producto(raw, cat_nombre, cat_id):
+def _parsear_producto(raw, cat_nombre, cat_id, departamento):
     items = raw.get("items", [])
     precio = _parsear_precio(items)
     sku = items[0] if items else {}
@@ -189,6 +219,7 @@ def _parsear_producto(raw, cat_nombre, cat_id):
         "url_producto":      f"{BASE}/{raw.get('linkText')}/p"
                              if raw.get("linkText") else None,
 
+        "departamento":      departamento,
         "categoria_id":      cat_id,
         "categoria_nombre":  cat_nombre,
         "categoria_id_vtex": raw.get("categoryId"),
@@ -252,7 +283,14 @@ async def main(max_productos_por_cat=9999, max_categorias=9999, solo_categoria=N
               .to_string(index=False, max_rows=20))
 
         print("\n[3/4] Preparando categorias objetivo (nivel 2)...")
-        cats_objetivo = [c for c in categorias if c["nivel"] == 2]
+        cats_objetivo = [
+            c for c in categorias
+            if c["nivel"] == 2
+            and c["padre_nombre"] in DEPARTAMENTOS_SUPERMERCADO
+        ]
+        print(f"  filtrado a departamentos 'Supermercado': "
+              f"{len(cats_objetivo)} subcategorias "
+              f"(de {sum(1 for c in categorias if c['nivel']==2)} totales)")
 
         if solo_categoria:
             cats_objetivo = [
@@ -274,6 +312,7 @@ async def main(max_productos_por_cat=9999, max_categorias=9999, solo_categoria=N
                 id_path=cat["id_path"],
                 cat_nombre=cat["nombre"],
                 cat_id=cat["cat_id"],
+                departamento=cat["padre_nombre"],
                 max_productos=max_productos_por_cat,
             )
             todos.extend(prods)

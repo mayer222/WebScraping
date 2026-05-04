@@ -1,6 +1,8 @@
-PLAZA VEA — RESUMEN EJECUTIVO
-==============================
+PLAZA VEA — RESUMEN EJECUTIVO  (scope: SUPERMERCADO)
+=====================================================
 Fuente: plazavea_productos_20260503_2032.csv
+Scope:  tab "Supermercado" del menu web (comestibles + cuidado del consumidor)
+Departamentos analizados (4): Bebidas, Cuidado Personal y Salud, Limpieza, Mascotas
 Fecha snapshot: 2026-05-03 20:31
 
 CIFRAS CLAVE
