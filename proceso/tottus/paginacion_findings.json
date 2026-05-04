@@ -1,0 +1,65 @@
+{
+  "url_base": "https://www.tottus.com.pe/tottus-pe/lista/CATG17609/Pastas-Especiales",
+  "tests": [
+    {
+      "page": 1,
+      "url": "https://www.tottus.com.pe/tottus-pe/lista/CATG17609/Pastas-Especiales",
+      "antesScroll": {
+        "allPods": 48,
+        "ssrPods": 28,
+        "uniqueIds": 48,
+        "firstId": "134805893",
+        "lastId": "113710486",
+        "resultados": "Resultados (55)"
+      },
+      "despuesScroll": {
+        "allPods": 48,
+        "ssrPods": 28,
+        "uniqueIds": 48,
+        "firstId": "134805893",
+        "lastId": "113710486",
+        "resultados": "Resultados (55)"
+      }
+    },
+    {
+      "page": 2,
+      "url": "https://www.tottus.com.pe/tottus-pe/lista/CATG17609/Pastas-Especiales?page=2",
+      "antesScroll": {
+        "allPods": 7,
+        "ssrPods": 7,
+        "uniqueIds": 7,
+        "firstId": "119665824",
+        "lastId": "117084407",
+        "resultados": "Resultados (55)"
+      },
+      "despuesScroll": {
+        "allPods": 7,
+        "ssrPods": 7,
+        "uniqueIds": 7,
+        "firstId": "119665824",
+        "lastId": "117084407",
+        "resultados": "Resultados (55)"
+      }
+    },
+    {
+      "page": 3,
+      "url": "https://www.tottus.com.pe/tottus-pe/noResult?Ntt=",
+      "antesScroll": {
+        "allPods": 0,
+        "ssrPods": 0,
+        "uniqueIds": 0,
+        "firstId": null,
+        "lastId": null,
+        "resultados": null
+      },
+      "despuesScroll": {
+        "allPods": 0,
+        "ssrPods": 0,
+        "uniqueIds": 0,
+        "firstId": null,
+        "lastId": null,
+        "resultados": null
+      }
+    }
+  ]
+}

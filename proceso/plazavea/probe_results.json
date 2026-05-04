@@ -1,0 +1,113 @@
+{
+  "base": "https://www.plazavea.com.pe",
+  "tests": [
+    {
+      "endpoint": "https://www.plazavea.com.pe/api/catalog_system/pub/category/tree/3",
+      "status": 200,
+      "len": 1181309,
+      "head": "[{\"id\":2,\"name\":\"Bebidas\",\"hasChildren\":true,\"url\":\"https://www.plazavea.com.pe/bebidas\",\"children\":[{\"id\":6,\"name\":\"Aguas\",\"hasChildren\":true,\"url\":\"https://www.plazavea.com.pe/bebidas/aguas\",\"children\":[{\"id\":950,\"name\":\"Agua de Mesa\",\"hasChildren\""
+    },
+    {
+      "endpoint": "https://www.plazavea.com.pe/api/catalog_system/pub/category/tree/5",
+      "status": 200,
+      "len": 1225353,
+      "head": "[{\"id\":2,\"name\":\"Bebidas\",\"hasChildren\":true,\"url\":\"https://portal.vtexcommercestable.com.br/bebidas\",\"children\":[{\"id\":6,\"name\":\"Aguas\",\"hasChildren\":true,\"url\":\"https://portal.vtexcommercestable.com.br/bebidas/aguas\",\"children\":[{\"id\":950,\"name\":\"A"
+    },
+    {
+      "endpoint": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/2/&_from=0&_to=2",
+      "path": "/2/",
+      "sc": null,
+      "status": 206,
+      "len": 52590,
+      "head": "[{\"productId\":\"42898\",\"productName\":\"Gaseosa COCA COLA sin Azúcar Botella 300ml Paquete 6un\",\"brand\":\"COCA COLA\",\"brandId\":58137,\"brandImageUrl\":\"https://plazavea.vteximg.com.br/arquivos/ids/726800/lo"
+    },
+    {
+      "endpoint": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/2/&_from=0&_to=2&sc=1",
+      "path": "/2/",
+      "sc": 1,
+      "status": 206,
+      "len": 52590,
+      "head": "[{\"productId\":\"42898\",\"productName\":\"Gaseosa COCA COLA sin Azúcar Botella 300ml Paquete 6un\",\"brand\":\"COCA COLA\",\"brandId\":58137,\"brandImageUrl\":\"https://plazavea.vteximg.com.br/arquivos/ids/726800/lo"
+    },
+    {
+      "endpoint": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/2/&_from=0&_to=2&sc=2",
+      "path": "/2/",
+      "sc": 2,
+      "status": 206,
+      "len": 34521,
+      "head": "[{\"productId\":\"102005881\",\"productName\":\"THERMO T3 FUXION 28 sobres\",\"brand\":\"FUXION\",\"brandId\":40222406,\"brandImageUrl\":null,\"linkText\":\"thermo-t3-fuxion-28-sobres-102005881\",\"productReference\":\"6788"
+    },
+    {
+      "endpoint": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/2/&_from=0&_to=2&sc=3",
+      "path": "/2/",
+      "sc": 3,
+      "status": 400,
+      "len": 16,
+      "head": "\"sc is inactive\""
+    },
+    {
+      "endpoint": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/2/6/&_from=0&_to=2",
+      "path": "/2/6/",
+      "sc": null,
+      "status": 206,
+      "len": 54033,
+      "head": "[{\"productId\":\"5382\",\"productName\":\"Agua Mineral SAN MATEO Sin Gas Bidón 7L\",\"brand\":\"SAN MATEO\",\"brandId\":63726,\"brandImageUrl\":null,\"linkText\":\"agua-mineral-san-mateo-sin-gas-bidon-7l\",\"productRefer"
+    },
+    {
+      "endpoint": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/2/6/&_from=0&_to=2&sc=1",
+      "path": "/2/6/",
+      "sc": 1,
+      "status": 206,
+      "len": 54033,
+      "head": "[{\"productId\":\"5382\",\"productName\":\"Agua Mineral SAN MATEO Sin Gas Bidón 7L\",\"brand\":\"SAN MATEO\",\"brandId\":63726,\"brandImageUrl\":null,\"linkText\":\"agua-mineral-san-mateo-sin-gas-bidon-7l\",\"productRefer"
+    },
+    {
+      "endpoint": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/2/6/&_from=0&_to=2&sc=2",
+      "path": "/2/6/",
+      "sc": 2,
+      "status": 206,
+      "len": 30835,
+      "head": "[{\"productId\":\"101875798\",\"productName\":\"Agua Purificada AQUAGO sin gas Botella 600ml\",\"brand\":\"AQUAGO!\",\"brandId\":40233689,\"brandImageUrl\":null,\"linkText\":\"agua-purificada-aquago-sin-gas-botella-600m"
+    },
+    {
+      "endpoint": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/2/6/&_from=0&_to=2&sc=3",
+      "path": "/2/6/",
+      "sc": 3,
+      "status": 400,
+      "len": 16,
+      "head": "\"sc is inactive\""
+    },
+    {
+      "endpoint": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/2/6/950/&_from=0&_to=2",
+      "path": "/2/6/950/",
+      "sc": null,
+      "status": 206,
+      "len": 51317,
+      "head": "[{\"productId\":\"5280\",\"productName\":\"Agua de Mesa SAN LUIS Sin Gas Bidón 7L\",\"brand\":\"SAN LUIS\",\"brandId\":63724,\"brandImageUrl\":null,\"linkText\":\"agua-de-mesa-san-luis-sin-gas-bidon-7l\",\"productReferenc"
+    },
+    {
+      "endpoint": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/2/6/950/&_from=0&_to=2&sc=1",
+      "path": "/2/6/950/",
+      "sc": 1,
+      "status": 206,
+      "len": 51317,
+      "head": "[{\"productId\":\"5280\",\"productName\":\"Agua de Mesa SAN LUIS Sin Gas Bidón 7L\",\"brand\":\"SAN LUIS\",\"brandId\":63724,\"brandImageUrl\":null,\"linkText\":\"agua-de-mesa-san-luis-sin-gas-bidon-7l\",\"productReferenc"
+    },
+    {
+      "endpoint": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/2/6/950/&_from=0&_to=2&sc=2",
+      "path": "/2/6/950/",
+      "sc": 2,
+      "status": 206,
+      "len": 28280,
+      "head": "[{\"productId\":\"101875798\",\"productName\":\"Agua Purificada AQUAGO sin gas Botella 600ml\",\"brand\":\"AQUAGO!\",\"brandId\":40233689,\"brandImageUrl\":null,\"linkText\":\"agua-purificada-aquago-sin-gas-botella-600m"
+    },
+    {
+      "endpoint": "https://www.plazavea.com.pe/api/catalog_system/pub/products/search?fq=C:/2/6/950/&_from=0&_to=2&sc=3",
+      "path": "/2/6/950/",
+      "sc": 3,
+      "status": 400,
+      "len": 16,
+      "head": "\"sc is inactive\""
+    }
+  ]
+}

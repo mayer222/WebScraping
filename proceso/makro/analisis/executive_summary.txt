@@ -1,0 +1,49 @@
+MAKRO — RESUMEN EJECUTIVO
+============================
+Fuente: makro_productos_20260428_2000.csv
+Fecha snapshot: 2026-04-28 19:29
+
+CIFRAS CLAVE
+------------
+  Total SKUs                : 8,665
+  Categorias                : 140
+  Marcas distintas          : 1038
+  SKUs en promocion         : 1,425  (16.4% del catalogo)
+  Disponibilidad            : 94.3%
+  Precio mediana            : S/ 15.90
+  Precio promedio           : S/ 33.88
+  Descuento promedio        : 14.6%   (sobre SKUs en promo)
+
+MARCA PROPIA (ARO)
+------------------
+  SKUs con marca ARO        : 809
+  Penetracion en catalogo   : 9.3%
+  Top categorias ARO        :
+    - Limpieza de Cocina                  96 SKUs
+    - Salsas, Cremas y Condimentos        58 SKUs
+    - Higiene Personal                    40 SKUs
+    - Menestras                           37 SKUs
+    - Conservas                           34 SKUs
+
+LECTURA ESTRATEGICA
+-------------------
+  • ARO no es marca filler: con 9% del surtido, es el eje de su
+    estrategia de mayoreo. Donde ARO esta en mas del 30% de la categoria,
+    Makro NO compra precio — lo fija.
+  • La intensidad promocional (16% del catalogo) y un descuento
+    promedio de 15% indican promo permanente,
+    no campañas tacticas.
+  • Cualquier categoria con mas de 30 SKUs y < 30% en promo = oportunidad
+    de captura por marca tercera.
+  • Ver 06_aro_vs_terceros_precio.png para el spread real ARO vs competidor:
+    diferencial habitual de 15-30% justifica la lealtad HoReCa.
+
+CHARTS
+------
+  01_penetracion_aro.png            ← donde duele competir
+  02_categorias_surtido_y_promo.png ← profundidad + agresividad
+  03_pricing_ladder.png             ← combate vs premium
+  04_top_marcas_terceras.png        ← lista de captura
+  05_descuento_por_categoria.png    ← por donde agreden
+  06_aro_vs_terceros_precio.png     ← spread real ARO
+  07_quiebres_por_categoria.png     ← quiebres -> oportunidad

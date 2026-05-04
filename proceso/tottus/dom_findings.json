@@ -1,0 +1,68 @@
+{
+  "url": "https://www.tottus.com.pe/tottus-pe/lista/CATG17609/Pastas-Especiales",
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://www.tottus.com.pe/tottus-pe/lista/CATG17609/Pastas-Especiales",
+      "sel_counts": {
+        "[data-pod]": 48,
+        "[data-testid=ssr-pod]": 28,
+        "article": 1,
+        "[class*=Pod]": 0
+      },
+      "resultados": "Resultados (55)",
+      "paginationHTML": "<button id=\"testId-pagination-top-arrow-left\" type=\"button\" disabled=\"\" class=\"jsx-431638734 btn pagination-arrow\"><svg viewBox=\"0 0 32 32\" focusable=\"false\" class=\"chakra-icon css-blpcuq\"><path fill=\"currentColor\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M21.7071 5.29289C22.0976 5.68342 22.0976 6.31658 21.7071 6.70711L12.4142 16L21.7071 25.2929C22.0976 25.6834 22.0976 26.3166 21.7071 26.7071C21.3166 27.0976 20.6834 27.0976 20.2929 26.7071L10.2929 16.7071C9.90237 16.3166 9.90237 15.6834 10.2929 15.2929L20.2929 5.29289C20.6834 4.90237 21.3166 4.90237 21.7071 5.29289Z\"></path></svg></button>",
+      "pageLinks": [],
+      "samples": [
+        {
+          "href": "https://www.tottus.com.pe/tottus-pe/articulo/134805893/fideos-ghajangmyun-con-salsa-de-soya-x-140-g/134805951",
+          "productId": "134805893",
+          "category": "J0101011203",
+          "sponsored": "false",
+          "brand": "NONG SHIM",
+          "name": "Fideos Ghajang Myun Nong Shim con Salsa de Soya Bolsa 140 g",
+          "packageInfo": "Bolsa 140 g",
+          "seller": "Por TOTTUS",
+          "priceInternet": "9.50",
+          "priceCMR": null,
+          "priceNormal": null,
+          "imageUrl": "https://media.tottus.com.pe/tottusPE/40365444_1/width=240,height=240,quality=70,format=webp,fit=pad"
+        },
+        {
+          "href": "https://www.tottus.com.pe/tottus-pe/articulo/151743013/spaghetti-konjac-zerocarbo-caja-270-g/151743015",
+          "productId": "151743013",
+          "category": "J0101010802",
+          "sponsored": "false",
+          "brand": "ZERO CARBO",
+          "name": "Spaghetti Konjac Zerocarbo Caja 270 g",
+          "packageInfo": "Caja 270 g",
+          "seller": "Por TOTTUS",
+          "priceInternet": "14.40",
+          "priceCMR": null,
+          "priceNormal": null,
+          "imageUrl": "https://media.tottus.com.pe/tottusPE/43635471_1/width=240,height=240,quality=70,format=webp,fit=pad"
+        },
+        {
+          "href": "https://www.tottus.com.pe/tottus-pe/articulo/151742959/fetuccini-konjac-zerocarbo-caja-270-g/151742961",
+          "productId": "151742959",
+          "category": "J0101010802",
+          "sponsored": "false",
+          "brand": "ZERO CARBO",
+          "name": "Fetuccini Konjac Zerocarbo Caja 270 g",
+          "packageInfo": "Caja 270 g",
+          "seller": "Por TOTTUS",
+          "priceInternet": "14.40",
+          "priceCMR": null,
+          "priceNormal": null,
+          "imageUrl": "https://media.tottus.com.pe/tottusPE/43635472_1/width=240,height=240,quality=70,format=webp,fit=pad"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "podCount": 7,
+      "firstId": "119665824",
+      "url": "https://www.tottus.com.pe/tottus-pe/lista/CATG17609/Pastas-Especiales?page=2"
+    }
+  ]
+}

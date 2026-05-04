@@ -1,0 +1,63 @@
+TOTTUS — RESUMEN EJECUTIVO
+============================
+Fuente: tottus_productos_20260503_2033.csv
+Fecha snapshot: 2026-05-03 20:31
+
+CIFRAS CLAVE
+------------
+  Total SKUs                : 164
+  Categorias                : 16
+  Marcas distintas          : 27
+  Disponibilidad            : 100.0%
+
+  Promocion / Descuento
+    SKUs en promo           : 49  (29.9%)
+    Descuento promedio      : 14.4%   (sobre SKUs en promo)
+
+  Tarjeta CMR (Falabella)
+    SKUs con precio CMR     : 17  (10.4%)
+    Diferencial CMR promedio: 6.9%  (vs precio internet)
+
+  Marketplace / Retail Media
+    SKUs marketplace        : 0  (0.0%)
+    SKUs patrocinados       : 0  (0.0%)
+
+  Pricing
+    Mediana                 : S/ 16.70
+    Promedio                : S/ 23.19
+
+MARCAS PROPIAS (TOTTUS, TOTTUS VERDURAS)
+-----------------------------------------
+  SKUs marca propia         : 39
+  Penetracion en catalogo   : 23.8%
+  Top categorias            :
+    - Orgánicos y Verduras BabyOrgánicos y Verduras Baby 14 SKUs
+    - Pescados                            8 SKUs
+    - Filetes y Enteros                   3 SKUs
+    - Langostinos                         3 SKUs
+    - Carnes Regionales                   3 SKUs
+
+LECTURA ESTRATEGICA
+-------------------
+  • Marca propia TOTTUS pesa 24% — concentrada en frescos
+    (TOTTUS VERDURAS) y commodities. Donde aparece, define el precio
+    referencia de la categoria.
+  • CMR es la palanca de fidelizacion, no el descuento abierto: solo
+    10% de los SKUs tienen precio CMR diferenciado, pero el
+    diferencial promedio es 7%. Esto significa que
+    CMR se reserva para drivers de trafico, no para todo el catalogo.
+    Una empresa sin tarjeta tiene desventaja real solo en esos SKUs.
+  • Patrocinados (0%) y marketplace (0%)
+    indican que tan diversificado esta el ingreso (vs solo margen).
+  • Para entrar a competir: replicar el efecto CMR en SKUs concretos
+    cuesta menos que igualar precio internet en todo el catalogo.
+
+CHARTS
+------
+  01_penetracion_marca_propia.png   ← donde TOTTUS define precio
+  02_categorias_surtido_y_promo.png ← profundidad y % en oferta
+  03_pricing_ladder.png             ← combate vs premium
+  04_top_marcas_terceras.png        ← marcas a captar / negociar
+  05_diferencial_cmr.png            ← incentivo tarjeta CMR (UNICO)
+  06_marketplace_vs_propio.png      ← split inventario propio / 3P
+  07_descuento_y_patrocinio.png     ← agresion promo + retail media

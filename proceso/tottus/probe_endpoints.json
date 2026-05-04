@@ -1,0 +1,2542 @@
+{
+  "source_url": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+  "captured_at": "2026-05-04T01:26:22.772671+00:00",
+  "total_endpoints": 11,
+  "filtered_non_json": 4,
+  "auth_required_count": 0,
+  "graphql_count": 0,
+  "endpoints": [
+    {
+      "method": "POST",
+      "normalized_url": "https://adobedc.demdex.net/ee/v1/interact",
+      "sample_url": "https://adobedc.demdex.net/ee/v1/interact?configId=bd077379-c8d8-427b-b417-ce607bebcb64&requestId=a20a9544-0406-405d-a009-69b2f3964c9e",
+      "domain": "adobedc.demdex.net",
+      "path": "/ee/v1/interact",
+      "query_keys": [
+        "configId",
+        "requestId"
+      ],
+      "classification": "rest",
+      "request_count": 1,
+      "status_codes": [
+        200
+      ],
+      "content_types": [
+        "application/json"
+      ],
+      "headers_sample": {
+        "Content-Type": "text/plain; charset=UTF-8",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+        "content-type": "text/plain; charset=UTF-8",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "request_sample": {
+        "meta": {
+          "configOverrides": {},
+          "state": {
+            "domain": "tottus.com.pe",
+            "cookiesEnabled": true
+          }
+        },
+        "events": [
+          {
+            "xdm": {
+              "eventType": "web.webpagedetails.pageViews",
+              "web": {
+                "webPageDetails": {
+                  "URL": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas"
+                },
+                "webReferrer": {
+                  "URL": ""
+                }
+              },
+              "device": {
+                "screenHeight": 720,
+                "screenWidth": 1280,
+                "screenOrientation": "landscape"
+              },
+              "environment": {
+                "type": "browser",
+                "browserDetails": {
+                  "viewportWidth": 1280,
+                  "viewportHeight": 720
+                }
+              },
+              "placeContext": {
+                "localTimezoneOffset": 300,
+                "localTime": "2026-05-03T20:26:21.082-05:00"
+              },
+              "timestamp": "2026-05-04T01:26:21.082Z",
+              "implementationDetails": {
+                "name": "https://ns.adobe.com/experience/alloy/reactor",
+                "version": "2.22.0+2.26.0",
+                "environment": "browser"
+              }
+            },
+            "query": {
+              "personalization": {
+                "schemas": [
+                  "https://ns.adobe.com/personalization/default-content-item",
+                  "https://ns.adobe.com/personalization/html-content-item",
+                  "https://ns.adobe.com/personalization/json-content-item",
+                  "https://ns.adobe.com/personalization/redirect-item",
+                  "https://ns.adobe.com/personalization/ruleset-item",
+                  "https://ns.adobe.com/personalization/message/in-app",
+                  "https://ns.adobe.com/personalization/message/content-card",
+                  "https://ns.adobe.com/personalization/dom-action"
+                ],
+                "decisionScopes": [
+                  "__view__"
+                ],
+                "surfaces": [
+                  "web://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas"
+                ]
+              }
+            },
+            "data": {
+              "methods": {
+                "event": {
+                  "message": {
+                    "INIT_STARTED": "INIT_STARTED",
+                    "INIT_DONE": "INIT_DONE",
+                    "UPDATE_STARTED": "UPDATE_STARTED",
+                    "UPDATE_DONE": "UPDATE_DONE",
+                    "CONTENT_STARTED": "CONTENT_STARTED",
+                    "CONTENT_DONE": "CONTENT_DONE"
+                  }
+                }
+              },
+              "digitalDataManager": {
+                "isHeaderActive": true,
+                "isFooterActive": true,
+                "isXlpActive": true,
+                "isActive": true
+              },
+              "tag": {
+                "XLP": {
+                  "sis_experience": "tottus",
+                  "A2C_XLP": {},
+                  "vectorSearchApplied": false,
+                  "Facets_Shown": "price.search,Tipo_de_Producto,Contenido",
+                  "brand_facet_see_more": "0"
+                },
+                "xlp": {},
+                "XLP_Clasification": "",
+                "XLP_products_view": "4_GRID"
+              },
+              "page": {
+                "loginStatus": "falabella guest",
+                "canal": "",
+                "serverName": "CATALYST",
+                "sessionId": "f5b7146c2daa4928ad17317a804f39a0-1777901180604",
+                "geolocation": "",
+                "pageName": "plp: Abarrotes: Conservas: Frutas",
+                "pageType": "product list page",
+                "catalyst": "nm",
+                "siteSection": "Abarrotes",
+                "subSection": "Conservas",
+                "subSection2": "Frutas",
+                "ppvPreviousPage": "undefined",
+                "ppvHighestPercentViewed": "",
+                "ppvInitialPercentViewed": "",
+                "ppvHighestPixelsSeen": ""
+              },
+              "smartSearchImpression": "False",
+              "login": {
+                "clienteID": "",
+                "genero": "unset",
+                "tipo": "person"
+              },
+              "customData": {
+                "eVar27": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+                "prop3": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+                "prop50": true,
+                "eVar82": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+                "zones_picking_center": "LEG_TOTTUS_LAS_BEGONIAS_1,912_SAN_ISIDRO_1,CENAS_LIMA,912_SAN_ISIDRO_2,IBIS_110,IBIS_120,IBIS_46,GRIS_SERVICIO_9,IBIS_21"
+              },
+              "timeParting": "year=2026 | month=May | date=4 | day=Monday | time=1:26 AM",
+              "NewRepeat": "New"
+            }
+          }
+        ],
+        "query": {
+          "identity": {
+            "fetch": [
+              "ECID"
+            ]
+          }
+        }
+      },
+      "response_sample": {
+        "requestId": "a20a9544-0406-405d-a009-69b2f3964c9e-e1fb434635c841c2",
+        "handle": [
+          {
+            "payload": [
+              {
+                "id": "79859666184111562660892162114291193444",
+                "namespace": {
+                  "code": "ECID"
+                }
+              }
+            ],
+            "type": "identity:result"
+          },
+          {
+            "payload": [
+              {
+                "scope": "Target",
+                "hint": "34",
+                "ttlSeconds": 1800
+              },
+              {
+                "scope": "AAM",
+                "hint": "7",
+                "ttlSeconds": 1800
+              },
+              {
+                "scope": "EdgeNetwork",
+                "hint": "va6",
+                "ttlSeconds": 1800
+              }
+            ],
+            "type": "locationHint:result"
+          },
+          {
+            "payload": [
+              {
+                "key": "kndctr_867134FA53CCF4BE0A490D44_AdobeOrg_cluster",
+                "value": "va6",
+                "maxAge": 1800,
+                "attrs": {
+                  "SameSite": "None"
+                }
+              },
+              {
+                "key": "kndctr_867134FA53CCF4BE0A490D44_AdobeOrg_identity",
+                "value": "CiY3OTg1OTY2NjE4NDExMTU2MjY2MDg5MjE2MjExNDI5MTE5MzQ0NFISCJDY34TfMxABGAEqA1ZBNjAA8AGQ2N-E3zM=",
+                "maxAge": 34128000,
+                "attrs": {
+                  "SameSite": "None"
+                }
+              }
+            ],
+            "type": "state:store"
+          }
+        ],
+        "warnings": [
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event1to100.event17.value. Details: Source data does not contain field event17",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.schema-path",
+              "destination": "_experience.analytics.event1to100.event17.value",
+              "path": "value",
+              "source": "data.customData.event17"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event501to600.event566.value. Details: com.adobe.aep.aexl.jexl.AexlScriptEngine$AepJexlEngine.parse@1:11 to_integer",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.aep-xl",
+              "destination": "_experience.analytics.event501to600.event566.value",
+              "path": "value",
+              "source": "to_integer(first(split(data.shipping.totals,\"|\")))"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event1to100.event51.value. Details: Source data does not contain field typeAheadResult",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.schema-path",
+              "destination": "_experience.analytics.event1to100.event51.value",
+              "path": "value",
+              "source": "data.typeAheadResult"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event201to300.event232.value. Details: Source data does not contain field puntosCMRexact",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.schema-path",
+              "destination": "_experience.analytics.event201to300.event232.value",
+              "path": "value",
+              "source": "data.puntosCMRexact"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event201to300.event263.value. Details: Source data does not contain field ocp_popup",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.schema-path",
+              "destination": "_experience.analytics.event201to300.event263.value",
+              "path": "value",
+              "source": "data.ocp_popup"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event601to700.event674.value. Details: com.adobe.aep.aexl.jexl.AexlScriptEngine$AepJexlEngine.parse@1:11 to_integer",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.aep-xl",
+              "destination": "_experience.analytics.event601to700.event674.value",
+              "path": "value",
+              "source": "to_integer(iif(matches_regex(data.dataocp,\"[|]+\"),substr(data.dataocp,instr(data.dataocp,\"|\",1,7)+1,instr(data.dataocp ,\"|\",1,8)- instr( data.dataocp ,\"|\",1,7)-1),0))"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event501to600.event565.value. Details: com.adobe.aep.aexl.jexl.AexlScriptEngine$AepJexlEngine.parse@1:11 to_decimal",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.aep-xl",
+              "destination": "_experience.analytics.event501to600.event565.value",
+              "path": "value",
+              "source": "to_decimal(iif(matches_regex(data.deliveryGroups,\"[|]+\"),iif(instr(data.deliveryGroups ,\"|\",1,2) <= instr( data.deliveryGroups,\"|\",1,1) ,last(split(data.deliveryGroups,\"|\")),substr(data.deliveryGroups,instr(data.deliveryGroups,\"|\",1,1)+1,instr(data.deliveryGroups ,\"|\",1,2)- instr( data.deliveryGroups ,\"|\",1,1)-1)),0))"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event1to100.event44.value. Details: Source data does not contain field cart",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.schema-path",
+              "destination": "_experience.analytics.event1to100.event44.value",
+              "path": "value",
+              "source": "data.cart.noviosvalue"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event1to100.event16.value. Details: Source data does not contain field event16",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.schema-path",
+              "destination": "_experience.analytics.event1to100.event16.value",
+              "path": "value",
+              "source": "data.customData.event16"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event501to600.event562.value. Details: Source data does not contain field Facet_search",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.schema-path",
+              "destination": "_experience.analytics.event501to600.event562.value",
+              "path": "value",
+              "source": "data.tag.XLP.Facet_search"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event501to600.event563.value. Details: Source data does not contain field Facet_Click",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.schema-path",
+              "destination": "_experience.analytics.event501to600.event563.value",
+              "path": "value",
+              "source": "data.tag.XLP.Facet_Click"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event201to300.event300.value. Details: Source data does not contain field HuaweiApp",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.schema-path",
+              "destination": "_experience.analytics.event201to300.event300.value",
+              "path": "value",
+              "source": "data.page.HuaweiApp"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event501to600.event564.value. Details: com.adobe.aep.aexl.jexl.AexlScriptEngine$AepJexlEngine.parse@1:11 to_integer",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.aep-xl",
+              "destination": "_experience.analytics.event501to600.event564.value",
+              "path": "value",
+              "source": "to_integer(first(split(data.deliveryGroups,\"|\")))"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event1to100.event54.value. Details: Source data does not contain field event54",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.schema-path",
+              "destination": "_experience.analytics.event1to100.event54.value",
+              "path": "value",
+              "source": "data.customData.event54"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event1to100.event15.value. Details: Source data does not contain field event15",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.schema-path",
+              "destination": "_experience.analytics.event1to100.event15.value",
+              "path": "value",
+              "source": "data.customData.event15"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event501to600.event567.value. Details: com.adobe.aep.aexl.jexl.AexlScriptEngine$AepJexlEngine.parse@1:11 to_integer",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.aep-xl",
+              "destination": "_experience.analytics.event501to600.event567.value",
+              "path": "value",
+              "source": "to_integer(first(split(data.cart.totals,\"|\")))"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event1to100.event55.value. Details: Source data does not contain field event55",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.schema-path",
+              "destination": "_experience.analytics.event1to100.event55.value",
+              "path": "value",
+              "source": "data.customData.event55"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event601to700.event675.value. Details: Source data does not contain field paymentsdeliverygroup",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.schema-path",
+              "destination": "_experience.analytics.event601to700.event675.value",
+              "path": "value",
+              "source": "data.paymentsdeliverygroup"
+            }
+          },
+          {
+            "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+            "status": 199,
+            "title": "Field transformation warning",
+            "detail": "Error transforming data for required destination path _experience.analytics.event1to100.event13.value. Details: Source data does not contain field event13",
+            "report": {
+              "eventIndex": 0,
+              "sourceType": "text/x.schema-path",
+              "destination": "_experience.analytics.event1to100.event13.value",
+              "path": "value",
+              "source": "data.customData.event13"
+            }
+          }
+        ]
+      },
+      "detected_patterns": {},
+      "graphql_operations": [],
+      "requires_auth": false,
+      "curl_equivalent": "curl -X POST 'https://adobedc.demdex.net/ee/v1/interact?configId=bd077379-c8d8-427b-b417-ce607bebcb64&requestId=a20a9544-0406-405d-a009-69b2f3964c9e' -H 'Content-Type: text/plain; charset=UTF-8' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'content-type: text/plain; charset=UTF-8' -H 'sec-ch-ua-mobile: ?0' --data-raw '{\"meta\":{\"configOverrides\":{},\"state\":{\"domain\":\"tottus.com.pe\",\"cookiesEnabled\":true}},\"events\":[{\"xdm\":{\"eventType\":\"web.webpagedetails.pageViews\",\"web\":{\"webPageDetails\":{\"URL\":\"https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas\"},\"webReferrer\":{\"URL\":\"\"}},\"device\":{\"screenHeight\":720,\"screenWidth\":1280,\"screenOrientation\":\"landscape\"},\"environment\":{\"type\":\"browser\",\"browserDetails\":{\"viewportWidth\":1280,\"viewportHeight\":720}},\"placeContext\":{\"localTimezoneOffset\":300,\"localTime\":\"2026-05-03T20:26:21.082-05:00\"},\"timestamp\":\"2026-05-04T01:26:21.082Z\",\"implementationDetails\":{\"name\":\"https://ns.adobe.com/experience/alloy/reactor\",\"version\":\"2.22.0+2.26.0\",\"environment\":\"browser\"}},\"query\":{\"personalization\":{\"schemas\":[\"https://ns.adobe.com/personalization/default-content-item\",\"https://ns.adobe.com/personalization/html-content-item\",\"https://ns.adobe.com/personalization/json-content-item\",\"https://ns.adobe.com/personalization/redirect-item\",\"https://ns.adobe.com/personalization/ruleset-item\",\"https://ns.adobe.com/personalization/message/in-app\",\"https://ns.adobe.com/personalization/message/content-card\",\"https://ns.adobe.com/personalization/dom-action\"],\"decisionScopes\":[\"__view__\"],\"surfaces\":[\"web://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas\"]}},\"data\":{\"methods\":{\"event\":{\"message\":{\"INIT_STARTED\":\"INIT_STARTED\",\"INIT_DONE\":\"INIT_DONE\",\"UPDATE_STARTED\":\"UPDATE_STARTED\",\"UPDATE_DONE\":\"UPDATE_DONE\",\"CONTENT_STARTED\":\"CONTENT_STARTED\",\"CONTENT_DONE\":\"CONTENT_DONE\"}}},\"digitalDataManager\":{\"isHeaderActive\":true,\"isFooterActive\":true,\"isXlpActive\":true,\"isActive\":true},\"tag\":{\"XLP\":{\"sis_experience\":\"tottus\",\"A2C_XLP\":{},\"vectorSearchApplied\":false,\"Facets_Shown\":\"price.search,Tipo_de_Producto,Contenido\",\"brand_facet_see_more\":\"0\"},\"xlp\":{},\"XLP_Clasification\":\"\",\"XLP_products_view\":\"4_GRID\"},\"page\":{\"loginStatus\":\"falabella guest\",\"canal\":\"\",\"serverName\":\"CATALYST\",\"sessionId\":\"f5b7146c2daa4928ad17317a804f39a0-1777901180604\",\"geolocation\":\"\",\"pageName\":\"plp: Abarrotes: Conservas: Frutas\",\"pageType\":\"product list page\",\"catalyst\":\"nm\",\"siteSection\":\"Abarrotes\",\"subSection\":\"Conservas\",\"subSection2\":\"Frutas\",\"ppvPreviousPage\":\"undefined\",\"ppvHighestPercentViewed\":\"\",\"ppvInitialPercentViewed\":\"\",\"ppvHighestPixelsSeen\":\"\"},\"smartSearchImpression\":\"False\",\"login\":{\"clienteID\":\"\",\"genero\":\"unset\",\"tipo\":\"person\"},\"customData\":{\"eVar27\":\"https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas\",\"prop3\":\"https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas\",\"prop50\":true,\"eVar82\":\"https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas\",\"zones_picking_center\":\"LEG_TOTTUS_LAS_BEGONIAS_1,912_SAN_ISIDRO_1,CENAS_LIMA,912_SAN_ISIDRO_2,IBIS_110,IBIS_120,IBIS_46,GRIS_SERVICIO_9,IBIS_21\"},\"timeParting\":\"year=2026 | month=May | date=4 | day=Monday | time=1:26 AM\",\"NewRepeat\":\"New\"}}],\"query\":{\"identity\":{\"fetch\":[\"ECID\"]}}}'"
+    },
+    {
+      "method": "POST",
+      "normalized_url": "https://analytics.google.com/g/collect",
+      "sample_url": "https://analytics.google.com/g/collect?v=2&tid=G-CSJSPE9YR5&gtm=45je64t1v876122067za20gzb9209149177zd9209149177&_p=1777857979851&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGAC&_prs=ok&ae=a&are=1&cid=1977968958.1777857981&frm=0&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~117215714&sid=1777857980&sct=1&seg=0&dl=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&dt=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&en=scroll&_fv=2&_nsi=1&_ss=2&epn.percent_scrolled=90&tfd=3533",
+      "domain": "analytics.google.com",
+      "path": "/g/collect",
+      "query_keys": [
+        "_eu",
+        "_fv",
+        "_gaz",
+        "_nsi",
+        "_p",
+        "_prs",
+        "_s",
+        "_ss",
+        "ae",
+        "are",
+        "cid",
+        "dl",
+        "dma",
+        "dt",
+        "en",
+        "epn.percent_scrolled",
+        "frm",
+        "gaf",
+        "gcd",
+        "gtm",
+        "npa",
+        "pscdl",
+        "rcb",
+        "sct",
+        "seg",
+        "sid",
+        "sr",
+        "tag_exp",
+        "tfd",
+        "tid",
+        "uaa",
+        "uab",
+        "uafvl",
+        "uamb",
+        "uap",
+        "uaw",
+        "ul",
+        "v"
+      ],
+      "classification": "rest",
+      "request_count": 1,
+      "status_codes": [
+        204
+      ],
+      "content_types": [
+        "text/plain"
+      ],
+      "headers_sample": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://www.tottus.com.pe/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "request_sample": {
+        "v": "2",
+        "tid": "G-CSJSPE9YR5",
+        "gtm": "45je64t1v876122067za20gzb9209149177zd9209149177",
+        "_p": "1777857979851",
+        "_gaz": "1",
+        "gcd": "13l3l3l3l1l1",
+        "npa": "0",
+        "dma": "0",
+        "_eu": "AEAAAGAC",
+        "_prs": "ok",
+        "ae": "a",
+        "are": "1",
+        "cid": "1977968958.1777857981",
+        "frm": "0",
+        "pscdl": "noapi",
+        "rcb": "2",
+        "sr": "1280x720",
+        "uaa": "x86",
+        "uab": "64",
+        "uafvl": "Not%3AA-Brand;99.0.0.0|HeadlessChrome;145.0.7632.6|Chromium;145.0.7632.6",
+        "uam": "",
+        "uamb": "0",
+        "uap": "Linux",
+        "uapv": "",
+        "uaw": "0",
+        "ul": "en-us",
+        "gaf": "2",
+        "_s": "1",
+        "tag_exp": "0~115938466~115938469~117215714",
+        "sid": "1777857980",
+        "sct": "1",
+        "seg": "0",
+        "dl": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+        "dt": "Frutas grandes ofertas | Tottus Perú",
+        "en": "scroll",
+        "_fv": "2",
+        "_nsi": "1",
+        "_ss": "2",
+        "epn.percent_scrolled": "90",
+        "tfd": "3533"
+      },
+      "response_sample": null,
+      "detected_patterns": {},
+      "graphql_operations": [],
+      "requires_auth": false,
+      "curl_equivalent": "curl -X POST 'https://analytics.google.com/g/collect?v=2&tid=G-CSJSPE9YR5&gtm=45je64t1v876122067za20gzb9209149177zd9209149177&_p=1777857979851&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGAC&_prs=ok&ae=a&are=1&cid=1977968958.1777857981&frm=0&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~117215714&sid=1777857980&sct=1&seg=0&dl=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&dt=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&en=scroll&_fv=2&_nsi=1&_ss=2&epn.percent_scrolled=90&tfd=3533' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+    },
+    {
+      "method": "POST",
+      "normalized_url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/{id}/",
+      "sample_url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11458930425/?random=213815536&cv=11&fst=1777857980711&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be64t1v9213415426z89209149177za20gzb9209149177zd9209149177xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117215714&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&rcb=9&label=jr2nCMmy0rwaEPnNhdgq&capi=1&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=a&_tu=CA&gcl_ctr=1~0~0~0&category=acrcp_v1_512&em=tv.1&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKGW5vdC1ldmVudC1zb3VyY2UsIHRyaWdnZXJaAwoBAWIDCgED&cerd=CgSO4b0t&eitems=ChAI8OTbzwYQ9L2D_dP16pQCEh0APLA8w11-JAooRXQZfiHuLKfqiqp8_QIAWVVE8w&fsk=ChEI8OTbzwYQs7KagKmuyuS6ARIsAKLPOthG_19buVO_Si3EtzA7YVQOzJ8yqHLCddwqJZJgDHzwFId5ylHS6BAaAlXr&pscrd=IhMIj8ioi72elAMVq2DdAh3pywLPMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhpodHRwczovL3d3dy50b3R0dXMuY29tLnBlL0JYQ2hFSThPVGJ6d1lRNk9lQWg0QzdtNXJzQVJJdEFMbVB2MEZyekcyZnlUWHJZSnpucDRxaVN1cGwzVFFFbEJoaWRTWFlDbWxLSmFWQUtLa0p2RmZKWGg3Y3oMCAliCAgAEAAYACAA",
+      "domain": "googleads.g.doubleclick.net",
+      "path": "/pagead/viewthroughconversion/{id}/",
+      "query_keys": [
+        "_tu",
+        "async",
+        "auid",
+        "bg",
+        "capi",
+        "category",
+        "cerd",
+        "crd",
+        "ct_cookie_present",
+        "cv",
+        "dma",
+        "ec_mode",
+        "eitems",
+        "em",
+        "en",
+        "fmt",
+        "frm",
+        "fsk",
+        "fst",
+        "gcd",
+        "gcl_ctr",
+        "gtm",
+        "guid",
+        "hn",
+        "label",
+        "npa",
+        "pscdl",
+        "pscrd",
+        "random",
+        "rcb",
+        "tag_exp",
+        "tiba",
+        "u_h",
+        "u_w",
+        "uaa",
+        "uab",
+        "uafvl",
+        "uamb",
+        "uap",
+        "uaw",
+        "url",
+        "value"
+      ],
+      "classification": "rest",
+      "request_count": 1,
+      "status_codes": [
+        302
+      ],
+      "content_types": [
+        "text/html"
+      ],
+      "headers_sample": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://www.tottus.com.pe/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "request_sample": {
+        "random": "213815536",
+        "cv": "11",
+        "fst": "1777857980711",
+        "bg": "ffffff",
+        "guid": "ON",
+        "async": "1",
+        "en": "conversion",
+        "gtm": "45be64t1v9213415426z89209149177za20gzb9209149177zd9209149177xea",
+        "gcd": "13l3l3l3l1l1",
+        "dma": "0",
+        "tag_exp": "0~115938466~115938469~117215714",
+        "u_w": "1280",
+        "u_h": "720",
+        "url": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+        "rcb": "9",
+        "label": "jr2nCMmy0rwaEPnNhdgq",
+        "capi": "1",
+        "frm": "0",
+        "tiba": "Frutas grandes ofertas | Tottus Perú",
+        "value": "0",
+        "hn": "www.googleadservices.com",
+        "npa": "0",
+        "pscdl": "noapi",
+        "auid": "1169345473.1777857980",
+        "uaa": "x86",
+        "uab": "64",
+        "uafvl": "Not%3AA-Brand;99.0.0.0|HeadlessChrome;145.0.7632.6|Chromium;145.0.7632.6",
+        "uamb": "0",
+        "uam": "",
+        "uap": "Linux",
+        "uapv": "",
+        "uaw": "0",
+        "ec_mode": "a",
+        "_tu": "CA",
+        "gcl_ctr": "1~0~0~0",
+        "category": "acrcp_v1_512",
+        "em": "tv.1",
+        "fmt": "8",
+        "ct_cookie_present": "false",
+        "crd": "CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKGW5vdC1ldmVudC1zb3VyY2UsIHRyaWdnZXJaAwoBAWIDCgED",
+        "cerd": "CgSO4b0t",
+        "eitems": "ChAI8OTbzwYQ9L2D_dP16pQCEh0APLA8w11-JAooRXQZfiHuLKfqiqp8_QIAWVVE8w",
+        "fsk": "ChEI8OTbzwYQs7KagKmuyuS6ARIsAKLPOthG_19buVO_Si3EtzA7YVQOzJ8yqHLCddwqJZJgDHzwFId5ylHS6BAaAlXr",
+        "pscrd": "IhMIj8ioi72elAMVq2DdAh3pywLPMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhpodHRwczovL3d3dy50b3R0dXMuY29tLnBlL0JYQ2hFSThPVGJ6d1lRNk9lQWg0QzdtNXJzQVJJdEFMbVB2MEZyekcyZnlUWHJZSnpucDRxaVN1cGwzVFFFbEJoaWRTWFlDbWxLSmFWQUtLa0p2RmZKWGg3Y3oMCAliCAgAEAAYACAA"
+      },
+      "response_sample": null,
+      "detected_patterns": {},
+      "graphql_operations": [],
+      "requires_auth": false,
+      "curl_equivalent": "curl -X POST 'https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11458930425/?random=213815536&cv=11&fst=1777857980711&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be64t1v9213415426z89209149177za20gzb9209149177zd9209149177xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117215714&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&rcb=9&label=jr2nCMmy0rwaEPnNhdgq&capi=1&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=a&_tu=CA&gcl_ctr=1~0~0~0&category=acrcp_v1_512&em=tv.1&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKGW5vdC1ldmVudC1zb3VyY2UsIHRyaWdnZXJaAwoBAWIDCgED&cerd=CgSO4b0t&eitems=ChAI8OTbzwYQ9L2D_dP16pQCEh0APLA8w11-JAooRXQZfiHuLKfqiqp8_QIAWVVE8w&fsk=ChEI8OTbzwYQs7KagKmuyuS6ARIsAKLPOthG_19buVO_Si3EtzA7YVQOzJ8yqHLCddwqJZJgDHzwFId5ylHS6BAaAlXr&pscrd=IhMIj8ioi72elAMVq2DdAh3pywLPMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhpodHRwczovL3d3dy50b3R0dXMuY29tLnBlL0JYQ2hFSThPVGJ6d1lRNk9lQWg0QzdtNXJzQVJJdEFMbVB2MEZyekcyZnlUWHJZSnpucDRxaVN1cGwzVFFFbEJoaWRTWFlDbWxLSmFWQUtLa0p2RmZKWGg3Y3oMCAliCAgAEAAYACAA' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+    },
+    {
+      "method": "GET",
+      "normalized_url": "https://securepubads.g.doubleclick.net/pagead/ppub_config",
+      "sample_url": "https://securepubads.g.doubleclick.net/pagead/ppub_config?ippd=www.tottus.com.pe",
+      "domain": "securepubads.g.doubleclick.net",
+      "path": "/pagead/ppub_config",
+      "query_keys": [
+        "ippd"
+      ],
+      "classification": "rest",
+      "request_count": 1,
+      "status_codes": [
+        200
+      ],
+      "content_types": [
+        "application/json"
+      ],
+      "headers_sample": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://www.tottus.com.pe/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "request_sample": {
+        "ippd": "www.tottus.com.pe"
+      },
+      "response_sample": [
+        [
+          null,
+          null,
+          "www.tottus.com.pe"
+        ],
+        [],
+        [],
+        null,
+        null,
+        null,
+        null,
+        [],
+        null,
+        null,
+        null,
+        [
+          1
+        ]
+      ],
+      "detected_patterns": {},
+      "graphql_operations": [],
+      "requires_auth": false,
+      "curl_equivalent": "curl -X GET 'https://securepubads.g.doubleclick.net/pagead/ppub_config?ippd=www.tottus.com.pe' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+    },
+    {
+      "method": "POST",
+      "normalized_url": "https://www.google.com/ccm/collect",
+      "sample_url": "https://www.google.com/ccm/collect?rcb=0&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&scrsrc=www.googletagmanager.com&rnd=1295568814.1777857980&dt=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&auid=1169345473.1777857980&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He64t1v9209149177za200zd9209149177xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938466~115938469~117215714&apve=1&apvf=f&apvc=1&tft=1777857980327&tfd=3245",
+      "domain": "www.google.com",
+      "path": "/ccm/collect",
+      "query_keys": [
+        "ae",
+        "apvc",
+        "apve",
+        "apvf",
+        "auid",
+        "dl",
+        "dma",
+        "dt",
+        "en",
+        "ep.ads_data_redaction",
+        "frm",
+        "gcd",
+        "gtm",
+        "navt",
+        "npa",
+        "rcb",
+        "rnd",
+        "scrsrc",
+        "tag_exp",
+        "tfd",
+        "tft"
+      ],
+      "classification": "rest",
+      "request_count": 3,
+      "status_codes": [
+        200
+      ],
+      "content_types": [],
+      "headers_sample": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://www.tottus.com.pe/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "request_sample": {
+        "rcb": "0",
+        "frm": "0",
+        "ae": "g",
+        "en": "page_view",
+        "dl": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+        "scrsrc": "www.googletagmanager.com",
+        "rnd": "1295568814.1777857980",
+        "dt": "Frutas grandes ofertas | Tottus Perú",
+        "auid": "1169345473.1777857980",
+        "navt": "n",
+        "npa": "0",
+        "ep.ads_data_redaction": "0",
+        "gtm": "45He64t1v9209149177za200zd9209149177xea",
+        "gcd": "13l3l3l3l1l1",
+        "dma": "0",
+        "tag_exp": "0~115616986~115938466~115938469~117215714",
+        "apve": "1",
+        "apvf": "f",
+        "apvc": "1",
+        "tft": "1777857980327",
+        "tfd": "3245"
+      },
+      "response_sample": null,
+      "detected_patterns": {},
+      "graphql_operations": [],
+      "requires_auth": false,
+      "curl_equivalent": "curl -X POST 'https://www.google.com/ccm/collect?rcb=0&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&scrsrc=www.googletagmanager.com&rnd=1295568814.1777857980&dt=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&auid=1169345473.1777857980&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He64t1v9209149177za200zd9209149177xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938466~115938469~117215714&apve=1&apvf=f&apvc=1&tft=1777857980327&tfd=3245' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+    },
+    {
+      "method": "POST",
+      "normalized_url": "https://www.google.com/measurement/conversion",
+      "sample_url": "https://www.google.com/measurement/conversion?random=1777857980602&cv=11&tid=G-CSJSPE9YR5&fst=1777857980602&fmt=8&en=first_visit&gtm=45je64t1v876122067za20gzb9209149177zd9209149177xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117215714&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&gacid=1977968958.1777857981&ae=a&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&rcb=2",
+      "domain": "www.google.com",
+      "path": "/measurement/conversion",
+      "query_keys": [
+        "_tu",
+        "ae",
+        "auid",
+        "cv",
+        "dma",
+        "en",
+        "fmt",
+        "frm",
+        "fst",
+        "gacid",
+        "gcd",
+        "gtm",
+        "npa",
+        "pscdl",
+        "random",
+        "rcb",
+        "tag_exp",
+        "tiba",
+        "tid",
+        "u_h",
+        "u_w",
+        "uaa",
+        "uab",
+        "uafvl",
+        "uamb",
+        "uap",
+        "uaw",
+        "url"
+      ],
+      "classification": "rest",
+      "request_count": 2,
+      "status_codes": [
+        302
+      ],
+      "content_types": [
+        "text/html"
+      ],
+      "headers_sample": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://www.tottus.com.pe/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "request_sample": {
+        "random": "1777857980602",
+        "cv": "11",
+        "tid": "G-CSJSPE9YR5",
+        "fst": "1777857980602",
+        "fmt": "8",
+        "en": "first_visit",
+        "gtm": "45je64t1v876122067za20gzb9209149177zd9209149177xec",
+        "gcd": "13l3l3l3l1l1",
+        "dma": "0",
+        "tag_exp": "0~115938466~115938469~117215714",
+        "u_w": "1280",
+        "u_h": "720",
+        "url": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+        "gacid": "1977968958.1777857981",
+        "ae": "a",
+        "frm": "0",
+        "tiba": "Frutas grandes ofertas | Tottus Perú",
+        "npa": "0",
+        "pscdl": "noapi",
+        "auid": "1169345473.1777857980",
+        "uaa": "x86",
+        "uab": "64",
+        "uafvl": "Not%3AA-Brand;99.0.0.0|HeadlessChrome;145.0.7632.6|Chromium;145.0.7632.6",
+        "uamb": "0",
+        "uam": "",
+        "uap": "Linux",
+        "uapv": "",
+        "uaw": "0",
+        "_tu": "CA",
+        "rcb": "2"
+      },
+      "response_sample": null,
+      "detected_patterns": {},
+      "graphql_operations": [],
+      "requires_auth": false,
+      "curl_equivalent": "curl -X POST 'https://www.google.com/measurement/conversion?random=1777857980602&cv=11&tid=G-CSJSPE9YR5&fst=1777857980602&fmt=8&en=first_visit&gtm=45je64t1v876122067za20gzb9209149177zd9209149177xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117215714&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&gacid=1977968958.1777857981&ae=a&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&rcb=2' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+    },
+    {
+      "method": "POST",
+      "normalized_url": "https://www.google.com/rmkt/collect/{id}/",
+      "sample_url": "https://www.google.com/rmkt/collect/836386210/?random=1777857980537&cv=11&fst=1777857980537&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be64t1v9210672230z89209149177za20gzb9209149177zd9209149177xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~117215714~117384406&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&rcb=3&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&gcp=5",
+      "domain": "www.google.com",
+      "path": "/rmkt/collect/{id}/",
+      "query_keys": [
+        "async",
+        "auid",
+        "bg",
+        "cv",
+        "data",
+        "dma",
+        "en",
+        "fmt",
+        "frm",
+        "fst",
+        "gcd",
+        "gcp",
+        "gtm",
+        "guid",
+        "hn",
+        "npa",
+        "pscdl",
+        "random",
+        "rcb",
+        "tag_exp",
+        "tiba",
+        "u_h",
+        "u_w",
+        "uaa",
+        "uab",
+        "uafvl",
+        "uamb",
+        "uap",
+        "uaw",
+        "url"
+      ],
+      "classification": "rest",
+      "request_count": 2,
+      "status_codes": [
+        200
+      ],
+      "content_types": [],
+      "headers_sample": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://www.tottus.com.pe/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "request_sample": {
+        "random": "1777857980537",
+        "cv": "11",
+        "fst": "1777857980537",
+        "fmt": "8",
+        "bg": "ffffff",
+        "guid": "ON",
+        "async": "1",
+        "en": "gtag.config",
+        "gtm": "45be64t1v9210672230z89209149177za20gzb9209149177zd9209149177xec",
+        "gcd": "13l3l3l3l1l1",
+        "dma": "0",
+        "tag_exp": "0~115938466~115938468~117215714~117384406",
+        "u_w": "1280",
+        "u_h": "720",
+        "url": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+        "rcb": "3",
+        "frm": "0",
+        "tiba": "Frutas grandes ofertas | Tottus Perú",
+        "hn": "www.googleadservices.com",
+        "npa": "0",
+        "pscdl": "noapi",
+        "auid": "1169345473.1777857980",
+        "uaa": "x86",
+        "uab": "64",
+        "uafvl": "Not%3AA-Brand;99.0.0.0|HeadlessChrome;145.0.7632.6|Chromium;145.0.7632.6",
+        "uamb": "0",
+        "uam": "",
+        "uap": "Linux",
+        "uapv": "",
+        "uaw": "0",
+        "data": "event=gtag.config",
+        "gcp": "5"
+      },
+      "response_sample": null,
+      "detected_patterns": {},
+      "graphql_operations": [],
+      "requires_auth": false,
+      "curl_equivalent": "curl -X POST 'https://www.google.com/rmkt/collect/836386210/?random=1777857980537&cv=11&fst=1777857980537&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be64t1v9210672230z89209149177za20gzb9209149177zd9209149177xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~117215714~117384406&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&rcb=3&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&gcp=5' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+    },
+    {
+      "method": "GET",
+      "normalized_url": "https://www.googleadservices.com/pagead/conversion/{id}/",
+      "sample_url": "https://www.googleadservices.com/pagead/conversion/11458930425/?random=1777857980711&cv=11&fst=1777857980711&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be64t1v9213415426z89209149177za20gzb9209149177zd9209149177xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117215714&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&rcb=9&label=jr2nCMmy0rwaEPnNhdgq&capi=1&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&bttype=purchase&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=a&_tu=CA&gcl_ctr=1~0~0~0&category=acrcp_v1_512&em=tv.1&fmt=7",
+      "domain": "www.googleadservices.com",
+      "path": "/pagead/conversion/{id}/",
+      "query_keys": [
+        "_tu",
+        "async",
+        "auid",
+        "bg",
+        "bttype",
+        "capi",
+        "category",
+        "cv",
+        "dma",
+        "ec_mode",
+        "em",
+        "en",
+        "fmt",
+        "frm",
+        "fst",
+        "gcd",
+        "gcl_ctr",
+        "gtm",
+        "guid",
+        "hn",
+        "label",
+        "npa",
+        "pscdl",
+        "random",
+        "rcb",
+        "tag_exp",
+        "tiba",
+        "u_h",
+        "u_w",
+        "uaa",
+        "uab",
+        "uafvl",
+        "uamb",
+        "uap",
+        "uaw",
+        "url",
+        "value"
+      ],
+      "classification": "rest",
+      "request_count": 1,
+      "status_codes": [
+        200
+      ],
+      "content_types": [
+        "application/json"
+      ],
+      "headers_sample": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://www.tottus.com.pe/",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "request_sample": {
+        "random": "1777857980711",
+        "cv": "11",
+        "fst": "1777857980711",
+        "bg": "ffffff",
+        "guid": "ON",
+        "async": "1",
+        "en": "conversion",
+        "gtm": "45be64t1v9213415426z89209149177za20gzb9209149177zd9209149177xea",
+        "gcd": "13l3l3l3l1l1",
+        "dma": "0",
+        "tag_exp": "0~115938466~115938469~117215714",
+        "u_w": "1280",
+        "u_h": "720",
+        "url": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+        "rcb": "9",
+        "label": "jr2nCMmy0rwaEPnNhdgq",
+        "capi": "1",
+        "frm": "0",
+        "tiba": "Frutas grandes ofertas | Tottus Perú",
+        "bttype": "purchase",
+        "value": "0",
+        "hn": "www.googleadservices.com",
+        "npa": "0",
+        "pscdl": "noapi",
+        "auid": "1169345473.1777857980",
+        "uaa": "x86",
+        "uab": "64",
+        "uafvl": "Not%3AA-Brand;99.0.0.0|HeadlessChrome;145.0.7632.6|Chromium;145.0.7632.6",
+        "uamb": "0",
+        "uam": "",
+        "uap": "Linux",
+        "uapv": "",
+        "uaw": "0",
+        "ec_mode": "a",
+        "_tu": "CA",
+        "gcl_ctr": "1~0~0~0",
+        "category": "acrcp_v1_512",
+        "em": "tv.1",
+        "fmt": "7"
+      },
+      "response_sample": "event: message\ndata: {\"fetch\":[\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11458930425/?random=213815536&cv=11&fst=1777857980711&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be64t1v9213415426z89209149177za20gzb9209149177zd9209149177xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117215714&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&rcb=9&label=jr2nCMmy0rwaEPnNhdgq&capi=1&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=a&_tu=CA&gcl_ctr=1~0~0~0&category=acrcp_v1_512&em=tv.1&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECC…",
+      "detected_patterns": {},
+      "graphql_operations": [],
+      "requires_auth": false,
+      "curl_equivalent": "curl -X GET 'https://www.googleadservices.com/pagead/conversion/11458930425/?random=1777857980711&cv=11&fst=1777857980711&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be64t1v9213415426z89209149177za20gzb9209149177zd9209149177xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117215714&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&rcb=9&label=jr2nCMmy0rwaEPnNhdgq&capi=1&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&bttype=purchase&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=a&_tu=CA&gcl_ctr=1~0~0~0&category=acrcp_v1_512&em=tv.1&fmt=7' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+    },
+    {
+      "method": "GET",
+      "normalized_url": "https://www.tottus.com.pe/s/analytics/v1/analytics",
+      "sample_url": "https://www.tottus.com.pe/s/analytics/v1/analytics",
+      "domain": "www.tottus.com.pe",
+      "path": "/s/analytics/v1/analytics",
+      "query_keys": [],
+      "classification": "rest",
+      "request_count": 1,
+      "status_codes": [
+        200
+      ],
+      "content_types": [
+        "application/json"
+      ],
+      "headers_sample": {
+        "x-encryption-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA41EfUjE4JTI6NJN5H3PhNHsrl0OPeMOQ5WyMaypfoTrhqPThQqOMeFznfAgmNp9J5gJ6RCVBclfAzjqDdOTdUYv8SWFQkrStmO8gFrug62V3n0NFE0wzxaGRmuLseztmSQeBidmBEC4qOFqQ2IJG5oQQZTtMe3J8YeV7mCtnAVqDGU7i2ZpgLX1w1aqjkEqG0v/vv8titpfPdmrbgQbzZbFqL5yqnUhVNmbD0qwR7aojQGIW2oTA9cVzNCJtLcCYepKzZRV30B4AugQHuFR0bYb04KFbcJA929+LXOzmXLFkYZh1JjwXxv0NL70CucULnFVYCMrAWbY6ip30RA0BNwIDAQAB",
+        "x-channel-id": "WEB",
+        "x-ecomm-name": "marketplace-pe",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+      },
+      "request_sample": null,
+      "response_sample": "hUQTbSYZzWrhfBLZnG7bea/LNWiXUAfTDrOiPuELBD6XXHdA5hbjGQ3MBOIK2RwXCrOPM473+FsJ7cvn3OkXA8n5osCIXYbH9xxRz7legxSE7zzH8fnZ5lamS+FrL/7MjUcIScSzEfrKiYFcVuU04KP2BNF+isoYpMD9nfPo6NKr4Wa970P3nM6qvhjum6+ugw548PxCK55wGeH1Crla4w21KI5pVWJllpZNIpZlskww6k2izRb4fHdgphbtAmD8/ixB13e9+Boi4VTCxqXN90jhcUcPT22qerR1rvnsNcQqEieBnHmRHCgr6yOs7eG7ZaRc87mugbEiYgDL1v1tvkmX82jGy3NXkY/p8E65RugnJlOysR4kNrK1KedQ+kNw",
+      "detected_patterns": {},
+      "graphql_operations": [],
+      "requires_auth": false,
+      "curl_equivalent": "curl -X GET https://www.tottus.com.pe/s/analytics/v1/analytics -H 'x-encryption-key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA41EfUjE4JTI6NJN5H3PhNHsrl0OPeMOQ5WyMaypfoTrhqPThQqOMeFznfAgmNp9J5gJ6RCVBclfAzjqDdOTdUYv8SWFQkrStmO8gFrug62V3n0NFE0wzxaGRmuLseztmSQeBidmBEC4qOFqQ2IJG5oQQZTtMe3J8YeV7mCtnAVqDGU7i2ZpgLX1w1aqjkEqG0v/vv8titpfPdmrbgQbzZbFqL5yqnUhVNmbD0qwR7aojQGIW2oTA9cVzNCJtLcCYepKzZRV30B4AugQHuFR0bYb04KFbcJA929+LXOzmXLFkYZh1JjwXxv0NL70CucULnFVYCMrAWbY6ip30RA0BNwIDAQAB' -H 'x-channel-id: WEB' -H 'x-ecomm-name: marketplace-pe' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36'"
+    },
+    {
+      "method": "GET",
+      "normalized_url": "https://www.tottus.com.pe/s/commerce-config/v1/FAPE/commerce-config/merged",
+      "sample_url": "https://www.tottus.com.pe/s/commerce-config/v1/FAPE/commerce-config/merged?namespace=tottus_web",
+      "domain": "www.tottus.com.pe",
+      "path": "/s/commerce-config/v1/FAPE/commerce-config/merged",
+      "query_keys": [
+        "namespace"
+      ],
+      "classification": "rest",
+      "request_count": 1,
+      "status_codes": [
+        200
+      ],
+      "content_types": [
+        "application/json"
+      ],
+      "headers_sample": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "request_sample": {
+        "namespace": "tottus_web"
+      },
+      "response_sample": "{\"tenant\":\"FAPE\",\"namespace\":\"tottus_web\",\"toggles\":{\"ANY_TO_ANY\":true,\"BFF_ENABLE_SODIMAC_SITE_ORDERS\":false,\"BFF_MIS_COMPRAS_ENABLE_ORCH_APIGEE\":false,\"BFF_MIS_COMPRAS_ENABLE_TOTTUS_TRACKING\":true,\"CART_FIRST_PURCHASE_BANNER_ENABLED\":false,\"CART_SHIPPING_LABELS\":false,\"CATALOG_V2\":true,\"DISABLE_ADS_VAS_SERVICE\":false,\"DISABLE_ELITE_USER_SEGMENT\":true,\"DISABLE_ENCRYPTION_OF_CART_ID\":false,\"DISABLE_LAST_MILE_FACILITY_ID\":false,\"DISABLE_ORGANIC_PRODUCTS_CACHE\":false,\"DISABLE_PRODUCT_DE_CALL\":false,\"DISABLE_QR_CODE\":true,\"DISABLE_RECO_PRODUCTS_CACHE\":false,\"DISABLE_SCHEDULING_FOR_PREF_USER\":false,\"DOWNLOAD_CLAIM_PDF\":true,\"ENABLED_CATEGORY_CLASIFIER_TOGGLE\":true,\"ENABLED_RESPONSE_WITHOUT_CONVERSION_REFERER_APP\":true,\"ENABLED_RESPONSE_WITHOUT_CONVERSION_REFERER_WEB\":true,\"ENABLED_SODIMAC_ADS_TOGGLE\":true,\"ENABLED_TOPSORT_MOCK_RESPONSE\":false,\"ENABLED_TOPSORT_PROVIDER_VAS_SERVICE\":true,\"ENABLE_12_HOUR_TIME_FORMAT\":false,\"ENABLE_3P_RETURNS\":true,\"ENABLE_3P_RETURNS_BIG_TICKETS\":true,\"ENABLE_…",
+      "detected_patterns": {},
+      "graphql_operations": [],
+      "requires_auth": false,
+      "curl_equivalent": "curl -X GET 'https://www.tottus.com.pe/s/commerce-config/v1/FAPE/commerce-config/merged?namespace=tottus_web' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+    },
+    {
+      "method": "GET",
+      "normalized_url": "https://www.tottus.com.pe/s/geo/v2/districts/pe",
+      "sample_url": "https://www.tottus.com.pe/s/geo/v2/districts/pe?politicalId=default&store=to_com&getAllZones=true",
+      "domain": "www.tottus.com.pe",
+      "path": "/s/geo/v2/districts/pe",
+      "query_keys": [
+        "getAllZones",
+        "politicalId",
+        "store"
+      ],
+      "classification": "rest",
+      "request_count": 1,
+      "status_codes": [
+        200
+      ],
+      "content_types": [
+        "application/json"
+      ],
+      "headers_sample": {
+        "sec-ch-ua-platform": "\"Linux\"",
+        "referer": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+        "sec-ch-ua-mobile": "?0"
+      },
+      "request_sample": {
+        "politicalId": "default",
+        "store": "to_com",
+        "getAllZones": "true"
+      },
+      "response_sample": {
+        "data": {
+          "name": "Seleccion ubicación",
+          "politicalId": "25a46912-b7cd-483c-8257-d365c63071d6",
+          "priceGroupId": "2",
+          "expressZones": [
+            "LEG_TOTTUS_LAS_BEGONIAS_1"
+          ],
+          "standardZones": [
+            "912_SAN_ISIDRO_1",
+            "CENAS_LIMA",
+            "912_SAN_ISIDRO_2",
+            "IBIS_110",
+            "IBIS_120",
+            "IBIS_46",
+            "GRIS_SERVICIO_9",
+            "IBIS_21"
+          ],
+          "zones": [
+            "LEG_TOTTUS_LAS_BEGONIAS_1",
+            "912_SAN_ISIDRO_1",
+            "CENAS_LIMA",
+            "912_SAN_ISIDRO_2",
+            "IBIS_110",
+            "IBIS_120",
+            "IBIS_46",
+            "GRIS_SERVICIO_9",
+            "IBIS_21"
+          ],
+          "latitude": -12.096261,
+          "longitude": -77.027969
+        },
+        "default": true,
+        "fallback": false
+      },
+      "detected_patterns": {},
+      "graphql_operations": [],
+      "requires_auth": false,
+      "curl_equivalent": "curl -X GET 'https://www.tottus.com.pe/s/geo/v2/districts/pe?politicalId=default&store=to_com&getAllZones=true' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+    }
+  ],
+  "grouped_by_domain": {
+    "adobedc.demdex.net": {
+      "/ee/v1/interact": [
+        {
+          "method": "POST",
+          "normalized_url": "https://adobedc.demdex.net/ee/v1/interact",
+          "sample_url": "https://adobedc.demdex.net/ee/v1/interact?configId=bd077379-c8d8-427b-b417-ce607bebcb64&requestId=a20a9544-0406-405d-a009-69b2f3964c9e",
+          "domain": "adobedc.demdex.net",
+          "path": "/ee/v1/interact",
+          "query_keys": [
+            "configId",
+            "requestId"
+          ],
+          "classification": "rest",
+          "request_count": 1,
+          "status_codes": [
+            200
+          ],
+          "content_types": [
+            "application/json"
+          ],
+          "headers_sample": {
+            "Content-Type": "text/plain; charset=UTF-8",
+            "sec-ch-ua-platform": "\"Linux\"",
+            "referer": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+            "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+            "content-type": "text/plain; charset=UTF-8",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "request_sample": {
+            "meta": {
+              "configOverrides": {},
+              "state": {
+                "domain": "tottus.com.pe",
+                "cookiesEnabled": true
+              }
+            },
+            "events": [
+              {
+                "xdm": {
+                  "eventType": "web.webpagedetails.pageViews",
+                  "web": {
+                    "webPageDetails": {
+                      "URL": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas"
+                    },
+                    "webReferrer": {
+                      "URL": ""
+                    }
+                  },
+                  "device": {
+                    "screenHeight": 720,
+                    "screenWidth": 1280,
+                    "screenOrientation": "landscape"
+                  },
+                  "environment": {
+                    "type": "browser",
+                    "browserDetails": {
+                      "viewportWidth": 1280,
+                      "viewportHeight": 720
+                    }
+                  },
+                  "placeContext": {
+                    "localTimezoneOffset": 300,
+                    "localTime": "2026-05-03T20:26:21.082-05:00"
+                  },
+                  "timestamp": "2026-05-04T01:26:21.082Z",
+                  "implementationDetails": {
+                    "name": "https://ns.adobe.com/experience/alloy/reactor",
+                    "version": "2.22.0+2.26.0",
+                    "environment": "browser"
+                  }
+                },
+                "query": {
+                  "personalization": {
+                    "schemas": [
+                      "https://ns.adobe.com/personalization/default-content-item",
+                      "https://ns.adobe.com/personalization/html-content-item",
+                      "https://ns.adobe.com/personalization/json-content-item",
+                      "https://ns.adobe.com/personalization/redirect-item",
+                      "https://ns.adobe.com/personalization/ruleset-item",
+                      "https://ns.adobe.com/personalization/message/in-app",
+                      "https://ns.adobe.com/personalization/message/content-card",
+                      "https://ns.adobe.com/personalization/dom-action"
+                    ],
+                    "decisionScopes": [
+                      "__view__"
+                    ],
+                    "surfaces": [
+                      "web://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas"
+                    ]
+                  }
+                },
+                "data": {
+                  "methods": {
+                    "event": {
+                      "message": {
+                        "INIT_STARTED": "INIT_STARTED",
+                        "INIT_DONE": "INIT_DONE",
+                        "UPDATE_STARTED": "UPDATE_STARTED",
+                        "UPDATE_DONE": "UPDATE_DONE",
+                        "CONTENT_STARTED": "CONTENT_STARTED",
+                        "CONTENT_DONE": "CONTENT_DONE"
+                      }
+                    }
+                  },
+                  "digitalDataManager": {
+                    "isHeaderActive": true,
+                    "isFooterActive": true,
+                    "isXlpActive": true,
+                    "isActive": true
+                  },
+                  "tag": {
+                    "XLP": {
+                      "sis_experience": "tottus",
+                      "A2C_XLP": {},
+                      "vectorSearchApplied": false,
+                      "Facets_Shown": "price.search,Tipo_de_Producto,Contenido",
+                      "brand_facet_see_more": "0"
+                    },
+                    "xlp": {},
+                    "XLP_Clasification": "",
+                    "XLP_products_view": "4_GRID"
+                  },
+                  "page": {
+                    "loginStatus": "falabella guest",
+                    "canal": "",
+                    "serverName": "CATALYST",
+                    "sessionId": "f5b7146c2daa4928ad17317a804f39a0-1777901180604",
+                    "geolocation": "",
+                    "pageName": "plp: Abarrotes: Conservas: Frutas",
+                    "pageType": "product list page",
+                    "catalyst": "nm",
+                    "siteSection": "Abarrotes",
+                    "subSection": "Conservas",
+                    "subSection2": "Frutas",
+                    "ppvPreviousPage": "undefined",
+                    "ppvHighestPercentViewed": "",
+                    "ppvInitialPercentViewed": "",
+                    "ppvHighestPixelsSeen": ""
+                  },
+                  "smartSearchImpression": "False",
+                  "login": {
+                    "clienteID": "",
+                    "genero": "unset",
+                    "tipo": "person"
+                  },
+                  "customData": {
+                    "eVar27": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+                    "prop3": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+                    "prop50": true,
+                    "eVar82": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+                    "zones_picking_center": "LEG_TOTTUS_LAS_BEGONIAS_1,912_SAN_ISIDRO_1,CENAS_LIMA,912_SAN_ISIDRO_2,IBIS_110,IBIS_120,IBIS_46,GRIS_SERVICIO_9,IBIS_21"
+                  },
+                  "timeParting": "year=2026 | month=May | date=4 | day=Monday | time=1:26 AM",
+                  "NewRepeat": "New"
+                }
+              }
+            ],
+            "query": {
+              "identity": {
+                "fetch": [
+                  "ECID"
+                ]
+              }
+            }
+          },
+          "response_sample": {
+            "requestId": "a20a9544-0406-405d-a009-69b2f3964c9e-e1fb434635c841c2",
+            "handle": [
+              {
+                "payload": [
+                  {
+                    "id": "79859666184111562660892162114291193444",
+                    "namespace": {
+                      "code": "ECID"
+                    }
+                  }
+                ],
+                "type": "identity:result"
+              },
+              {
+                "payload": [
+                  {
+                    "scope": "Target",
+                    "hint": "34",
+                    "ttlSeconds": 1800
+                  },
+                  {
+                    "scope": "AAM",
+                    "hint": "7",
+                    "ttlSeconds": 1800
+                  },
+                  {
+                    "scope": "EdgeNetwork",
+                    "hint": "va6",
+                    "ttlSeconds": 1800
+                  }
+                ],
+                "type": "locationHint:result"
+              },
+              {
+                "payload": [
+                  {
+                    "key": "kndctr_867134FA53CCF4BE0A490D44_AdobeOrg_cluster",
+                    "value": "va6",
+                    "maxAge": 1800,
+                    "attrs": {
+                      "SameSite": "None"
+                    }
+                  },
+                  {
+                    "key": "kndctr_867134FA53CCF4BE0A490D44_AdobeOrg_identity",
+                    "value": "CiY3OTg1OTY2NjE4NDExMTU2MjY2MDg5MjE2MjExNDI5MTE5MzQ0NFISCJDY34TfMxABGAEqA1ZBNjAA8AGQ2N-E3zM=",
+                    "maxAge": 34128000,
+                    "attrs": {
+                      "SameSite": "None"
+                    }
+                  }
+                ],
+                "type": "state:store"
+              }
+            ],
+            "warnings": [
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event1to100.event17.value. Details: Source data does not contain field event17",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.schema-path",
+                  "destination": "_experience.analytics.event1to100.event17.value",
+                  "path": "value",
+                  "source": "data.customData.event17"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event501to600.event566.value. Details: com.adobe.aep.aexl.jexl.AexlScriptEngine$AepJexlEngine.parse@1:11 to_integer",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.aep-xl",
+                  "destination": "_experience.analytics.event501to600.event566.value",
+                  "path": "value",
+                  "source": "to_integer(first(split(data.shipping.totals,\"|\")))"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event1to100.event51.value. Details: Source data does not contain field typeAheadResult",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.schema-path",
+                  "destination": "_experience.analytics.event1to100.event51.value",
+                  "path": "value",
+                  "source": "data.typeAheadResult"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event201to300.event232.value. Details: Source data does not contain field puntosCMRexact",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.schema-path",
+                  "destination": "_experience.analytics.event201to300.event232.value",
+                  "path": "value",
+                  "source": "data.puntosCMRexact"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event201to300.event263.value. Details: Source data does not contain field ocp_popup",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.schema-path",
+                  "destination": "_experience.analytics.event201to300.event263.value",
+                  "path": "value",
+                  "source": "data.ocp_popup"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event601to700.event674.value. Details: com.adobe.aep.aexl.jexl.AexlScriptEngine$AepJexlEngine.parse@1:11 to_integer",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.aep-xl",
+                  "destination": "_experience.analytics.event601to700.event674.value",
+                  "path": "value",
+                  "source": "to_integer(iif(matches_regex(data.dataocp,\"[|]+\"),substr(data.dataocp,instr(data.dataocp,\"|\",1,7)+1,instr(data.dataocp ,\"|\",1,8)- instr( data.dataocp ,\"|\",1,7)-1),0))"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event501to600.event565.value. Details: com.adobe.aep.aexl.jexl.AexlScriptEngine$AepJexlEngine.parse@1:11 to_decimal",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.aep-xl",
+                  "destination": "_experience.analytics.event501to600.event565.value",
+                  "path": "value",
+                  "source": "to_decimal(iif(matches_regex(data.deliveryGroups,\"[|]+\"),iif(instr(data.deliveryGroups ,\"|\",1,2) <= instr( data.deliveryGroups,\"|\",1,1) ,last(split(data.deliveryGroups,\"|\")),substr(data.deliveryGroups,instr(data.deliveryGroups,\"|\",1,1)+1,instr(data.deliveryGroups ,\"|\",1,2)- instr( data.deliveryGroups ,\"|\",1,1)-1)),0))"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event1to100.event44.value. Details: Source data does not contain field cart",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.schema-path",
+                  "destination": "_experience.analytics.event1to100.event44.value",
+                  "path": "value",
+                  "source": "data.cart.noviosvalue"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event1to100.event16.value. Details: Source data does not contain field event16",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.schema-path",
+                  "destination": "_experience.analytics.event1to100.event16.value",
+                  "path": "value",
+                  "source": "data.customData.event16"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event501to600.event562.value. Details: Source data does not contain field Facet_search",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.schema-path",
+                  "destination": "_experience.analytics.event501to600.event562.value",
+                  "path": "value",
+                  "source": "data.tag.XLP.Facet_search"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event501to600.event563.value. Details: Source data does not contain field Facet_Click",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.schema-path",
+                  "destination": "_experience.analytics.event501to600.event563.value",
+                  "path": "value",
+                  "source": "data.tag.XLP.Facet_Click"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event201to300.event300.value. Details: Source data does not contain field HuaweiApp",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.schema-path",
+                  "destination": "_experience.analytics.event201to300.event300.value",
+                  "path": "value",
+                  "source": "data.page.HuaweiApp"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event501to600.event564.value. Details: com.adobe.aep.aexl.jexl.AexlScriptEngine$AepJexlEngine.parse@1:11 to_integer",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.aep-xl",
+                  "destination": "_experience.analytics.event501to600.event564.value",
+                  "path": "value",
+                  "source": "to_integer(first(split(data.deliveryGroups,\"|\")))"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event1to100.event54.value. Details: Source data does not contain field event54",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.schema-path",
+                  "destination": "_experience.analytics.event1to100.event54.value",
+                  "path": "value",
+                  "source": "data.customData.event54"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event1to100.event15.value. Details: Source data does not contain field event15",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.schema-path",
+                  "destination": "_experience.analytics.event1to100.event15.value",
+                  "path": "value",
+                  "source": "data.customData.event15"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event501to600.event567.value. Details: com.adobe.aep.aexl.jexl.AexlScriptEngine$AepJexlEngine.parse@1:11 to_integer",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.aep-xl",
+                  "destination": "_experience.analytics.event501to600.event567.value",
+                  "path": "value",
+                  "source": "to_integer(first(split(data.cart.totals,\"|\")))"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event1to100.event55.value. Details: Source data does not contain field event55",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.schema-path",
+                  "destination": "_experience.analytics.event1to100.event55.value",
+                  "path": "value",
+                  "source": "data.customData.event55"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event601to700.event675.value. Details: Source data does not contain field paymentsdeliverygroup",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.schema-path",
+                  "destination": "_experience.analytics.event601to700.event675.value",
+                  "path": "value",
+                  "source": "data.paymentsdeliverygroup"
+                }
+              },
+              {
+                "type": "https://ns.adobe.com/aep/errors/MAPPER-3700-199",
+                "status": 199,
+                "title": "Field transformation warning",
+                "detail": "Error transforming data for required destination path _experience.analytics.event1to100.event13.value. Details: Source data does not contain field event13",
+                "report": {
+                  "eventIndex": 0,
+                  "sourceType": "text/x.schema-path",
+                  "destination": "_experience.analytics.event1to100.event13.value",
+                  "path": "value",
+                  "source": "data.customData.event13"
+                }
+              }
+            ]
+          },
+          "detected_patterns": {},
+          "graphql_operations": [],
+          "requires_auth": false,
+          "curl_equivalent": "curl -X POST 'https://adobedc.demdex.net/ee/v1/interact?configId=bd077379-c8d8-427b-b417-ce607bebcb64&requestId=a20a9544-0406-405d-a009-69b2f3964c9e' -H 'Content-Type: text/plain; charset=UTF-8' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'content-type: text/plain; charset=UTF-8' -H 'sec-ch-ua-mobile: ?0' --data-raw '{\"meta\":{\"configOverrides\":{},\"state\":{\"domain\":\"tottus.com.pe\",\"cookiesEnabled\":true}},\"events\":[{\"xdm\":{\"eventType\":\"web.webpagedetails.pageViews\",\"web\":{\"webPageDetails\":{\"URL\":\"https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas\"},\"webReferrer\":{\"URL\":\"\"}},\"device\":{\"screenHeight\":720,\"screenWidth\":1280,\"screenOrientation\":\"landscape\"},\"environment\":{\"type\":\"browser\",\"browserDetails\":{\"viewportWidth\":1280,\"viewportHeight\":720}},\"placeContext\":{\"localTimezoneOffset\":300,\"localTime\":\"2026-05-03T20:26:21.082-05:00\"},\"timestamp\":\"2026-05-04T01:26:21.082Z\",\"implementationDetails\":{\"name\":\"https://ns.adobe.com/experience/alloy/reactor\",\"version\":\"2.22.0+2.26.0\",\"environment\":\"browser\"}},\"query\":{\"personalization\":{\"schemas\":[\"https://ns.adobe.com/personalization/default-content-item\",\"https://ns.adobe.com/personalization/html-content-item\",\"https://ns.adobe.com/personalization/json-content-item\",\"https://ns.adobe.com/personalization/redirect-item\",\"https://ns.adobe.com/personalization/ruleset-item\",\"https://ns.adobe.com/personalization/message/in-app\",\"https://ns.adobe.com/personalization/message/content-card\",\"https://ns.adobe.com/personalization/dom-action\"],\"decisionScopes\":[\"__view__\"],\"surfaces\":[\"web://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas\"]}},\"data\":{\"methods\":{\"event\":{\"message\":{\"INIT_STARTED\":\"INIT_STARTED\",\"INIT_DONE\":\"INIT_DONE\",\"UPDATE_STARTED\":\"UPDATE_STARTED\",\"UPDATE_DONE\":\"UPDATE_DONE\",\"CONTENT_STARTED\":\"CONTENT_STARTED\",\"CONTENT_DONE\":\"CONTENT_DONE\"}}},\"digitalDataManager\":{\"isHeaderActive\":true,\"isFooterActive\":true,\"isXlpActive\":true,\"isActive\":true},\"tag\":{\"XLP\":{\"sis_experience\":\"tottus\",\"A2C_XLP\":{},\"vectorSearchApplied\":false,\"Facets_Shown\":\"price.search,Tipo_de_Producto,Contenido\",\"brand_facet_see_more\":\"0\"},\"xlp\":{},\"XLP_Clasification\":\"\",\"XLP_products_view\":\"4_GRID\"},\"page\":{\"loginStatus\":\"falabella guest\",\"canal\":\"\",\"serverName\":\"CATALYST\",\"sessionId\":\"f5b7146c2daa4928ad17317a804f39a0-1777901180604\",\"geolocation\":\"\",\"pageName\":\"plp: Abarrotes: Conservas: Frutas\",\"pageType\":\"product list page\",\"catalyst\":\"nm\",\"siteSection\":\"Abarrotes\",\"subSection\":\"Conservas\",\"subSection2\":\"Frutas\",\"ppvPreviousPage\":\"undefined\",\"ppvHighestPercentViewed\":\"\",\"ppvInitialPercentViewed\":\"\",\"ppvHighestPixelsSeen\":\"\"},\"smartSearchImpression\":\"False\",\"login\":{\"clienteID\":\"\",\"genero\":\"unset\",\"tipo\":\"person\"},\"customData\":{\"eVar27\":\"https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas\",\"prop3\":\"https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas\",\"prop50\":true,\"eVar82\":\"https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas\",\"zones_picking_center\":\"LEG_TOTTUS_LAS_BEGONIAS_1,912_SAN_ISIDRO_1,CENAS_LIMA,912_SAN_ISIDRO_2,IBIS_110,IBIS_120,IBIS_46,GRIS_SERVICIO_9,IBIS_21\"},\"timeParting\":\"year=2026 | month=May | date=4 | day=Monday | time=1:26 AM\",\"NewRepeat\":\"New\"}}],\"query\":{\"identity\":{\"fetch\":[\"ECID\"]}}}'"
+        }
+      ]
+    },
+    "analytics.google.com": {
+      "/g/collect": [
+        {
+          "method": "POST",
+          "normalized_url": "https://analytics.google.com/g/collect",
+          "sample_url": "https://analytics.google.com/g/collect?v=2&tid=G-CSJSPE9YR5&gtm=45je64t1v876122067za20gzb9209149177zd9209149177&_p=1777857979851&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGAC&_prs=ok&ae=a&are=1&cid=1977968958.1777857981&frm=0&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~117215714&sid=1777857980&sct=1&seg=0&dl=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&dt=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&en=scroll&_fv=2&_nsi=1&_ss=2&epn.percent_scrolled=90&tfd=3533",
+          "domain": "analytics.google.com",
+          "path": "/g/collect",
+          "query_keys": [
+            "_eu",
+            "_fv",
+            "_gaz",
+            "_nsi",
+            "_p",
+            "_prs",
+            "_s",
+            "_ss",
+            "ae",
+            "are",
+            "cid",
+            "dl",
+            "dma",
+            "dt",
+            "en",
+            "epn.percent_scrolled",
+            "frm",
+            "gaf",
+            "gcd",
+            "gtm",
+            "npa",
+            "pscdl",
+            "rcb",
+            "sct",
+            "seg",
+            "sid",
+            "sr",
+            "tag_exp",
+            "tfd",
+            "tid",
+            "uaa",
+            "uab",
+            "uafvl",
+            "uamb",
+            "uap",
+            "uaw",
+            "ul",
+            "v"
+          ],
+          "classification": "rest",
+          "request_count": 1,
+          "status_codes": [
+            204
+          ],
+          "content_types": [
+            "text/plain"
+          ],
+          "headers_sample": {
+            "sec-ch-ua-platform": "\"Linux\"",
+            "referer": "https://www.tottus.com.pe/",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+            "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "request_sample": {
+            "v": "2",
+            "tid": "G-CSJSPE9YR5",
+            "gtm": "45je64t1v876122067za20gzb9209149177zd9209149177",
+            "_p": "1777857979851",
+            "_gaz": "1",
+            "gcd": "13l3l3l3l1l1",
+            "npa": "0",
+            "dma": "0",
+            "_eu": "AEAAAGAC",
+            "_prs": "ok",
+            "ae": "a",
+            "are": "1",
+            "cid": "1977968958.1777857981",
+            "frm": "0",
+            "pscdl": "noapi",
+            "rcb": "2",
+            "sr": "1280x720",
+            "uaa": "x86",
+            "uab": "64",
+            "uafvl": "Not%3AA-Brand;99.0.0.0|HeadlessChrome;145.0.7632.6|Chromium;145.0.7632.6",
+            "uam": "",
+            "uamb": "0",
+            "uap": "Linux",
+            "uapv": "",
+            "uaw": "0",
+            "ul": "en-us",
+            "gaf": "2",
+            "_s": "1",
+            "tag_exp": "0~115938466~115938469~117215714",
+            "sid": "1777857980",
+            "sct": "1",
+            "seg": "0",
+            "dl": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+            "dt": "Frutas grandes ofertas | Tottus Perú",
+            "en": "scroll",
+            "_fv": "2",
+            "_nsi": "1",
+            "_ss": "2",
+            "epn.percent_scrolled": "90",
+            "tfd": "3533"
+          },
+          "response_sample": null,
+          "detected_patterns": {},
+          "graphql_operations": [],
+          "requires_auth": false,
+          "curl_equivalent": "curl -X POST 'https://analytics.google.com/g/collect?v=2&tid=G-CSJSPE9YR5&gtm=45je64t1v876122067za20gzb9209149177zd9209149177&_p=1777857979851&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGAC&_prs=ok&ae=a&are=1&cid=1977968958.1777857981&frm=0&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=0~115938466~115938469~117215714&sid=1777857980&sct=1&seg=0&dl=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&dt=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&en=scroll&_fv=2&_nsi=1&_ss=2&epn.percent_scrolled=90&tfd=3533' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+        }
+      ]
+    },
+    "googleads.g.doubleclick.net": {
+      "/pagead/viewthroughconversion/{id}/": [
+        {
+          "method": "POST",
+          "normalized_url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/{id}/",
+          "sample_url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11458930425/?random=213815536&cv=11&fst=1777857980711&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be64t1v9213415426z89209149177za20gzb9209149177zd9209149177xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117215714&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&rcb=9&label=jr2nCMmy0rwaEPnNhdgq&capi=1&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=a&_tu=CA&gcl_ctr=1~0~0~0&category=acrcp_v1_512&em=tv.1&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKGW5vdC1ldmVudC1zb3VyY2UsIHRyaWdnZXJaAwoBAWIDCgED&cerd=CgSO4b0t&eitems=ChAI8OTbzwYQ9L2D_dP16pQCEh0APLA8w11-JAooRXQZfiHuLKfqiqp8_QIAWVVE8w&fsk=ChEI8OTbzwYQs7KagKmuyuS6ARIsAKLPOthG_19buVO_Si3EtzA7YVQOzJ8yqHLCddwqJZJgDHzwFId5ylHS6BAaAlXr&pscrd=IhMIj8ioi72elAMVq2DdAh3pywLPMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhpodHRwczovL3d3dy50b3R0dXMuY29tLnBlL0JYQ2hFSThPVGJ6d1lRNk9lQWg0QzdtNXJzQVJJdEFMbVB2MEZyekcyZnlUWHJZSnpucDRxaVN1cGwzVFFFbEJoaWRTWFlDbWxLSmFWQUtLa0p2RmZKWGg3Y3oMCAliCAgAEAAYACAA",
+          "domain": "googleads.g.doubleclick.net",
+          "path": "/pagead/viewthroughconversion/{id}/",
+          "query_keys": [
+            "_tu",
+            "async",
+            "auid",
+            "bg",
+            "capi",
+            "category",
+            "cerd",
+            "crd",
+            "ct_cookie_present",
+            "cv",
+            "dma",
+            "ec_mode",
+            "eitems",
+            "em",
+            "en",
+            "fmt",
+            "frm",
+            "fsk",
+            "fst",
+            "gcd",
+            "gcl_ctr",
+            "gtm",
+            "guid",
+            "hn",
+            "label",
+            "npa",
+            "pscdl",
+            "pscrd",
+            "random",
+            "rcb",
+            "tag_exp",
+            "tiba",
+            "u_h",
+            "u_w",
+            "uaa",
+            "uab",
+            "uafvl",
+            "uamb",
+            "uap",
+            "uaw",
+            "url",
+            "value"
+          ],
+          "classification": "rest",
+          "request_count": 1,
+          "status_codes": [
+            302
+          ],
+          "content_types": [
+            "text/html"
+          ],
+          "headers_sample": {
+            "sec-ch-ua-platform": "\"Linux\"",
+            "referer": "https://www.tottus.com.pe/",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+            "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "request_sample": {
+            "random": "213815536",
+            "cv": "11",
+            "fst": "1777857980711",
+            "bg": "ffffff",
+            "guid": "ON",
+            "async": "1",
+            "en": "conversion",
+            "gtm": "45be64t1v9213415426z89209149177za20gzb9209149177zd9209149177xea",
+            "gcd": "13l3l3l3l1l1",
+            "dma": "0",
+            "tag_exp": "0~115938466~115938469~117215714",
+            "u_w": "1280",
+            "u_h": "720",
+            "url": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+            "rcb": "9",
+            "label": "jr2nCMmy0rwaEPnNhdgq",
+            "capi": "1",
+            "frm": "0",
+            "tiba": "Frutas grandes ofertas | Tottus Perú",
+            "value": "0",
+            "hn": "www.googleadservices.com",
+            "npa": "0",
+            "pscdl": "noapi",
+            "auid": "1169345473.1777857980",
+            "uaa": "x86",
+            "uab": "64",
+            "uafvl": "Not%3AA-Brand;99.0.0.0|HeadlessChrome;145.0.7632.6|Chromium;145.0.7632.6",
+            "uamb": "0",
+            "uam": "",
+            "uap": "Linux",
+            "uapv": "",
+            "uaw": "0",
+            "ec_mode": "a",
+            "_tu": "CA",
+            "gcl_ctr": "1~0~0~0",
+            "category": "acrcp_v1_512",
+            "em": "tv.1",
+            "fmt": "8",
+            "ct_cookie_present": "false",
+            "crd": "CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKGW5vdC1ldmVudC1zb3VyY2UsIHRyaWdnZXJaAwoBAWIDCgED",
+            "cerd": "CgSO4b0t",
+            "eitems": "ChAI8OTbzwYQ9L2D_dP16pQCEh0APLA8w11-JAooRXQZfiHuLKfqiqp8_QIAWVVE8w",
+            "fsk": "ChEI8OTbzwYQs7KagKmuyuS6ARIsAKLPOthG_19buVO_Si3EtzA7YVQOzJ8yqHLCddwqJZJgDHzwFId5ylHS6BAaAlXr",
+            "pscrd": "IhMIj8ioi72elAMVq2DdAh3pywLPMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhpodHRwczovL3d3dy50b3R0dXMuY29tLnBlL0JYQ2hFSThPVGJ6d1lRNk9lQWg0QzdtNXJzQVJJdEFMbVB2MEZyekcyZnlUWHJZSnpucDRxaVN1cGwzVFFFbEJoaWRTWFlDbWxLSmFWQUtLa0p2RmZKWGg3Y3oMCAliCAgAEAAYACAA"
+          },
+          "response_sample": null,
+          "detected_patterns": {},
+          "graphql_operations": [],
+          "requires_auth": false,
+          "curl_equivalent": "curl -X POST 'https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11458930425/?random=213815536&cv=11&fst=1777857980711&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be64t1v9213415426z89209149177za20gzb9209149177zd9209149177xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117215714&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&rcb=9&label=jr2nCMmy0rwaEPnNhdgq&capi=1&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=a&_tu=CA&gcl_ctr=1~0~0~0&category=acrcp_v1_512&em=tv.1&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKGW5vdC1ldmVudC1zb3VyY2UsIHRyaWdnZXJaAwoBAWIDCgED&cerd=CgSO4b0t&eitems=ChAI8OTbzwYQ9L2D_dP16pQCEh0APLA8w11-JAooRXQZfiHuLKfqiqp8_QIAWVVE8w&fsk=ChEI8OTbzwYQs7KagKmuyuS6ARIsAKLPOthG_19buVO_Si3EtzA7YVQOzJ8yqHLCddwqJZJgDHzwFId5ylHS6BAaAlXr&pscrd=IhMIj8ioi72elAMVq2DdAh3pywLPMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhpodHRwczovL3d3dy50b3R0dXMuY29tLnBlL0JYQ2hFSThPVGJ6d1lRNk9lQWg0QzdtNXJzQVJJdEFMbVB2MEZyekcyZnlUWHJZSnpucDRxaVN1cGwzVFFFbEJoaWRTWFlDbWxLSmFWQUtLa0p2RmZKWGg3Y3oMCAliCAgAEAAYACAA' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+        }
+      ]
+    },
+    "securepubads.g.doubleclick.net": {
+      "/pagead/ppub_config": [
+        {
+          "method": "GET",
+          "normalized_url": "https://securepubads.g.doubleclick.net/pagead/ppub_config",
+          "sample_url": "https://securepubads.g.doubleclick.net/pagead/ppub_config?ippd=www.tottus.com.pe",
+          "domain": "securepubads.g.doubleclick.net",
+          "path": "/pagead/ppub_config",
+          "query_keys": [
+            "ippd"
+          ],
+          "classification": "rest",
+          "request_count": 1,
+          "status_codes": [
+            200
+          ],
+          "content_types": [
+            "application/json"
+          ],
+          "headers_sample": {
+            "sec-ch-ua-platform": "\"Linux\"",
+            "referer": "https://www.tottus.com.pe/",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+            "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "request_sample": {
+            "ippd": "www.tottus.com.pe"
+          },
+          "response_sample": [
+            [
+              null,
+              null,
+              "www.tottus.com.pe"
+            ],
+            [],
+            [],
+            null,
+            null,
+            null,
+            null,
+            [],
+            null,
+            null,
+            null,
+            [
+              1
+            ]
+          ],
+          "detected_patterns": {},
+          "graphql_operations": [],
+          "requires_auth": false,
+          "curl_equivalent": "curl -X GET 'https://securepubads.g.doubleclick.net/pagead/ppub_config?ippd=www.tottus.com.pe' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+        }
+      ]
+    },
+    "www.google.com": {
+      "/ccm/collect": [
+        {
+          "method": "POST",
+          "normalized_url": "https://www.google.com/ccm/collect",
+          "sample_url": "https://www.google.com/ccm/collect?rcb=0&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&scrsrc=www.googletagmanager.com&rnd=1295568814.1777857980&dt=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&auid=1169345473.1777857980&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He64t1v9209149177za200zd9209149177xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938466~115938469~117215714&apve=1&apvf=f&apvc=1&tft=1777857980327&tfd=3245",
+          "domain": "www.google.com",
+          "path": "/ccm/collect",
+          "query_keys": [
+            "ae",
+            "apvc",
+            "apve",
+            "apvf",
+            "auid",
+            "dl",
+            "dma",
+            "dt",
+            "en",
+            "ep.ads_data_redaction",
+            "frm",
+            "gcd",
+            "gtm",
+            "navt",
+            "npa",
+            "rcb",
+            "rnd",
+            "scrsrc",
+            "tag_exp",
+            "tfd",
+            "tft"
+          ],
+          "classification": "rest",
+          "request_count": 3,
+          "status_codes": [
+            200
+          ],
+          "content_types": [],
+          "headers_sample": {
+            "sec-ch-ua-platform": "\"Linux\"",
+            "referer": "https://www.tottus.com.pe/",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+            "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "request_sample": {
+            "rcb": "0",
+            "frm": "0",
+            "ae": "g",
+            "en": "page_view",
+            "dl": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+            "scrsrc": "www.googletagmanager.com",
+            "rnd": "1295568814.1777857980",
+            "dt": "Frutas grandes ofertas | Tottus Perú",
+            "auid": "1169345473.1777857980",
+            "navt": "n",
+            "npa": "0",
+            "ep.ads_data_redaction": "0",
+            "gtm": "45He64t1v9209149177za200zd9209149177xea",
+            "gcd": "13l3l3l3l1l1",
+            "dma": "0",
+            "tag_exp": "0~115616986~115938466~115938469~117215714",
+            "apve": "1",
+            "apvf": "f",
+            "apvc": "1",
+            "tft": "1777857980327",
+            "tfd": "3245"
+          },
+          "response_sample": null,
+          "detected_patterns": {},
+          "graphql_operations": [],
+          "requires_auth": false,
+          "curl_equivalent": "curl -X POST 'https://www.google.com/ccm/collect?rcb=0&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&scrsrc=www.googletagmanager.com&rnd=1295568814.1777857980&dt=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&auid=1169345473.1777857980&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He64t1v9209149177za200zd9209149177xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938466~115938469~117215714&apve=1&apvf=f&apvc=1&tft=1777857980327&tfd=3245' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+        }
+      ],
+      "/measurement/conversion": [
+        {
+          "method": "POST",
+          "normalized_url": "https://www.google.com/measurement/conversion",
+          "sample_url": "https://www.google.com/measurement/conversion?random=1777857980602&cv=11&tid=G-CSJSPE9YR5&fst=1777857980602&fmt=8&en=first_visit&gtm=45je64t1v876122067za20gzb9209149177zd9209149177xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117215714&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&gacid=1977968958.1777857981&ae=a&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&rcb=2",
+          "domain": "www.google.com",
+          "path": "/measurement/conversion",
+          "query_keys": [
+            "_tu",
+            "ae",
+            "auid",
+            "cv",
+            "dma",
+            "en",
+            "fmt",
+            "frm",
+            "fst",
+            "gacid",
+            "gcd",
+            "gtm",
+            "npa",
+            "pscdl",
+            "random",
+            "rcb",
+            "tag_exp",
+            "tiba",
+            "tid",
+            "u_h",
+            "u_w",
+            "uaa",
+            "uab",
+            "uafvl",
+            "uamb",
+            "uap",
+            "uaw",
+            "url"
+          ],
+          "classification": "rest",
+          "request_count": 2,
+          "status_codes": [
+            302
+          ],
+          "content_types": [
+            "text/html"
+          ],
+          "headers_sample": {
+            "sec-ch-ua-platform": "\"Linux\"",
+            "referer": "https://www.tottus.com.pe/",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+            "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "request_sample": {
+            "random": "1777857980602",
+            "cv": "11",
+            "tid": "G-CSJSPE9YR5",
+            "fst": "1777857980602",
+            "fmt": "8",
+            "en": "first_visit",
+            "gtm": "45je64t1v876122067za20gzb9209149177zd9209149177xec",
+            "gcd": "13l3l3l3l1l1",
+            "dma": "0",
+            "tag_exp": "0~115938466~115938469~117215714",
+            "u_w": "1280",
+            "u_h": "720",
+            "url": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+            "gacid": "1977968958.1777857981",
+            "ae": "a",
+            "frm": "0",
+            "tiba": "Frutas grandes ofertas | Tottus Perú",
+            "npa": "0",
+            "pscdl": "noapi",
+            "auid": "1169345473.1777857980",
+            "uaa": "x86",
+            "uab": "64",
+            "uafvl": "Not%3AA-Brand;99.0.0.0|HeadlessChrome;145.0.7632.6|Chromium;145.0.7632.6",
+            "uamb": "0",
+            "uam": "",
+            "uap": "Linux",
+            "uapv": "",
+            "uaw": "0",
+            "_tu": "CA",
+            "rcb": "2"
+          },
+          "response_sample": null,
+          "detected_patterns": {},
+          "graphql_operations": [],
+          "requires_auth": false,
+          "curl_equivalent": "curl -X POST 'https://www.google.com/measurement/conversion?random=1777857980602&cv=11&tid=G-CSJSPE9YR5&fst=1777857980602&fmt=8&en=first_visit&gtm=45je64t1v876122067za20gzb9209149177zd9209149177xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117215714&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&gacid=1977968958.1777857981&ae=a&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&_tu=CA&rcb=2' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+        }
+      ],
+      "/rmkt/collect/{id}/": [
+        {
+          "method": "POST",
+          "normalized_url": "https://www.google.com/rmkt/collect/{id}/",
+          "sample_url": "https://www.google.com/rmkt/collect/836386210/?random=1777857980537&cv=11&fst=1777857980537&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be64t1v9210672230z89209149177za20gzb9209149177zd9209149177xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~117215714~117384406&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&rcb=3&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&gcp=5",
+          "domain": "www.google.com",
+          "path": "/rmkt/collect/{id}/",
+          "query_keys": [
+            "async",
+            "auid",
+            "bg",
+            "cv",
+            "data",
+            "dma",
+            "en",
+            "fmt",
+            "frm",
+            "fst",
+            "gcd",
+            "gcp",
+            "gtm",
+            "guid",
+            "hn",
+            "npa",
+            "pscdl",
+            "random",
+            "rcb",
+            "tag_exp",
+            "tiba",
+            "u_h",
+            "u_w",
+            "uaa",
+            "uab",
+            "uafvl",
+            "uamb",
+            "uap",
+            "uaw",
+            "url"
+          ],
+          "classification": "rest",
+          "request_count": 2,
+          "status_codes": [
+            200
+          ],
+          "content_types": [],
+          "headers_sample": {
+            "sec-ch-ua-platform": "\"Linux\"",
+            "referer": "https://www.tottus.com.pe/",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+            "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "request_sample": {
+            "random": "1777857980537",
+            "cv": "11",
+            "fst": "1777857980537",
+            "fmt": "8",
+            "bg": "ffffff",
+            "guid": "ON",
+            "async": "1",
+            "en": "gtag.config",
+            "gtm": "45be64t1v9210672230z89209149177za20gzb9209149177zd9209149177xec",
+            "gcd": "13l3l3l3l1l1",
+            "dma": "0",
+            "tag_exp": "0~115938466~115938468~117215714~117384406",
+            "u_w": "1280",
+            "u_h": "720",
+            "url": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+            "rcb": "3",
+            "frm": "0",
+            "tiba": "Frutas grandes ofertas | Tottus Perú",
+            "hn": "www.googleadservices.com",
+            "npa": "0",
+            "pscdl": "noapi",
+            "auid": "1169345473.1777857980",
+            "uaa": "x86",
+            "uab": "64",
+            "uafvl": "Not%3AA-Brand;99.0.0.0|HeadlessChrome;145.0.7632.6|Chromium;145.0.7632.6",
+            "uamb": "0",
+            "uam": "",
+            "uap": "Linux",
+            "uapv": "",
+            "uaw": "0",
+            "data": "event=gtag.config",
+            "gcp": "5"
+          },
+          "response_sample": null,
+          "detected_patterns": {},
+          "graphql_operations": [],
+          "requires_auth": false,
+          "curl_equivalent": "curl -X POST 'https://www.google.com/rmkt/collect/836386210/?random=1777857980537&cv=11&fst=1777857980537&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be64t1v9210672230z89209149177za20gzb9209149177zd9209149177xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~117215714~117384406&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&rcb=3&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&data=event%3Dgtag.config&gcp=5' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+        }
+      ]
+    },
+    "www.googleadservices.com": {
+      "/pagead/conversion/{id}/": [
+        {
+          "method": "GET",
+          "normalized_url": "https://www.googleadservices.com/pagead/conversion/{id}/",
+          "sample_url": "https://www.googleadservices.com/pagead/conversion/11458930425/?random=1777857980711&cv=11&fst=1777857980711&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be64t1v9213415426z89209149177za20gzb9209149177zd9209149177xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117215714&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&rcb=9&label=jr2nCMmy0rwaEPnNhdgq&capi=1&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&bttype=purchase&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=a&_tu=CA&gcl_ctr=1~0~0~0&category=acrcp_v1_512&em=tv.1&fmt=7",
+          "domain": "www.googleadservices.com",
+          "path": "/pagead/conversion/{id}/",
+          "query_keys": [
+            "_tu",
+            "async",
+            "auid",
+            "bg",
+            "bttype",
+            "capi",
+            "category",
+            "cv",
+            "dma",
+            "ec_mode",
+            "em",
+            "en",
+            "fmt",
+            "frm",
+            "fst",
+            "gcd",
+            "gcl_ctr",
+            "gtm",
+            "guid",
+            "hn",
+            "label",
+            "npa",
+            "pscdl",
+            "random",
+            "rcb",
+            "tag_exp",
+            "tiba",
+            "u_h",
+            "u_w",
+            "uaa",
+            "uab",
+            "uafvl",
+            "uamb",
+            "uap",
+            "uaw",
+            "url",
+            "value"
+          ],
+          "classification": "rest",
+          "request_count": 1,
+          "status_codes": [
+            200
+          ],
+          "content_types": [
+            "application/json"
+          ],
+          "headers_sample": {
+            "sec-ch-ua-platform": "\"Linux\"",
+            "referer": "https://www.tottus.com.pe/",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+            "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "request_sample": {
+            "random": "1777857980711",
+            "cv": "11",
+            "fst": "1777857980711",
+            "bg": "ffffff",
+            "guid": "ON",
+            "async": "1",
+            "en": "conversion",
+            "gtm": "45be64t1v9213415426z89209149177za20gzb9209149177zd9209149177xea",
+            "gcd": "13l3l3l3l1l1",
+            "dma": "0",
+            "tag_exp": "0~115938466~115938469~117215714",
+            "u_w": "1280",
+            "u_h": "720",
+            "url": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+            "rcb": "9",
+            "label": "jr2nCMmy0rwaEPnNhdgq",
+            "capi": "1",
+            "frm": "0",
+            "tiba": "Frutas grandes ofertas | Tottus Perú",
+            "bttype": "purchase",
+            "value": "0",
+            "hn": "www.googleadservices.com",
+            "npa": "0",
+            "pscdl": "noapi",
+            "auid": "1169345473.1777857980",
+            "uaa": "x86",
+            "uab": "64",
+            "uafvl": "Not%3AA-Brand;99.0.0.0|HeadlessChrome;145.0.7632.6|Chromium;145.0.7632.6",
+            "uamb": "0",
+            "uam": "",
+            "uap": "Linux",
+            "uapv": "",
+            "uaw": "0",
+            "ec_mode": "a",
+            "_tu": "CA",
+            "gcl_ctr": "1~0~0~0",
+            "category": "acrcp_v1_512",
+            "em": "tv.1",
+            "fmt": "7"
+          },
+          "response_sample": "event: message\ndata: {\"fetch\":[\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11458930425/?random=213815536&cv=11&fst=1777857980711&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be64t1v9213415426z89209149177za20gzb9209149177zd9209149177xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117215714&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&rcb=9&label=jr2nCMmy0rwaEPnNhdgq&capi=1&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=a&_tu=CA&gcl_ctr=1~0~0~0&category=acrcp_v1_512&em=tv.1&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECC…",
+          "detected_patterns": {},
+          "graphql_operations": [],
+          "requires_auth": false,
+          "curl_equivalent": "curl -X GET 'https://www.googleadservices.com/pagead/conversion/11458930425/?random=1777857980711&cv=11&fst=1777857980711&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be64t1v9213415426z89209149177za20gzb9209149177zd9209149177xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117215714&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tottus.com.pe%2Ftottus-pe%2Flista%2FCATG17659%2FFrutas&rcb=9&label=jr2nCMmy0rwaEPnNhdgq&capi=1&frm=0&tiba=Frutas%20grandes%20ofertas%20%7C%20Tottus%20Per%C3%BA&bttype=purchase&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1169345473.1777857980&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Linux&uapv=&uaw=0&ec_mode=a&_tu=CA&gcl_ctr=1~0~0~0&category=acrcp_v1_512&em=tv.1&fmt=7' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+        }
+      ]
+    },
+    "www.tottus.com.pe": {
+      "/s/analytics/v1/analytics": [
+        {
+          "method": "GET",
+          "normalized_url": "https://www.tottus.com.pe/s/analytics/v1/analytics",
+          "sample_url": "https://www.tottus.com.pe/s/analytics/v1/analytics",
+          "domain": "www.tottus.com.pe",
+          "path": "/s/analytics/v1/analytics",
+          "query_keys": [],
+          "classification": "rest",
+          "request_count": 1,
+          "status_codes": [
+            200
+          ],
+          "content_types": [
+            "application/json"
+          ],
+          "headers_sample": {
+            "x-encryption-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA41EfUjE4JTI6NJN5H3PhNHsrl0OPeMOQ5WyMaypfoTrhqPThQqOMeFznfAgmNp9J5gJ6RCVBclfAzjqDdOTdUYv8SWFQkrStmO8gFrug62V3n0NFE0wzxaGRmuLseztmSQeBidmBEC4qOFqQ2IJG5oQQZTtMe3J8YeV7mCtnAVqDGU7i2ZpgLX1w1aqjkEqG0v/vv8titpfPdmrbgQbzZbFqL5yqnUhVNmbD0qwR7aojQGIW2oTA9cVzNCJtLcCYepKzZRV30B4AugQHuFR0bYb04KFbcJA929+LXOzmXLFkYZh1JjwXxv0NL70CucULnFVYCMrAWbY6ip30RA0BNwIDAQAB",
+            "x-channel-id": "WEB",
+            "x-ecomm-name": "marketplace-pe",
+            "sec-ch-ua-platform": "\"Linux\"",
+            "referer": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+            "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+          },
+          "request_sample": null,
+          "response_sample": "hUQTbSYZzWrhfBLZnG7bea/LNWiXUAfTDrOiPuELBD6XXHdA5hbjGQ3MBOIK2RwXCrOPM473+FsJ7cvn3OkXA8n5osCIXYbH9xxRz7legxSE7zzH8fnZ5lamS+FrL/7MjUcIScSzEfrKiYFcVuU04KP2BNF+isoYpMD9nfPo6NKr4Wa970P3nM6qvhjum6+ugw548PxCK55wGeH1Crla4w21KI5pVWJllpZNIpZlskww6k2izRb4fHdgphbtAmD8/ixB13e9+Boi4VTCxqXN90jhcUcPT22qerR1rvnsNcQqEieBnHmRHCgr6yOs7eG7ZaRc87mugbEiYgDL1v1tvkmX82jGy3NXkY/p8E65RugnJlOysR4kNrK1KedQ+kNw",
+          "detected_patterns": {},
+          "graphql_operations": [],
+          "requires_auth": false,
+          "curl_equivalent": "curl -X GET https://www.tottus.com.pe/s/analytics/v1/analytics -H 'x-encryption-key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA41EfUjE4JTI6NJN5H3PhNHsrl0OPeMOQ5WyMaypfoTrhqPThQqOMeFznfAgmNp9J5gJ6RCVBclfAzjqDdOTdUYv8SWFQkrStmO8gFrug62V3n0NFE0wzxaGRmuLseztmSQeBidmBEC4qOFqQ2IJG5oQQZTtMe3J8YeV7mCtnAVqDGU7i2ZpgLX1w1aqjkEqG0v/vv8titpfPdmrbgQbzZbFqL5yqnUhVNmbD0qwR7aojQGIW2oTA9cVzNCJtLcCYepKzZRV30B4AugQHuFR0bYb04KFbcJA929+LXOzmXLFkYZh1JjwXxv0NL70CucULnFVYCMrAWbY6ip30RA0BNwIDAQAB' -H 'x-channel-id: WEB' -H 'x-ecomm-name: marketplace-pe' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36'"
+        }
+      ],
+      "/s/commerce-config/v1/FAPE/commerce-config/merged": [
+        {
+          "method": "GET",
+          "normalized_url": "https://www.tottus.com.pe/s/commerce-config/v1/FAPE/commerce-config/merged",
+          "sample_url": "https://www.tottus.com.pe/s/commerce-config/v1/FAPE/commerce-config/merged?namespace=tottus_web",
+          "domain": "www.tottus.com.pe",
+          "path": "/s/commerce-config/v1/FAPE/commerce-config/merged",
+          "query_keys": [
+            "namespace"
+          ],
+          "classification": "rest",
+          "request_count": 1,
+          "status_codes": [
+            200
+          ],
+          "content_types": [
+            "application/json"
+          ],
+          "headers_sample": {
+            "sec-ch-ua-platform": "\"Linux\"",
+            "referer": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+            "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "request_sample": {
+            "namespace": "tottus_web"
+          },
+          "response_sample": "{\"tenant\":\"FAPE\",\"namespace\":\"tottus_web\",\"toggles\":{\"ANY_TO_ANY\":true,\"BFF_ENABLE_SODIMAC_SITE_ORDERS\":false,\"BFF_MIS_COMPRAS_ENABLE_ORCH_APIGEE\":false,\"BFF_MIS_COMPRAS_ENABLE_TOTTUS_TRACKING\":true,\"CART_FIRST_PURCHASE_BANNER_ENABLED\":false,\"CART_SHIPPING_LABELS\":false,\"CATALOG_V2\":true,\"DISABLE_ADS_VAS_SERVICE\":false,\"DISABLE_ELITE_USER_SEGMENT\":true,\"DISABLE_ENCRYPTION_OF_CART_ID\":false,\"DISABLE_LAST_MILE_FACILITY_ID\":false,\"DISABLE_ORGANIC_PRODUCTS_CACHE\":false,\"DISABLE_PRODUCT_DE_CALL\":false,\"DISABLE_QR_CODE\":true,\"DISABLE_RECO_PRODUCTS_CACHE\":false,\"DISABLE_SCHEDULING_FOR_PREF_USER\":false,\"DOWNLOAD_CLAIM_PDF\":true,\"ENABLED_CATEGORY_CLASIFIER_TOGGLE\":true,\"ENABLED_RESPONSE_WITHOUT_CONVERSION_REFERER_APP\":true,\"ENABLED_RESPONSE_WITHOUT_CONVERSION_REFERER_WEB\":true,\"ENABLED_SODIMAC_ADS_TOGGLE\":true,\"ENABLED_TOPSORT_MOCK_RESPONSE\":false,\"ENABLED_TOPSORT_PROVIDER_VAS_SERVICE\":true,\"ENABLE_12_HOUR_TIME_FORMAT\":false,\"ENABLE_3P_RETURNS\":true,\"ENABLE_3P_RETURNS_BIG_TICKETS\":true,\"ENABLE_…",
+          "detected_patterns": {},
+          "graphql_operations": [],
+          "requires_auth": false,
+          "curl_equivalent": "curl -X GET 'https://www.tottus.com.pe/s/commerce-config/v1/FAPE/commerce-config/merged?namespace=tottus_web' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+        }
+      ],
+      "/s/geo/v2/districts/pe": [
+        {
+          "method": "GET",
+          "normalized_url": "https://www.tottus.com.pe/s/geo/v2/districts/pe",
+          "sample_url": "https://www.tottus.com.pe/s/geo/v2/districts/pe?politicalId=default&store=to_com&getAllZones=true",
+          "domain": "www.tottus.com.pe",
+          "path": "/s/geo/v2/districts/pe",
+          "query_keys": [
+            "getAllZones",
+            "politicalId",
+            "store"
+          ],
+          "classification": "rest",
+          "request_count": 1,
+          "status_codes": [
+            200
+          ],
+          "content_types": [
+            "application/json"
+          ],
+          "headers_sample": {
+            "sec-ch-ua-platform": "\"Linux\"",
+            "referer": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+            "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+            "sec-ch-ua": "\"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"",
+            "sec-ch-ua-mobile": "?0"
+          },
+          "request_sample": {
+            "politicalId": "default",
+            "store": "to_com",
+            "getAllZones": "true"
+          },
+          "response_sample": {
+            "data": {
+              "name": "Seleccion ubicación",
+              "politicalId": "25a46912-b7cd-483c-8257-d365c63071d6",
+              "priceGroupId": "2",
+              "expressZones": [
+                "LEG_TOTTUS_LAS_BEGONIAS_1"
+              ],
+              "standardZones": [
+                "912_SAN_ISIDRO_1",
+                "CENAS_LIMA",
+                "912_SAN_ISIDRO_2",
+                "IBIS_110",
+                "IBIS_120",
+                "IBIS_46",
+                "GRIS_SERVICIO_9",
+                "IBIS_21"
+              ],
+              "zones": [
+                "LEG_TOTTUS_LAS_BEGONIAS_1",
+                "912_SAN_ISIDRO_1",
+                "CENAS_LIMA",
+                "912_SAN_ISIDRO_2",
+                "IBIS_110",
+                "IBIS_120",
+                "IBIS_46",
+                "GRIS_SERVICIO_9",
+                "IBIS_21"
+              ],
+              "latitude": -12.096261,
+              "longitude": -77.027969
+            },
+            "default": true,
+            "fallback": false
+          },
+          "detected_patterns": {},
+          "graphql_operations": [],
+          "requires_auth": false,
+          "curl_equivalent": "curl -X GET 'https://www.tottus.com.pe/s/geo/v2/districts/pe?politicalId=default&store=to_com&getAllZones=true' -H 'sec-ch-ua-platform: \"Linux\"' -H 'referer: https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas' -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36' -H 'sec-ch-ua: \"Not:A-Brand\";v=\"99\", \"HeadlessChrome\";v=\"145\", \"Chromium\";v=\"145\"' -H 'sec-ch-ua-mobile: ?0'"
+        }
+      ]
+    }
+  }
+}

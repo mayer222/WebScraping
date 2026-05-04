@@ -1,0 +1,1615 @@
+{
+  "sitemap": [
+    {
+      "url": "/sitemap.xml",
+      "status": 503,
+      "head": "no healthy upstream"
+    }
+  ],
+  "home_links": [
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16815/Arroz",
+      "text": "Arroz"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16817/Aceite",
+      "text": "Aceite"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16825/Conservas",
+      "text": "Conservas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16823/Menestras",
+      "text": "Menestras"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16822/Salsas-y-Cremas",
+      "text": "Cremas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16815/Arroz",
+      "text": "Arroz"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17593/Especial",
+      "text": "Especial"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17591/Extra",
+      "text": "Extra"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17592/Familiar",
+      "text": "Familiar"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17594/Integral",
+      "text": "Integral"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17595/Superior",
+      "text": "Superior"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16825/Conservas",
+      "text": "Conservas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17661/Comidas-Preparadas",
+      "text": "Comidas Preparadas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+      "text": "Frutas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17660/Pescados",
+      "text": "Pescados"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17658/Vegetales",
+      "text": "Vegetales"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16817/Aceite",
+      "text": "Aceite"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17604/Especial",
+      "text": "Especial"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17602/Girasol",
+      "text": "Girasol"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17605/Oliva",
+      "text": "Oliva"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17603/Organico",
+      "text": "Orgánico"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17601/Vegetal-y-Soya",
+      "text": "Vegetal y Soya"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16818/Pasta",
+      "text": "Pasta"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17606/Pastas-Cortas",
+      "text": "Pastas Cortas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17609/Pastas-Especiales",
+      "text": "Pastas Especiales"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17608/Pastas-Largas",
+      "text": "Pastas Largas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17607/Pastas-Rellenas",
+      "text": "Pastas Rellenas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16823/Menestras",
+      "text": "Menestras"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17645/Arvejas",
+      "text": "Arvejas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17646/Frijoles",
+      "text": "Frijoles"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17644/Garbanzos",
+      "text": "Garbanzos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17647/Lentejas",
+      "text": "Lentejas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17650/Otras-Legumbres",
+      "text": "Otras Legumbres"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17648/Pallares",
+      "text": "Pallares"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17649/Pop-Corn",
+      "text": "Pop Corn"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23610/Quinua",
+      "text": "Quinua"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16816/Sal",
+      "text": "Sal"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17600/Con-Especias",
+      "text": "Con Especias"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17598/De-Cocina",
+      "text": "De Cocina"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17599/De-Maras",
+      "text": "De Maras"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17596/De-Mesa",
+      "text": "De Mesa"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17597/Parrillera",
+      "text": "Parrillera"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16821/Salsas-para-Pasta",
+      "text": "Salsas para Pasta"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17634/Otras-Salsas",
+      "text": "Otras Salsas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17633/Salsa-Pesto",
+      "text": "Salsa Pesto"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17632/Salsa-Tomate",
+      "text": "Salsa Tomate"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16822/Salsas-y-Cremas",
+      "text": "Salsas y Cremas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17641/Aji-y-Rocoto",
+      "text": "Ají y Rocoto"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17643/Alinos-y-Vinagretas",
+      "text": "Aliños y Vinagretas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17642/BBQ",
+      "text": "BBQ"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17640/Huancaina",
+      "text": "Huancaína"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17635/Ketchup",
+      "text": "Ketchup"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17636/Mayonesa",
+      "text": "Mayonesa"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17637/Mostaza",
+      "text": "Mostaza"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17638/Otras-Salsas",
+      "text": "Otras Salsas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16819/Condimentos",
+      "text": "Condimentos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17613/Aderezos",
+      "text": "Aderezos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17615/Ajo-Molido",
+      "text": "Ajo Molido"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17616/Salsas-Orientales",
+      "text": "Salsas Orientales"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17611/Sazonadores",
+      "text": "Sazonadores"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17610/Sillao",
+      "text": "Sillao"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17614/Tuco",
+      "text": "Tuco"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17612/Vinagre",
+      "text": "Vinagre"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16820/Especias",
+      "text": "Especias"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17623/Ajo",
+      "text": "Ajo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17617/Canela",
+      "text": "Canela"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17619/Oregano",
+      "text": "Orégano"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17630/Otras-Especias",
+      "text": "Otras Especias"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17618/Pimienta",
+      "text": "Pimienta"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16824/Pure--sopas-y-bases",
+      "text": "Puré Sopas y Bases"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17651/Bases",
+      "text": "Bases"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17654/Cremas",
+      "text": "Cremas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17657/Cubitos",
+      "text": "Cubitos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17656/Mezclas-para-apanar",
+      "text": "Mezclas para Apanar"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17653/Pures",
+      "text": "Purés"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17655/Salsas",
+      "text": "Salsas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17652/Sopas",
+      "text": "Sopas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16826/Harina",
+      "text": "Harina"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17663/Especiales",
+      "text": "Especiales"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17664/Preparada",
+      "text": "Preparada"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17662/Sin-Preparar",
+      "text": "Sin Preparar"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16808/Azucar-y-endulzantes",
+      "text": "Azúcar y Sustitutos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16809/Cafe-e-Infusiones",
+      "text": "Café e Infusiones"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16812/Panaderia",
+      "text": "Panadería"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16810/Cereales",
+      "text": "Cereales"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17560/Modificadores-de-leche",
+      "text": "Modificadores de Leche"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16813/Mermeladas--Mieles-y-Dulces",
+      "text": "Mermeladas y Mieles"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16812/Panaderia",
+      "text": "Panadería"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17569/Kekes--Turrones-y-King-kongs",
+      "text": "Kekes Turrones y King kongs"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17564/Pan-Arabe-y-Pita",
+      "text": "Pan Árabe y Pita"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17565/Pan-de-Molde-Blanco",
+      "text": "Pan de Molde Blanco"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17567/Pan-de-Molde-Integral",
+      "text": "Pan de Molde Integral"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17566/Pan-Hamburguesa-y-Hotdog",
+      "text": "Pan Hamburguesa y Hot Dog"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17568/Paneton",
+      "text": "Panetón"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35886/Panqueques",
+      "text": "Panqueques"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17570/Tostadas--Crissines-y-Tortillas",
+      "text": "Tostadas Crissines y TortillasTostadas Crissines y Tortillas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16808/Azucar-y-endulzantes",
+      "text": "Azúcar y Sustitutos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17540/Azucar-Blanca",
+      "text": "Azúcar Blanca"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17541/Azucar-Rubia",
+      "text": "Azúcar Rubia"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17544/Edulcorantes",
+      "text": "Edulcorantes"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17542/Panela-y-Otros-Endulzantes",
+      "text": "Panela y Otros Endulzantes"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17543/Stevias",
+      "text": "Stevias"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16809/Cafe-e-Infusiones",
+      "text": "Café e Infusiones"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17547/Cafe-Instantaneo",
+      "text": "Café Instantáneo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17546/Cafe-Molido-y-Grano",
+      "text": "Café Molido y Grano"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17545/Capsulas-y-complementos",
+      "text": "Cápsulas y Complementos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17549/Cebada",
+      "text": "Cebada"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17551/Hierbas",
+      "text": "Hierbas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17548/Te--Anis-y-Manzanilla",
+      "text": "Té Anís y Manzanilla"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17550/Tes-Especiales-y-Saludables",
+      "text": "Tés Especiales y Saludables"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16810/Cereales",
+      "text": "Cereales"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17555/Avenas",
+      "text": "Avenas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17553/Barras-de-Cereal",
+      "text": "Barras de Cereal"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17552/Cereales-de-Maiz-Naturales",
+      "text": "Cereales de Maíz Natural"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17554/Cereales-Dieteticos",
+      "text": "Cereales Dietéticos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17556/Cereales-Infantiles",
+      "text": "Cereales Infantiles"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17558/Granolas-y-Muslis",
+      "text": "Granolas y Muslis"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17557/Quinua--Kiwicha-y-Otros",
+      "text": "Quinua Kiwicha y Otros"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16811/Modificadores-y-Complementos",
+      "text": "Modificadores y ComplementosModificadores y Complementos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17562/Chocolate-de-taza",
+      "text": "Chocolate de Taza"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17559/Cocoas",
+      "text": "Cocoas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17561/Complementos-y-Suplementos",
+      "text": "Complementos y Suplementos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17560/Modificadores-de-leche",
+      "text": "Modificadores de Leche"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17563/Superfoods",
+      "text": "Superfoods"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16813/Mermeladas--Mieles-y-Dulces",
+      "text": "Mermeladas Mieles y DulcesMermeladas Mieles y Dulces"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17574/Algarrobina",
+      "text": "Algarrobina"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17577/Mantequilla-de-Mani",
+      "text": "Mantequilla de Maní"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17572/Mermelada-de-Fresa",
+      "text": "Mermelada de Fresa"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17573/Mermelada-de-Sabores",
+      "text": "Mermelada de Sabores"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17571/Mermelada-Light-y-sin-azucar",
+      "text": "Mermelada Light y Sin AzúcarMermelada Light y Sin Azúcar"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17575/Miel",
+      "text": "Miel de Abeja"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17576/Siropes-y-Jaleas",
+      "text": "Siropes y Jaleas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16782/Leches",
+      "text": "Leches y Cremas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16783/Yogurt",
+      "text": "Yogurt"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16784/Quesos",
+      "text": "Quesos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35329/Mantequillas",
+      "text": "Mantequillas y Margarinas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16883/Panes-Franceses-y-Tradicionales",
+      "text": "Panadería"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16809/Cafe-e-Infusiones",
+      "text": "Café e infusiones"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16782/Leches",
+      "text": "Leches"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23591/Crema-de-Leche",
+      "text": "Crema de Leche"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23585/Leche-Descremada",
+      "text": "Leche Descremada"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23586/Leches-En-bolsa",
+      "text": "Leches en Bolsa"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23590/Leches-En-polvo",
+      "text": "Leche en Polvo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23583/Leche-Entera",
+      "text": "Leche Entera"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23582/Leches-Evaporadas",
+      "text": "Leche Evaporada"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23584/Leche-Fresca",
+      "text": "Leche Fresca"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23592/Leches-Light",
+      "text": "Leche Light"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23588/Leches-para-Ninos",
+      "text": "Leche para Niños"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23589/Leches-Saborizadas",
+      "text": "Leche Saborizada"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG10124/Leches-Sin-lactosa",
+      "text": "Leche sin Lactosa"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23593/Leches-UHT",
+      "text": "Leche UHT"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23587/Leches-Vegetales",
+      "text": "Leches Vegetales"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16788/Mezclas-lacteas",
+      "text": "Mezclas Lácteas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16783/Yogurt",
+      "text": "Yogurt"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35331/Yogurt-Batido-y-Frutado",
+      "text": "Yogurt Batido y Frutado"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35330/Yogurt-Familiar",
+      "text": "Yogurt Familiar"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35334/Yogurt-Griego",
+      "text": "Yogurt Griego"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35333/Yogurt-Light-Familiar",
+      "text": "Yogurt Light Familiar"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35332/Yogurt-Mix",
+      "text": "Yogurt Mix"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35335/Yogurt-Personal",
+      "text": "Yogurt Personal"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16784/Quesos",
+      "text": "Quesos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35336/Cremas-Untables",
+      "text": "Cremas Untables"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35337/Edam--Gouda-y-Danbo",
+      "text": "Edam Gouda y Danbo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35339/Queso-Andino-y-Paria",
+      "text": "Queso Andino y Paria"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35338/Queso-Fresco-y-Mozzarella",
+      "text": "Queso Fresco y Mozzarella"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG36930/Queso-Parmesano",
+      "text": "Queso Parmesano"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16785/Quesos-del-mundo",
+      "text": "Quesos del Mundo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35340/Espana",
+      "text": "España"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35341/Francia",
+      "text": "Francia"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35342/Italia",
+      "text": "Italia"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35343/Otros",
+      "text": "Otros"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35344/Paises-bajos",
+      "text": "Paises Bajos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35345/Suiza",
+      "text": "Suiza"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35329/Mantequillas",
+      "text": "Mantequillas y MargarinasMantequillas y Margarinas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35329/Mantequillas",
+      "text": "Mantequillas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35328/Margarinas",
+      "text": "Margarinas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16777/Huevos-de-Gallina",
+      "text": "Huevos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16778/Jamones",
+      "text": "Jamones y Jamonadas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16780/Salchichas-y-Hot-Dogs",
+      "text": "Salchichas y Hot Dogs"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16775/Fiambres-Gourmet",
+      "text": "Fiambres Gourmet"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16784/Quesos",
+      "text": "Quesos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16781/Salsas",
+      "text": "Salsas y Cocktail"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16777/Huevos-de-Gallina",
+      "text": "Huevos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16776/Huevos-de-Codorniz",
+      "text": "Huevos de Codorniz"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16777/Huevos-de-Gallina",
+      "text": "Huevos de Gallina"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16778/Jamones",
+      "text": "Jamones"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG10120/Jamon-de-Pavo-y-Pavita",
+      "text": "Jamón de Pavo y Pavita"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35412/Jamon-del-Pais-y-Ahumado",
+      "text": "Jamón del País y Ahumado"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG10118/Jamon-Pizzero-e-Ingles",
+      "text": "Jamón Pizzero e Inglés"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG34903/Pack-Jamon-y-Queso",
+      "text": "Pack Jamón y Queso"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG10121/Jamonadas",
+      "text": "Jamonadas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35350/Cerdo",
+      "text": "Cerdo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG34905/Pollo-y-Pavo",
+      "text": "Pollo y Pavo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16780/Salchichas-y-Hot-Dogs",
+      "text": "Salchichas y Hot Dogs"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35417/Cerdo",
+      "text": "Cerdo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35416/Frankfurter-y-Otras-Salchichas",
+      "text": "Frankfurter y Otras SalchichasFrankfurter y Otras Salchichas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35414/Pavo",
+      "text": "Pavo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35415/Pollo",
+      "text": "Pollo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16774/Chorizos",
+      "text": "Chorizos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG34908/Especiales",
+      "text": "Especiales"
+    }
+  ],
+  "menu_items": [
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16815/Arroz",
+      "text": "Arroz"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16817/Aceite",
+      "text": "Aceite"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16825/Conservas",
+      "text": "Conservas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16823/Menestras",
+      "text": "Menestras"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16822/Salsas-y-Cremas",
+      "text": "Cremas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16815/Arroz",
+      "text": "Arroz"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17593/Especial",
+      "text": "Especial"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17591/Extra",
+      "text": "Extra"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17592/Familiar",
+      "text": "Familiar"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17594/Integral",
+      "text": "Integral"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17595/Superior",
+      "text": "Superior"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16825/Conservas",
+      "text": "Conservas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17661/Comidas-Preparadas",
+      "text": "Comidas Preparadas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17659/Frutas",
+      "text": "Frutas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17660/Pescados",
+      "text": "Pescados"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17658/Vegetales",
+      "text": "Vegetales"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16817/Aceite",
+      "text": "Aceite"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17604/Especial",
+      "text": "Especial"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17602/Girasol",
+      "text": "Girasol"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17605/Oliva",
+      "text": "Oliva"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17603/Organico",
+      "text": "Orgánico"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17601/Vegetal-y-Soya",
+      "text": "Vegetal y Soya"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16818/Pasta",
+      "text": "Pasta"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17606/Pastas-Cortas",
+      "text": "Pastas Cortas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17609/Pastas-Especiales",
+      "text": "Pastas Especiales"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17608/Pastas-Largas",
+      "text": "Pastas Largas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17607/Pastas-Rellenas",
+      "text": "Pastas Rellenas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16823/Menestras",
+      "text": "Menestras"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17645/Arvejas",
+      "text": "Arvejas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17646/Frijoles",
+      "text": "Frijoles"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17644/Garbanzos",
+      "text": "Garbanzos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17647/Lentejas",
+      "text": "Lentejas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17650/Otras-Legumbres",
+      "text": "Otras Legumbres"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17648/Pallares",
+      "text": "Pallares"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17649/Pop-Corn",
+      "text": "Pop Corn"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23610/Quinua",
+      "text": "Quinua"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16816/Sal",
+      "text": "Sal"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17600/Con-Especias",
+      "text": "Con Especias"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17598/De-Cocina",
+      "text": "De Cocina"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17599/De-Maras",
+      "text": "De Maras"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17596/De-Mesa",
+      "text": "De Mesa"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17597/Parrillera",
+      "text": "Parrillera"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16821/Salsas-para-Pasta",
+      "text": "Salsas para Pasta"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17634/Otras-Salsas",
+      "text": "Otras Salsas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17633/Salsa-Pesto",
+      "text": "Salsa Pesto"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17632/Salsa-Tomate",
+      "text": "Salsa Tomate"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16822/Salsas-y-Cremas",
+      "text": "Salsas y Cremas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17641/Aji-y-Rocoto",
+      "text": "Ají y Rocoto"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17643/Alinos-y-Vinagretas",
+      "text": "Aliños y Vinagretas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17642/BBQ",
+      "text": "BBQ"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17640/Huancaina",
+      "text": "Huancaína"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17635/Ketchup",
+      "text": "Ketchup"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17636/Mayonesa",
+      "text": "Mayonesa"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17637/Mostaza",
+      "text": "Mostaza"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17638/Otras-Salsas",
+      "text": "Otras Salsas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16819/Condimentos",
+      "text": "Condimentos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17613/Aderezos",
+      "text": "Aderezos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17615/Ajo-Molido",
+      "text": "Ajo Molido"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17616/Salsas-Orientales",
+      "text": "Salsas Orientales"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17611/Sazonadores",
+      "text": "Sazonadores"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17610/Sillao",
+      "text": "Sillao"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17614/Tuco",
+      "text": "Tuco"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17612/Vinagre",
+      "text": "Vinagre"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16820/Especias",
+      "text": "Especias"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17623/Ajo",
+      "text": "Ajo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17617/Canela",
+      "text": "Canela"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17619/Oregano",
+      "text": "Orégano"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17630/Otras-Especias",
+      "text": "Otras Especias"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17618/Pimienta",
+      "text": "Pimienta"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16824/Pure--sopas-y-bases",
+      "text": "Puré Sopas y Bases"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17651/Bases",
+      "text": "Bases"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17654/Cremas",
+      "text": "Cremas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17657/Cubitos",
+      "text": "Cubitos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17656/Mezclas-para-apanar",
+      "text": "Mezclas para Apanar"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17653/Pures",
+      "text": "Purés"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17655/Salsas",
+      "text": "Salsas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17652/Sopas",
+      "text": "Sopas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16826/Harina",
+      "text": "Harina"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17663/Especiales",
+      "text": "Especiales"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17664/Preparada",
+      "text": "Preparada"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17662/Sin-Preparar",
+      "text": "Sin Preparar"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16808/Azucar-y-endulzantes",
+      "text": "Azúcar y Sustitutos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16809/Cafe-e-Infusiones",
+      "text": "Café e Infusiones"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16812/Panaderia",
+      "text": "Panadería"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16810/Cereales",
+      "text": "Cereales"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17560/Modificadores-de-leche",
+      "text": "Modificadores de Leche"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16813/Mermeladas--Mieles-y-Dulces",
+      "text": "Mermeladas y Mieles"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16812/Panaderia",
+      "text": "Panadería"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17569/Kekes--Turrones-y-King-kongs",
+      "text": "Kekes Turrones y King kongs"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17564/Pan-Arabe-y-Pita",
+      "text": "Pan Árabe y Pita"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17565/Pan-de-Molde-Blanco",
+      "text": "Pan de Molde Blanco"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17567/Pan-de-Molde-Integral",
+      "text": "Pan de Molde Integral"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17566/Pan-Hamburguesa-y-Hotdog",
+      "text": "Pan Hamburguesa y Hot Dog"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17568/Paneton",
+      "text": "Panetón"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35886/Panqueques",
+      "text": "Panqueques"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17570/Tostadas--Crissines-y-Tortillas",
+      "text": "Tostadas Crissines y TortillasTostadas Crissines y Tortillas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16808/Azucar-y-endulzantes",
+      "text": "Azúcar y Sustitutos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17540/Azucar-Blanca",
+      "text": "Azúcar Blanca"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17541/Azucar-Rubia",
+      "text": "Azúcar Rubia"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17544/Edulcorantes",
+      "text": "Edulcorantes"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17542/Panela-y-Otros-Endulzantes",
+      "text": "Panela y Otros Endulzantes"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17543/Stevias",
+      "text": "Stevias"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16809/Cafe-e-Infusiones",
+      "text": "Café e Infusiones"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17547/Cafe-Instantaneo",
+      "text": "Café Instantáneo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17546/Cafe-Molido-y-Grano",
+      "text": "Café Molido y Grano"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17545/Capsulas-y-complementos",
+      "text": "Cápsulas y Complementos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17549/Cebada",
+      "text": "Cebada"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17551/Hierbas",
+      "text": "Hierbas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17548/Te--Anis-y-Manzanilla",
+      "text": "Té Anís y Manzanilla"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17550/Tes-Especiales-y-Saludables",
+      "text": "Tés Especiales y Saludables"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16810/Cereales",
+      "text": "Cereales"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17555/Avenas",
+      "text": "Avenas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17553/Barras-de-Cereal",
+      "text": "Barras de Cereal"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17552/Cereales-de-Maiz-Naturales",
+      "text": "Cereales de Maíz Natural"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17554/Cereales-Dieteticos",
+      "text": "Cereales Dietéticos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17556/Cereales-Infantiles",
+      "text": "Cereales Infantiles"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17558/Granolas-y-Muslis",
+      "text": "Granolas y Muslis"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17557/Quinua--Kiwicha-y-Otros",
+      "text": "Quinua Kiwicha y Otros"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16811/Modificadores-y-Complementos",
+      "text": "Modificadores y ComplementosModificadores y Complementos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17562/Chocolate-de-taza",
+      "text": "Chocolate de Taza"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17559/Cocoas",
+      "text": "Cocoas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17561/Complementos-y-Suplementos",
+      "text": "Complementos y Suplementos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17560/Modificadores-de-leche",
+      "text": "Modificadores de Leche"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17563/Superfoods",
+      "text": "Superfoods"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16813/Mermeladas--Mieles-y-Dulces",
+      "text": "Mermeladas Mieles y DulcesMermeladas Mieles y Dulces"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17574/Algarrobina",
+      "text": "Algarrobina"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17577/Mantequilla-de-Mani",
+      "text": "Mantequilla de Maní"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17572/Mermelada-de-Fresa",
+      "text": "Mermelada de Fresa"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17573/Mermelada-de-Sabores",
+      "text": "Mermelada de Sabores"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17571/Mermelada-Light-y-sin-azucar",
+      "text": "Mermelada Light y Sin AzúcarMermelada Light y Sin Azúcar"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17575/Miel",
+      "text": "Miel de Abeja"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG17576/Siropes-y-Jaleas",
+      "text": "Siropes y Jaleas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16782/Leches",
+      "text": "Leches y Cremas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16783/Yogurt",
+      "text": "Yogurt"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16784/Quesos",
+      "text": "Quesos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35329/Mantequillas",
+      "text": "Mantequillas y Margarinas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16883/Panes-Franceses-y-Tradicionales",
+      "text": "Panadería"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16809/Cafe-e-Infusiones",
+      "text": "Café e infusiones"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16782/Leches",
+      "text": "Leches"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23591/Crema-de-Leche",
+      "text": "Crema de Leche"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23585/Leche-Descremada",
+      "text": "Leche Descremada"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23586/Leches-En-bolsa",
+      "text": "Leches en Bolsa"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23590/Leches-En-polvo",
+      "text": "Leche en Polvo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23583/Leche-Entera",
+      "text": "Leche Entera"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23582/Leches-Evaporadas",
+      "text": "Leche Evaporada"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23584/Leche-Fresca",
+      "text": "Leche Fresca"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23592/Leches-Light",
+      "text": "Leche Light"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23588/Leches-para-Ninos",
+      "text": "Leche para Niños"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23589/Leches-Saborizadas",
+      "text": "Leche Saborizada"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG10124/Leches-Sin-lactosa",
+      "text": "Leche sin Lactosa"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23593/Leches-UHT",
+      "text": "Leche UHT"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG23587/Leches-Vegetales",
+      "text": "Leches Vegetales"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16788/Mezclas-lacteas",
+      "text": "Mezclas Lácteas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16783/Yogurt",
+      "text": "Yogurt"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35331/Yogurt-Batido-y-Frutado",
+      "text": "Yogurt Batido y Frutado"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35330/Yogurt-Familiar",
+      "text": "Yogurt Familiar"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35334/Yogurt-Griego",
+      "text": "Yogurt Griego"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35333/Yogurt-Light-Familiar",
+      "text": "Yogurt Light Familiar"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35332/Yogurt-Mix",
+      "text": "Yogurt Mix"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35335/Yogurt-Personal",
+      "text": "Yogurt Personal"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16784/Quesos",
+      "text": "Quesos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35336/Cremas-Untables",
+      "text": "Cremas Untables"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35337/Edam--Gouda-y-Danbo",
+      "text": "Edam Gouda y Danbo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35339/Queso-Andino-y-Paria",
+      "text": "Queso Andino y Paria"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35338/Queso-Fresco-y-Mozzarella",
+      "text": "Queso Fresco y Mozzarella"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG36930/Queso-Parmesano",
+      "text": "Queso Parmesano"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16785/Quesos-del-mundo",
+      "text": "Quesos del Mundo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35340/Espana",
+      "text": "España"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35341/Francia",
+      "text": "Francia"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35342/Italia",
+      "text": "Italia"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35343/Otros",
+      "text": "Otros"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35344/Paises-bajos",
+      "text": "Paises Bajos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35345/Suiza",
+      "text": "Suiza"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35329/Mantequillas",
+      "text": "Mantequillas y MargarinasMantequillas y Margarinas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35329/Mantequillas",
+      "text": "Mantequillas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35328/Margarinas",
+      "text": "Margarinas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16777/Huevos-de-Gallina",
+      "text": "Huevos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16778/Jamones",
+      "text": "Jamones y Jamonadas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16780/Salchichas-y-Hot-Dogs",
+      "text": "Salchichas y Hot Dogs"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16775/Fiambres-Gourmet",
+      "text": "Fiambres Gourmet"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16784/Quesos",
+      "text": "Quesos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16781/Salsas",
+      "text": "Salsas y Cocktail"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16777/Huevos-de-Gallina",
+      "text": "Huevos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16776/Huevos-de-Codorniz",
+      "text": "Huevos de Codorniz"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16777/Huevos-de-Gallina",
+      "text": "Huevos de Gallina"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16778/Jamones",
+      "text": "Jamones"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG10120/Jamon-de-Pavo-y-Pavita",
+      "text": "Jamón de Pavo y Pavita"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35412/Jamon-del-Pais-y-Ahumado",
+      "text": "Jamón del País y Ahumado"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG10118/Jamon-Pizzero-e-Ingles",
+      "text": "Jamón Pizzero e Inglés"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG34903/Pack-Jamon-y-Queso",
+      "text": "Pack Jamón y Queso"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG10121/Jamonadas",
+      "text": "Jamonadas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35350/Cerdo",
+      "text": "Cerdo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG34905/Pollo-y-Pavo",
+      "text": "Pollo y Pavo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16780/Salchichas-y-Hot-Dogs",
+      "text": "Salchichas y Hot Dogs"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35417/Cerdo",
+      "text": "Cerdo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35416/Frankfurter-y-Otras-Salchichas",
+      "text": "Frankfurter y Otras SalchichasFrankfurter y Otras Salchichas"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35414/Pavo",
+      "text": "Pavo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG35415/Pollo",
+      "text": "Pollo"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG16774/Chorizos",
+      "text": "Chorizos"
+    },
+    {
+      "href": "https://www.tottus.com.pe/tottus-pe/lista/CATG34908/Especiales",
+      "text": "Especiales"
+    }
+  ],
+  "sitemap_subs_found": 0,
+  "sitemap_subs_sample": []
+}

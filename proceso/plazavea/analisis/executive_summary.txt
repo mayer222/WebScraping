@@ -1,0 +1,54 @@
+PLAZA VEA — RESUMEN EJECUTIVO
+==============================
+Fuente: plazavea_productos_20260503_2032.csv
+Fecha snapshot: 2026-05-03 20:31
+
+CIFRAS CLAVE
+------------
+  Total SKUs                : 4,471
+  Categorias                : 25
+  Marcas distintas          : 536
+  SKUs en promocion         : 2,050  (45.9% del catalogo)
+  Disponibilidad            : 93.6%
+  Precio mediana            : S/ 22.50
+  Precio promedio           : S/ 84.19
+  Descuento promedio        : 24.6%   (sobre SKUs en promo)
+  Clusters promo / SKU      : 2.8  (saturacion retail-media)
+
+MARCAS PROPIAS (BELL'S, BOREAL, HAGEN, HOOME DECO, LA FLORENCIA, GENERICO)
+---------------------------------------------------------------------------
+  SKUs marca propia         : 1,057
+  Penetracion en catalogo   : 23.6%
+  Top categorias            :
+    - Otras Mascotas                      184 SKUs
+    - Salud                               114 SKUs
+    - Accesorios de Limpieza              99 SKUs
+    - Depilación                          93 SKUs
+    - Limpieza de Baño                    92 SKUs
+
+LECTURA ESTRATEGICA
+-------------------
+  • Plaza Vea opera como hipermercado de surtido amplio. La penetracion
+    de marca propia (24%) es agresiva en categorias
+    no-perecibles (decoracion, mascota, limpieza); ahi compiten en
+    valor, no en precio absoluto.
+  • Saturacion promocional alta (2.8 clusters/SKU promedio):
+    cada producto pasa por multiples plataformas (Ofertas Oh!, landings
+    de marca, retail media). Indicador de monetizacion intensa con
+    proveedores via clusters/displays.
+  • Descuento promedio de 25% en 46% del catalogo —
+    estrategia de precio dinamico, no campañas puntuales.
+  • Categorias con mas de 50 SKUs propios y >40% penetracion =
+    territorio defendido, no entrar a competir precio.
+  • Categorias con bajo penetracion + bajo cluster promedio =
+    huecos donde Plaza Vea no esta empujando, oportunidad para meterse.
+
+CHARTS
+------
+  01_penetracion_marca_propia.png   ← donde concentran su marca privada
+  02_categorias_surtido_y_promo.png ← profundidad y % en oferta
+  03_pricing_ladder.png             ← combate vs premium
+  04_top_marcas_terceras.png        ← marcas a captar / negociar
+  05_saturacion_promocional.png     ← retail media intensity por categoria
+  06_descuento_por_categoria.png    ← donde agreden con descuento real
+  07_propia_vs_terceros_precio.png  ← spread propia vs terceros
