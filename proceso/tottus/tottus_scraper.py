@@ -165,6 +165,37 @@ def _parse_float(s):
         return None
 
 
+# Mismo set de patrones que Makro/PlazaVea para derivar pack-size.
+_PACK_PATTERNS = [
+    re.compile(r"(?:paquete|pack|caja|display|fardo|bolsa|bandeja|set|kit|"
+               r"docena|six\s*pack)\s*(?:de\s+|x\s*|\xd7\s*)?(\d+)", re.I),
+    re.compile(r"\bx\s*(\d+)\b", re.I),
+    re.compile(r"\b(\d+)\s*(?:un|u|unidades|botellas|latas|sobres|"
+               r"piezas|pzas|pza|pcs|pc)\b", re.I),
+]
+
+
+def _parsear_unidades_pack(*textos):
+    """Devuelve unidades por pack mirando varias fuentes (nombre, package_info)."""
+    for t in textos:
+        if not t:
+            continue
+        for pat in _PACK_PATTERNS:
+            m = pat.search(t)
+            if m:
+                try:
+                    n = int(m.group(1))
+                    if 1 < n <= 500:
+                        return n
+                except (ValueError, TypeError):
+                    pass
+        if re.search(r"\bdocena\b", t, re.I):
+            return 12
+        if re.search(r"\bsix\s*pack\b", t, re.I):
+            return 6
+    return 1
+
+
 def _parsear_pod(raw: dict, cat: dict) -> dict:
     href = raw.get("href") or ""
     m = ART_URL_RE.search(href)
@@ -180,6 +211,10 @@ def _parsear_pod(raw: dict, cat: dict) -> dict:
         descuento = round((1 - p_internet / p_normal) * 100, 1)
         if descuento <= 0:
             descuento = None
+
+    unidades = _parsear_unidades_pack(
+        raw.get("name"), raw.get("package_info"), raw.get("brand"))
+    p_unit = round(p_internet / unidades, 2) if (p_internet and unidades) else None
 
     return {
         "product_id":        p_id,
@@ -199,7 +234,8 @@ def _parsear_pod(raw: dict, cat: dict) -> dict:
 
         "precio_normal":     p_normal,
         "precio_oferta":     p_internet,
-        "precio_unitario":   p_internet,
+        "precio_unitario":   p_unit,
+        "unidades_por_pack": unidades,
         "descuento_pct":     descuento,
         "tiene_descuento":   descuento is not None,
         "disponible":        p_internet is not None,

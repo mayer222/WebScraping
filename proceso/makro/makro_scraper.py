@@ -41,9 +41,12 @@ USO:
     python makro_scraper_v2.py --categoria bebidas
 """
 
+from __future__ import annotations
+
 import asyncio
 import json
 import argparse
+import re
 import pandas as pd
 from datetime import datetime
 from pathlib import Path
@@ -180,11 +183,71 @@ async def scrape_categoria(page, id_path: str, cat_nombre: str,
     return productos
 
 
-def _parsear_precio(items: list) -> dict:
-    """Extrae precio normal, precio oferta y descuento del primer SKU."""
+# Regex para parsear unidades por pack desde el productName.
+# Ej: "Paquete 15 Botellas", "Pack x12", "Caja 6", "x24", "Display de 6".
+# Makro vende casi todo en presentaciones de mayoreo, asi que esta es la
+# senal mas confiable para derivar precio unitario.
+_PACK_PATTERNS = [
+    re.compile(r"(?:paquete|pack|caja|display|fardo|bolsa|bandeja|set|kit|"
+               r"docena|six\s*pack)\s*(?:de\s+|x\s*|\xd7\s*)?(\d+)", re.I),
+    re.compile(r"\bx\s*(\d+)\b", re.I),
+    re.compile(r"\b(\d+)\s*(?:un|u|unidades|botellas|latas|sobres|"
+               r"piezas|pzas|pza|pcs|pc)\b", re.I),
+]
+
+
+def _parsear_unidades_pack(nombre: str) -> int:
+    """Devuelve unidades por pack. 1 si no se detecta."""
+    if not nombre:
+        return 1
+    for pat in _PACK_PATTERNS:
+        m = pat.search(nombre)
+        if m:
+            try:
+                n = int(m.group(1))
+                if 1 < n <= 500:  # rango razonable
+                    return n
+            except (ValueError, TypeError):
+                pass
+    if re.search(r"\bdocena\b", nombre, re.I):
+        return 12
+    if re.search(r"\bsix\s*pack\b", nombre, re.I):
+        return 6
+    return 1
+
+
+def _parsear_cuotas(installments: list) -> dict:
+    """Extrae max cuotas y valor de cuota minimo (sin interes si existe)."""
+    if not installments:
+        return {"cuotas_max": None, "cuota_valor": None}
+    sin_interes = [i for i in installments
+                   if (i.get("InterestRate") or 0) == 0]
+    pool = sin_interes or installments
+    cuotas_max = max((i.get("NumberOfInstallments") or 0 for i in pool),
+                     default=None)
+    candidatas = [i for i in pool
+                  if i.get("NumberOfInstallments") == cuotas_max]
+    valor = candidatas[0].get("Value") if candidatas else None
+    return {"cuotas_max": cuotas_max or None, "cuota_valor": valor}
+
+
+def _parsear_promos(teasers: list, promo_teasers: list) -> str | None:
+    """Concatena nombres de promociones activas."""
+    nombres = []
+    for t in (teasers or []) + (promo_teasers or []):
+        nombre = t.get("name") or t.get("Name") or t.get("<Name>k__BackingField")
+        if nombre:
+            nombres.append(nombre)
+    return " | ".join(nombres) if nombres else None
+
+
+def _parsear_precio(items: list, nombre_producto: str = "") -> dict:
+    """Extrae precio normal, oferta, descuento, unitario derivado y promos."""
     empty = {"precio_normal": None, "precio_oferta": None,
              "descuento_pct": None, "disponible": False,
-             "precio_unitario": None}
+             "precio_unitario": None, "unidades_por_pack": 1,
+             "cuotas_max": None, "cuota_valor": None,
+             "oferta_valida_hasta": None, "promos_activas": None}
 
     if not items:
         return empty
@@ -204,19 +267,32 @@ def _parsear_precio(items: list) -> dict:
         if descuento <= 0:
             descuento = None
 
+    unidades = _parsear_unidades_pack(nombre_producto)
+    p_unit = round(p_oferta / unidades, 2) if (p_oferta and unidades) else None
+
+    cuotas = _parsear_cuotas(oferta.get("Installments", []))
+    promos = _parsear_promos(oferta.get("Teasers"),
+                             oferta.get("PromotionTeasers"))
+
     return {
-        "precio_normal":  p_normal,
-        "precio_oferta":  p_oferta,
-        "descuento_pct":  descuento,
-        "disponible":     disponible,
-        "precio_unitario": oferta.get("spotPrice"),
+        "precio_normal":       p_normal,
+        "precio_oferta":       p_oferta,
+        "descuento_pct":       descuento,
+        "disponible":          disponible,
+        "precio_unitario":     p_unit,
+        "unidades_por_pack":   unidades,
+        "cuotas_max":          cuotas["cuotas_max"],
+        "cuota_valor":         cuotas["cuota_valor"],
+        "oferta_valida_hasta": oferta.get("PriceValidUntil"),
+        "promos_activas":      promos,
     }
 
 
 def _parsear_producto(raw: dict, cat_nombre: str, cat_id) -> dict:
     """Convierte un producto VTEX raw en una fila plana."""
     items       = raw.get("items", [])
-    precio      = _parsear_precio(items)
+    nombre      = raw.get("productName") or ""
+    precio      = _parsear_precio(items, nombre_producto=nombre)
     sku         = items[0] if items else {}
 
     # EAN del primer SKU
@@ -263,13 +339,18 @@ def _parsear_producto(raw: dict, cat_nombre: str, cat_id) -> dict:
         "categoria_id_vtex": raw.get("categoryId"),
 
         # Precio
-        "precio_normal":     precio["precio_normal"],
-        "precio_oferta":     precio["precio_oferta"],
-        "precio_unitario":   precio["precio_unitario"],
-        "descuento_pct":     precio["descuento_pct"],
-        "tiene_descuento":   precio["descuento_pct"] is not None,
-        "disponible":        precio["disponible"],
-        "moneda":            "PEN",
+        "precio_normal":       precio["precio_normal"],
+        "precio_oferta":       precio["precio_oferta"],
+        "precio_unitario":     precio["precio_unitario"],
+        "unidades_por_pack":   precio["unidades_por_pack"],
+        "descuento_pct":       precio["descuento_pct"],
+        "tiene_descuento":     precio["descuento_pct"] is not None,
+        "disponible":          precio["disponible"],
+        "moneda":              "PEN",
+        "cuotas_max":          precio["cuotas_max"],
+        "cuota_valor":         precio["cuota_valor"],
+        "oferta_valida_hasta": precio["oferta_valida_hasta"],
+        "promos_activas":      precio["promos_activas"],
 
         # Colecciones
         "colecciones":       " | ".join(list(clusters.values())[:5]),
